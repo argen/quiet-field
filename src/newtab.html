@@ -13,14 +13,15 @@
       :root {
         color-scheme: light dark;
         --qf-wall: #1a1613;      /* warm near-black gallery wall */
-        --qf-ink: rgba(238, 230, 218, 0.82);
-        --qf-ink-dim: rgba(238, 230, 218, 0.5);
+        /* Solid, contrast-checked ink against the wall (WCAG AA, >=4.5:1). */
+        --qf-ink: #ece4d6;       /* ~14:1 on the dark wall */
+        --qf-ink-dim: #b3a999;   /* ~7.6:1 on the dark wall */
       }
       @media (prefers-color-scheme: light) {
         :root {
           --qf-wall: #cfc6b6;    /* warm linen wall */
-          --qf-ink: rgba(28, 22, 16, 0.78);
-          --qf-ink-dim: rgba(28, 22, 16, 0.5);
+          --qf-ink: #221c14;     /* ~9.7:1 on the linen wall */
+          --qf-ink-dim: #3e362b; /* ~6.3:1 on the linen wall */
         }
       }
       html, body {
@@ -68,8 +69,22 @@
       }
       .qf-stage--full .qf-img { object-fit: cover; }
       .qf-stage--full .qf-caption {
-        position: absolute; left: 0; right: 0; bottom: 4.5vh; z-index: 2;
+        position: absolute; left: 0; right: 0; bottom: 4.5vh; z-index: 3;
       }
+      /* Over arbitrary artwork the wall ink can't be trusted — lay down a
+         protection scrim and use white text so contrast is guaranteed (WCAG AA)
+         regardless of the painting underneath. */
+      .qf-stage--full::after {
+        content: ""; position: absolute; left: 0; right: 0; bottom: 0;
+        height: 30vh; z-index: 2; pointer-events: none;
+        background: linear-gradient(to top, rgba(0,0,0,0.72), rgba(0,0,0,0.34) 45%, transparent);
+      }
+      .qf-stage--full .qf-caption,
+      .qf-stage--full .qf-corner__time { color: #fff; }
+      .qf-stage--full .qf-cap-artist,
+      .qf-stage--full .qf-cap-context,
+      .qf-stage--full .qf-corner { color: rgba(255,255,255,0.88); }
+      .qf-stage--full .qf-ambient { z-index: 3; }
 
       /* Caption — a quiet wall label beneath the painting. */
       .qf-caption {
@@ -95,19 +110,17 @@
       }
       .qf-corner__sep { opacity: 0.55; margin: 0 0.6em; }
 
-      /* Settings cog — persistent, always reachable, never fades. */
+      /* Settings cog — persistent, always reachable. A consistent dark disc +
+         light icon keeps the control >=3:1 over any wall or artwork. */
       .qf-settings {
-        position: fixed; top: 2.4vmin; right: 2.4vmin; z-index: 5;
+        position: fixed; top: 2.4vmin; right: 2.4vmin; z-index: 6;
         display: grid; place-items: center; width: 40px; height: 40px;
         padding: 0; border: 0; border-radius: 50%; cursor: pointer;
-        color: var(--qf-ink); background: rgba(0,0,0,0.22); backdrop-filter: blur(3px);
-        opacity: 0.5; transition: opacity 0.25s ease, background 0.25s ease;
+        color: #f4efe6; background: rgba(0,0,0,0.5); backdrop-filter: blur(3px);
+        transition: background 0.25s ease;
       }
-      @media (prefers-color-scheme: light) {
-        .qf-settings { background: rgba(255,255,255,0.34); }
-      }
-      .qf-settings:hover, .qf-settings:focus-visible { opacity: 1; background: rgba(0,0,0,0.36); }
-      .qf-settings:focus-visible { outline: 2px solid var(--qf-ink); outline-offset: 3px; }
+      .qf-settings:hover, .qf-settings:focus-visible { background: rgba(0,0,0,0.68); }
+      .qf-settings:focus-visible { outline: 2px solid #fff; outline-offset: 3px; }
 
       /* Inline settings panel — opens and closes over the artwork. */
       .qf-panel {
@@ -133,12 +146,12 @@
       }
       .qf-panel__close:hover { opacity: 1; }
       .qf-panel__row { display: flex; align-items: center; justify-content: space-between; gap: 10px; padding: 7px 0; }
-      .qf-panel__note { margin: 8px 0 0; font-size: 12px; font-style: italic; opacity: 0.5; }
+      .qf-panel__note { margin: 8px 0 0; font-size: 12px; font-style: italic; opacity: 0.8; }
       .qf-seg { display: inline-flex; border: 1px solid rgba(255,255,255,0.2); border-radius: 999px; overflow: hidden; }
       @media (prefers-color-scheme: light) { .qf-seg { border-color: rgba(0,0,0,0.18); } }
       .qf-seg button {
         background: transparent; color: inherit; border: 0; cursor: pointer;
-        padding: 4px 12px; font: inherit; opacity: 0.55;
+        padding: 4px 12px; font: inherit; opacity: 0.72;
       }
       .qf-seg button[aria-pressed="true"] { background: rgba(255,255,255,0.16); opacity: 1; }
       .qf-panel input[type="checkbox"] { width: 17px; height: 17px; accent-color: #b98d57; cursor: pointer; }
