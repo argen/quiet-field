@@ -1,0 +1,167 @@
+{
+  "artist": "Kazimir Malevich",
+  "rights": "pd",
+  "collection": "abstract",
+  "works": [
+    {
+      "id": "suprematist-composition-1915",
+      "filename": "Казимир Малевич, Супрематическая композиция, 1915.jpg",
+      "title": "Suprematist Composition",
+      "year": 1915,
+      "width": 940,
+      "height": 932,
+      "timeOfDay": ["noon", "afternoon"],
+      "weather": ["clear"]
+    },
+    {
+      "id": "supremus-with-red-quadrangle",
+      "filename": "Супрематизм с красным четырёхугольником.jpg",
+      "title": "Suprematism with Red Quadrangle",
+      "year": 1915,
+      "width": 957,
+      "height": 1112,
+      "timeOfDay": ["noon", "afternoon"],
+      "weather": ["clear"]
+    },
+    {
+      "id": "suprematist-composition-1916",
+      "filename": "Казимир Малевич. Супрематична композиція. 1916.jpg",
+      "title": "Suprematist Composition",
+      "year": 1916,
+      "width": 1920,
+      "height": 2560,
+      "timeOfDay": ["afternoon", "noon"],
+      "weather": ["clear", "cloudy"]
+    },
+    {
+      "id": "suprematist-composition-mid-1910s",
+      "filename": "Супрематическая композиция. Середина 1910-х.png",
+      "title": "Suprematist Composition (mid-1910s)",
+      "year": null,
+      "width": 2174,
+      "height": 2184,
+      "timeOfDay": ["morning", "noon"],
+      "weather": ["clear"]
+    },
+    {
+      "id": "red-square",
+      "filename": "Красный квадрат.jpg",
+      "title": "Red Square",
+      "year": 1915,
+      "width": 1070,
+      "height": 1400,
+      "timeOfDay": ["dusk", "afternoon"],
+      "weather": ["clear"]
+    },
+    {
+      "id": "black-and-red-square",
+      "filename": "Black Square and Red Square (Malevich, 1915).jpg",
+      "title": "Black Square and Red Square",
+      "year": 1915,
+      "width": 1243,
+      "height": 2000,
+      "timeOfDay": ["night", "dusk"],
+      "weather": ["overcast", "clear"]
+    },
+    {
+      "id": "dynamic-suprematism-1916",
+      "filename": "Dynamic Suprematism (Malevich, 1916).jpg",
+      "title": "Dynamic Suprematism",
+      "year": 1916,
+      "width": 1536,
+      "height": 1522,
+      "timeOfDay": ["afternoon", "noon"],
+      "weather": ["clear", "storm"]
+    },
+    {
+      "id": "magnetic-construction-s240",
+      "filename": "Kazimir Malevich, Magnetic Construction (S-240), 1916.jpg",
+      "title": "Magnetic Construction",
+      "year": 1916,
+      "width": 1430,
+      "height": 1600,
+      "timeOfDay": ["noon", "afternoon"],
+      "weather": ["clear"]
+    },
+    {
+      "id": "compact-magnetic-composition-s309",
+      "filename": "Kazimir Malevich, Compact Magnetic Composition (S-309), 1916.jpg",
+      "title": "Compact Magnetic Composition",
+      "year": 1916,
+      "width": 1151,
+      "height": 1608,
+      "timeOfDay": ["morning", "noon"],
+      "weather": ["clear", "cloudy"]
+    },
+    {
+      "id": "supremus-no-56",
+      "filename": "Kazimir malevich, suprematismo (supremus no. 56), 1916.JPG",
+      "title": "Supremus No. 56",
+      "year": 1916,
+      "width": 1468,
+      "height": 1656,
+      "timeOfDay": ["dusk", "night"],
+      "weather": ["overcast", "storm"]
+    },
+    {
+      "id": "dynamic-suprematism-1915-16",
+      "filename": "Kasimir malevich, suprematismo dinamico, 1915 o 1916.JPG",
+      "title": "Dynamic Suprematism",
+      "year": 1916,
+      "width": 2296,
+      "height": 2280,
+      "timeOfDay": ["noon", "afternoon"],
+      "weather": ["clear"]
+    },
+    {
+      "id": "suprematism-abstract-composition-1915",
+      "filename": "Suprematism - Abstract Composition (Malevich, 1915).jpg",
+      "title": "Suprematism (Abstract Composition)",
+      "year": 1915,
+      "width": 2000,
+      "height": 1987,
+      "timeOfDay": ["afternoon", "noon"],
+      "weather": ["clear"]
+    },
+    {
+      "id": "suprematist-composition-airplane-flying",
+      "filename": "Suprematist Composition - Airplane Flying (Malevich, 1915).jpg",
+      "title": "Suprematist Composition: Airplane Flying",
+      "year": 1915,
+      "width": 1660,
+      "height": 2000,
+      "timeOfDay": ["morning", "noon"],
+      "weather": ["clear"]
+    },
+    {
+      "id": "mystic-suprematism-black-cross-red-oval",
+      "filename": "Mystic Suprematism (black cross on red oval).jpg",
+      "title": "Mystic Suprematism (Black Cross on Red Oval)",
+      "year": 1922,
+      "width": 1983,
+      "height": 3400,
+      "timeOfDay": ["dusk", "night"],
+      "weather": ["overcast", "storm"]
+    },
+    {
+      "id": "suprematism-18th-construction",
+      "filename": "Suprematism 18th Construction.jpg",
+      "title": "Suprematism, 18th Construction",
+      "year": 1915,
+      "width": 2000,
+      "height": 2000,
+      "timeOfDay": ["noon", "afternoon"],
+      "weather": ["clear"]
+    },
+    {
+      "id": "untitled-suprematist-1916",
+      "filename": "Untitled (Malevich, 1916).jpg",
+      "title": "Untitled (Suprematist Composition)",
+      "year": 1916,
+      "width": 4054,
+      "height": 4096,
+      "timeOfDay": ["afternoon", "noon"],
+      "weather": ["clear", "cloudy"]
+    }
+  ]
+}

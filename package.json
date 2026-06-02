@@ -1,0 +1,21 @@
+{
+  "name": "quiet-field",
+  "version": "0.1.0",
+  "description": "A meditative new-tab gallery — procedural color fields in the spirit of Rothko.",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "devDependencies": {
+    "@types/chrome": "^0.0.287",
+    "puppeteer": "^25.1.0",
+    "typescript": "^5.6.3",
+    "vite": "^6.0.3",
+    "vitest": "^2.1.8"
+  }
+}

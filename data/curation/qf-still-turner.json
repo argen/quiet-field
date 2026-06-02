@@ -1,0 +1,204 @@
+{
+  "artist": "J. M. W. Turner",
+  "rights": "pd",
+  "works": [
+    {
+      "id": "fighting-temeraire",
+      "filename": "The Fighting Temeraire, JMW Turner, National Gallery.jpg",
+      "title": "The Fighting Temeraire",
+      "year": 1839,
+      "width": 5684, "height": 4223,
+      "timeOfDay": ["dusk"],
+      "weather": ["clear", "cloudy"]
+    },
+    {
+      "id": "rain-steam-and-speed",
+      "filename": "Rain Steam and Speed the Great Western Railway.jpg",
+      "title": "Rain, Steam and Speed – The Great Western Railway",
+      "year": 1844,
+      "width": 5661, "height": 4226,
+      "timeOfDay": ["afternoon"],
+      "weather": ["rain", "fog", "storm"]
+    },
+    {
+      "id": "snow-storm-steam-boat",
+      "filename": "J.M.W. Turner – Snow Storm - Steam-Boat off a Harbour's Mouth.jpg",
+      "title": "Snow Storm: Steam-Boat off a Harbour's Mouth",
+      "year": 1842,
+      "width": 7247, "height": 5448,
+      "timeOfDay": ["afternoon"],
+      "weather": ["storm", "snow"]
+    },
+    {
+      "id": "slave-ship",
+      "filename": "Slave-ship.jpg",
+      "title": "The Slave Ship (Slavers Throwing Overboard the Dead and Dying)",
+      "year": 1840,
+      "width": 2152, "height": 1616,
+      "timeOfDay": ["dusk"],
+      "weather": ["storm"]
+    },
+    {
+      "id": "norham-castle-sunrise",
+      "filename": "Jmw turner, norham castle, alba, 1845 ca.jpg",
+      "title": "Norham Castle, Sunrise",
+      "year": 1845,
+      "width": 3954, "height": 3102,
+      "timeOfDay": ["dawn", "morning"],
+      "weather": ["fog", "clear"]
+    },
+    {
+      "id": "burning-houses-lords-commons",
+      "filename": "Joseph Mallord William Turner, English - The Burning of the Houses of Lords and Commons, October 16, 1834 - Google Art Project.jpg",
+      "title": "The Burning of the Houses of Lords and Commons",
+      "year": 1835,
+      "width": 5313, "height": 3954,
+      "timeOfDay": ["night"],
+      "weather": ["storm", "clear"]
+    },
+    {
+      "id": "peace-burial-at-sea",
+      "filename": "Horror und Delight-Turner-Peace - Burial at Sea DSC2232.jpg",
+      "title": "Peace – Burial at Sea",
+      "year": 1842,
+      "width": 6000, "height": 4000,
+      "timeOfDay": ["night", "dusk"],
+      "weather": ["cloudy"]
+    },
+    {
+      "id": "war-exile-rock-limpet",
+      "filename": "Jmw turner, guerra, l'esilio e la roccia crenulata, ante 1842, 02.jpg",
+      "title": "War. The Exile and the Rock Limpet",
+      "year": 1842,
+      "width": 5472, "height": 3648,
+      "timeOfDay": ["dusk"],
+      "weather": ["clear", "cloudy"]
+    },
+    {
+      "id": "ulysses-deriding-polyphemus",
+      "filename": "Turner - Ulysses deriding Polyphemus 1829.jpg",
+      "title": "Ulysses Deriding Polyphemus",
+      "year": 1829,
+      "width": 6493, "height": 4226,
+      "timeOfDay": ["dawn", "morning"],
+      "weather": ["clear", "fog"]
+    },
+    {
+      "id": "regulus",
+      "filename": "Turner - Regulus, 1828, reworked 1837, N00519.jpg",
+      "title": "Regulus",
+      "year": 1837,
+      "width": 1536, "height": 1122,
+      "timeOfDay": ["morning", "noon"],
+      "weather": ["clear"]
+    },
+    {
+      "id": "keelmen-heaving-coals-moonlight",
+      "filename": "Joseph Mallord William Turner - Keelmen Heaving in Coals by Moonlight - Google Art Project.jpg",
+      "title": "Keelmen Heaving in Coals by Moonlight",
+      "year": 1835,
+      "width": 5107, "height": 3805,
+      "timeOfDay": ["night"],
+      "weather": ["clear"]
+    },
+    {
+      "id": "light-and-colour-morning-deluge",
+      "filename": "Joseph Mallord William Turner - The Morning after the Deluge - WGA23180.jpg",
+      "title": "Light and Colour (Goethe's Theory) – the Morning after the Deluge",
+      "year": 1843,
+      "width": 1001, "height": 997,
+      "timeOfDay": ["morning"],
+      "weather": ["clear"]
+    },
+    {
+      "id": "shade-and-darkness-evening-deluge",
+      "filename": "Horror und Delight-Turner-Shade and Darkness - the Evening of the Deluge DSC2249.jpg",
+      "title": "Shade and Darkness – the Evening of the Deluge",
+      "year": 1843,
+      "width": 6000, "height": 4000,
+      "timeOfDay": ["dusk", "night"],
+      "weather": ["storm", "overcast"]
+    },
+    {
+      "id": "bay-of-baiae-apollo-sibyl",
+      "filename": "Joseph Mallord William Turner - The Bay of Baiae, with Apollo and the Sibyl - Google Art Project.jpg",
+      "title": "The Bay of Baiae, with Apollo and the Sibyl",
+      "year": 1823,
+      "width": 4653, "height": 2850,
+      "timeOfDay": ["morning", "noon"],
+      "weather": ["clear"]
+    },
+    {
+      "id": "modern-rome-campo-vaccino",
+      "filename": "Joseph Mallord William Turner (British - Modern Rome-Campo Vaccino - Google Art Project.jpg",
+      "title": "Modern Rome – Campo Vaccino",
+      "year": 1839,
+      "width": 4336, "height": 3226,
+      "timeOfDay": ["dusk"],
+      "weather": ["clear", "fog"]
+    },
+    {
+      "id": "staffa-fingals-cave",
+      "filename": "Joseph Mallord William Turner - Staffa, Fingal's Cave - Google Art Project.jpg",
+      "title": "Staffa, Fingal's Cave",
+      "year": 1832,
+      "width": 5259, "height": 3889,
+      "timeOfDay": ["dusk"],
+      "weather": ["storm", "cloudy"]
+    },
+    {
+      "id": "approach-to-venice",
+      "filename": "Joseph Mallord William Turner, Approach to Venice, 1844, NGA 117.jpg",
+      "title": "Approach to Venice",
+      "year": 1844,
+      "width": 4000, "height": 2651,
+      "timeOfDay": ["dusk"],
+      "weather": ["clear", "fog"]
+    },
+    {
+      "id": "dogano-san-giorgio-citella",
+      "filename": "Jmw turner, la dogana, san giorgio, citella, dai gradini di europa, ante 1842, 01.jpg",
+      "title": "The Dogano, San Giorgio, Citella, from the Steps of the Europa",
+      "year": 1842,
+      "width": 4368, "height": 3276,
+      "timeOfDay": ["morning"],
+      "weather": ["clear"]
+    },
+    {
+      "id": "yacht-approaching-the-coast",
+      "filename": "Joseph Mallord William Turner - Yacht Approaching the Coast.jpg",
+      "title": "Yacht Approaching the Coast",
+      "year": 1842,
+      "width": 2190, "height": 1566,
+      "timeOfDay": ["dusk"],
+      "weather": ["fog", "clear"]
+    },
+    {
+      "id": "sunrise-with-sea-monsters",
+      "filename": "Horror und Delight-Turner-Sunrise with Sea Monsters DSC2213.jpg",
+      "title": "Sunrise with Sea Monsters",
+      "year": 1845,
+      "width": 6000, "height": 4000,
+      "timeOfDay": ["dawn"],
+      "weather": ["fog", "overcast"]
+    },
+    {
+      "id": "mortlake-terrace-summer-morning",
+      "filename": "Turner Mortlake Terrace Early Summer Morning 1826.jpg",
+      "title": "Mortlake Terrace, Early Summer Morning",
+      "year": 1826,
+      "width": 6244, "height": 4703,
+      "timeOfDay": ["morning"],
+      "weather": ["clear"]
+    },
+    {
+      "id": "going-to-the-ball-san-martino",
+      "filename": "William Turner, Going to the Ball (San Martino).jpg",
+      "title": "Going to the Ball (San Martino)",
+      "year": 1846,
+      "width": 2480, "height": 1650,
+      "timeOfDay": ["dusk"],
+      "weather": ["clear", "cloudy"]
+    }
+  ]
+}

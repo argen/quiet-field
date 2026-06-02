@@ -1,0 +1,127 @@
+{
+  "artist": "Odilon Redon",
+  "rights": "pd",
+  "collection": "abstract",
+  "works": [
+    {
+      "id": "flower-clouds",
+      "filename": "Odilon Redon - Flower Clouds - Google Art Project.jpg",
+      "title": "Flower Clouds",
+      "year": 1903,
+      "width": 7521,
+      "height": 6231,
+      "timeOfDay": ["dawn", "morning"],
+      "weather": ["clear", "cloudy"]
+    },
+    {
+      "id": "the-yellow-sail",
+      "filename": "Redon, Odilon - La Voile jaune (The Yellow Sail) - Google Art Project.jpg",
+      "title": "The Yellow Sail (La Voile jaune)",
+      "year": 1905,
+      "width": 6501,
+      "height": 8083,
+      "timeOfDay": ["afternoon", "dusk"],
+      "weather": ["clear", "cloudy"]
+    },
+    {
+      "id": "the-boat",
+      "filename": "The Boat - Odilon Redon - 1898.jpg",
+      "title": "The Boat",
+      "year": 1898,
+      "width": 1278,
+      "height": 1907,
+      "timeOfDay": ["dusk", "night"],
+      "weather": ["clear"]
+    },
+    {
+      "id": "la-voile-grise",
+      "filename": "Odilon redon la voile grise021528).jpg",
+      "title": "The Grey Sail (La voile grise)",
+      "year": 1900,
+      "width": 3200,
+      "height": 3176,
+      "timeOfDay": ["morning"],
+      "weather": ["overcast", "fog"]
+    },
+    {
+      "id": "closed-eyes",
+      "filename": "Odilon Redon - Closed eyes - Google Art Project.jpg",
+      "title": "Closed Eyes (Les yeux clos)",
+      "year": 1890,
+      "width": 2375,
+      "height": 3031,
+      "timeOfDay": ["dusk"],
+      "weather": ["fog", "cloudy"]
+    },
+    {
+      "id": "evocation-of-butterflies",
+      "filename": "Redon - Evocation of Butterflies, ca. between 1910 and 1912.jpg",
+      "title": "Evocation of Butterflies",
+      "year": 1911,
+      "width": 1658,
+      "height": 2000,
+      "timeOfDay": ["morning", "noon"],
+      "weather": ["clear"]
+    },
+    {
+      "id": "the-red-tree",
+      "filename": "De rode boom by Odilon Redon (Van Gogh Museum).jpg",
+      "title": "The Red Tree (De rode boom)",
+      "year": 1905,
+      "width": 3319,
+      "height": 6478,
+      "timeOfDay": ["afternoon", "dusk"],
+      "weather": ["clear"]
+    },
+    {
+      "id": "flower-clouds-panel",
+      "filename": "Redon.flower-clouds.jpg",
+      "title": "Flower Clouds (panel)",
+      "year": 1903,
+      "width": 1012,
+      "height": 849,
+      "timeOfDay": ["dawn"],
+      "weather": ["cloudy", "fog"]
+    },
+    {
+      "id": "village-in-the-pyrenees",
+      "filename": "Village dans les basses, Pyrenees - Odlinon Redon.jpg",
+      "title": "Village in the Lower Pyrenees",
+      "year": 1900,
+      "width": 3200,
+      "height": 2485,
+      "timeOfDay": ["afternoon"],
+      "weather": ["overcast", "cloudy"]
+    },
+    {
+      "id": "the-gothic-window",
+      "filename": "The Gothic Window, Odilon Redon - Indianapolis Museum of Art - DSC00651.JPG",
+      "title": "The Gothic Window",
+      "year": 1905,
+      "width": 3240,
+      "height": 4320,
+      "timeOfDay": ["dusk", "night"],
+      "weather": ["clear"]
+    },
+    {
+      "id": "the-cathedral",
+      "filename": "Odilon Redon - The Cathedral - 1914 - Neue Pinakothek - with frame.jpg",
+      "title": "The Cathedral (Die Kathedrale)",
+      "year": 1914,
+      "width": 2098,
+      "height": 2489,
+      "timeOfDay": ["dusk"],
+      "weather": ["clear", "cloudy"]
+    },
+    {
+      "id": "evocation",
+      "filename": "Evocation Odilon Redon.jpeg",
+      "title": "Evocation",
+      "year": 1893,
+      "width": 791,
+      "height": 1074,
+      "timeOfDay": ["night"],
+      "weather": ["fog", "overcast"]
+    }
+  ]
+}

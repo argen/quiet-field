@@ -1,0 +1,127 @@
+{
+  "artist": "Arthur Dove",
+  "rights": "pd",
+  "collection": "abstract",
+  "works": [
+    {
+      "id": "thunderstorm",
+      "filename": "'Thunderstorm' by Arthur Garfield Dove, 1921.JPG",
+      "title": "Thunderstorm",
+      "year": 1921,
+      "width": 2180,
+      "height": 2616,
+      "timeOfDay": ["afternoon"],
+      "weather": ["storm", "rain"]
+    },
+    {
+      "id": "city-moon",
+      "filename": "Arthur Dove, City Moon, 1938 at Hirshhorn.jpg",
+      "title": "City Moon",
+      "year": 1938,
+      "width": 1797,
+      "height": 2524,
+      "timeOfDay": ["night"],
+      "weather": ["clear"]
+    },
+    {
+      "id": "sun",
+      "filename": "Arthur Dove, Sun, 1943 at SAAM.jpg",
+      "title": "Sun",
+      "year": 1943,
+      "width": 2585,
+      "height": 1940,
+      "timeOfDay": ["noon"],
+      "weather": ["clear"]
+    },
+    {
+      "id": "harbor-in-light",
+      "filename": "Arthur dove, porto nella luce, 1929.jpg",
+      "title": "Harbor in Light",
+      "year": 1929,
+      "width": 2564,
+      "height": 1924,
+      "timeOfDay": ["morning"],
+      "weather": ["clear"]
+    },
+    {
+      "id": "silver-sun",
+      "filename": "Arthur dove, sole d'argento, 1929.jpg",
+      "title": "Silver Sun",
+      "year": 1929,
+      "width": 2244,
+      "height": 1688,
+      "timeOfDay": ["dawn"],
+      "weather": ["fog", "overcast"]
+    },
+    {
+      "id": "moon",
+      "filename": "Moon by Arthur G. Dove, 1928, oil on board.JPG",
+      "title": "Moon",
+      "year": 1928,
+      "width": 4045,
+      "height": 3185,
+      "timeOfDay": ["night"],
+      "weather": ["clear"]
+    },
+    {
+      "id": "red-sun",
+      "filename": "Red Sun by Arthur Dove.jpg",
+      "title": "Red Sun",
+      "year": 1935,
+      "width": 1746,
+      "height": 1239,
+      "timeOfDay": ["dusk"],
+      "weather": ["clear"]
+    },
+    {
+      "id": "red-tree-and-sun",
+      "filename": "Red Tree and Sum by Arthur Garfield Dove, 1929, oil on canvas.jpg",
+      "title": "Red Tree and Sun",
+      "year": 1929,
+      "width": 2989,
+      "height": 4018,
+      "timeOfDay": ["afternoon", "dusk"],
+      "weather": ["clear"]
+    },
+    {
+      "id": "snow-and-water",
+      "filename": "Snow and Water, by Arthur Dove, 1928, oil on aluminum - Currier Museum of Art - Manchester, NH - DSC07334.jpg",
+      "title": "Snow and Water",
+      "year": 1928,
+      "width": 4566,
+      "height": 3377,
+      "timeOfDay": ["morning"],
+      "weather": ["snow", "overcast"]
+    },
+    {
+      "id": "storm-clouds",
+      "filename": "Storm Clouds by Arthur G. Dove, 1935, watercolor .JPG",
+      "title": "Storm Clouds",
+      "year": 1935,
+      "width": 4100,
+      "height": 2965,
+      "timeOfDay": ["afternoon"],
+      "weather": ["storm", "cloudy"]
+    },
+    {
+      "id": "thunder-shower",
+      "filename": "Thunder Shower by Arthur Dove, 1940, oil and wax.JPG",
+      "title": "Thunder Shower",
+      "year": 1940,
+      "width": 5050,
+      "height": 3055,
+      "timeOfDay": ["afternoon"],
+      "weather": ["rain", "storm"]
+    },
+    {
+      "id": "sunrise-northport-harbor",
+      "filename": "Sunrise, Northport Harbor, by Arthur Dove, American, 1929, oil on canvas - Princeton University Art Museum - DSC07002.jpg",
+      "title": "Sunrise, Northport Harbor",
+      "year": 1929,
+      "width": 4510,
+      "height": 3385,
+      "timeOfDay": ["dawn"],
+      "weather": ["clear"]
+    }
+  ]
+}

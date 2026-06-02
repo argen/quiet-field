@@ -1,0 +1,427 @@
+{
+  "source": "National Gallery of Art (CC0 open data)",
+  "artist": "Mark Rothko",
+  "count": 60,
+  "works": [
+    {
+      "title": "Landscape [verso]",
+      "year": 1925,
+      "medium": "watercolor on wove paper",
+      "dimensions": "overall: 38.7 x 55.9 cm (15 1/4 x 22 in.)",
+      "ngaObjectId": 67574
+    },
+    {
+      "title": "Sketch in the Shade",
+      "year": 1925,
+      "medium": "oil on canvas board",
+      "dimensions": "overall: 40.5 × 30 cm (15 15/16 × 11 13/16 in.)",
+      "ngaObjectId": 69271
+    },
+    {
+      "title": "Untitled (still life with pitcher)",
+      "year": 1926,
+      "medium": "oil on canvas board",
+      "dimensions": "overall: 40.3 × 30.2 cm (15 7/8 × 11 7/8 in.)\r\nframed: 51.44 × 41.28 × 3.81 cm (20 1/4 × 16 1/4 × 1 1/2 in.)",
+      "ngaObjectId": 69284
+    },
+    {
+      "title": "Cows in a Landscape",
+      "year": 1929,
+      "medium": "watercolor on heavy wove paper",
+      "dimensions": "overall: 37.9 x 53.4 cm (14 15/16 x 21 in.)",
+      "ngaObjectId": 67557
+    },
+    {
+      "title": "Horses in a Landscape",
+      "year": 1929,
+      "medium": "watercolor and graphite on wove paper",
+      "dimensions": "overall: 37.9 x 53.4 cm (14 15/16 x 21 in.)",
+      "ngaObjectId": 67558
+    },
+    {
+      "title": "Standing Woman in a Green Dress with a Child",
+      "year": 1930,
+      "medium": "gouache on dark brown wove paper",
+      "dimensions": "sight size: 46 x 30.5 cm (18 1/8 x 12 in.)",
+      "ngaObjectId": 67560
+    },
+    {
+      "title": "Untitled (Farm scene horses and barn)",
+      "year": 1930,
+      "medium": "watercolor, graphite, and ink on paper",
+      "dimensions": "",
+      "ngaObjectId": 67559
+    },
+    {
+      "title": "Portrait of a Young Girl",
+      "year": 1932,
+      "medium": "oil on canvas on board",
+      "dimensions": "overall: 80.9 x 61.6 cm (31 7/8 x 24 1/4 in.)",
+      "ngaObjectId": 67384
+    },
+    {
+      "title": "The Proposal",
+      "year": 1932,
+      "medium": "oil on canvas",
+      "dimensions": "overall: 50.8 x 40.7 cm (20 x 16 in.)",
+      "ngaObjectId": 67382
+    },
+    {
+      "title": "Man Smoking",
+      "year": 1933,
+      "medium": "oil on canvas",
+      "dimensions": "overall: 81.2 x 60.6 cm (31 15/16 x 23 7/8 in.)\r\nframed: 89.9 x 69.9 x 6.7 cm (35 3/8 x 27 1/2 x 2 5/8 in.)",
+      "ngaObjectId": 67396
+    },
+    {
+      "title": "Nude",
+      "year": 1933,
+      "medium": "oil on canvas",
+      "dimensions": "overall: 100.3 x 44.8 cm (39 1/2 x 17 5/8 in.)\r\nframed: 111.9 x 56.2 x 6.2 cm (44 1/16 x 22 1/8 x 2 7/16 in.)",
+      "ngaObjectId": 67397
+    },
+    {
+      "title": "Untitled (two seated women)",
+      "year": 1934,
+      "medium": "oil on canvas",
+      "dimensions": "overall: 79.7 x 59.7 cm (31 3/8 x 23 1/2 in.)\r\nframed: 89.9 x 70.2 x 8.7 cm (35 3/8 x 27 5/8 x 3 7/16 in.)",
+      "ngaObjectId": 67380
+    },
+    {
+      "title": "Woman Sewing",
+      "year": 1934,
+      "medium": "oil on hardboard",
+      "dimensions": "overall: 71.1 x 91.5 cm (28 x 36 in.)",
+      "ngaObjectId": 67385
+    },
+    {
+      "title": "Untitled (String Quartet)",
+      "year": 1935,
+      "medium": "oil on hardboard",
+      "dimensions": "overall: 70.8 x 91.4 cm (27 7/8 x 36 in.)",
+      "ngaObjectId": 67387
+    },
+    {
+      "title": "Untitled (three women)",
+      "year": 1935,
+      "medium": "oil on canvas",
+      "dimensions": "overall: 58.4 x 48.3 cm (23 x 19 in.)\r\nframed: 70.2 x 61 x 6.2 cm (27 5/8 x 24 x 2 7/16 in.)",
+      "ngaObjectId": 67413
+    },
+    {
+      "title": "Rural Scene",
+      "year": 1936,
+      "medium": "oil on canvas",
+      "dimensions": "overall: 68.5 x 96.8 cm (26 15/16 x 38 1/8 in.)\r\nframed: 73.5 x 101.8 x 5.2 cm (28 15/16 x 40 1/16 x 2 1/16 in.)",
+      "ngaObjectId": 67376
+    },
+    {
+      "title": "Untitled (three women and a child with mannequins)",
+      "year": 1936,
+      "medium": "oil on canvas",
+      "dimensions": "overall: 91.3 x 71.5 cm (35 15/16 x 28 1/8 in.)\r\nframed: 105.9 x 86.8 x 8.6 cm (41 11/16 x 34 3/16 x 3 3/8 in.)",
+      "ngaObjectId": 67381
+    },
+    {
+      "title": "Street Scene",
+      "year": 1937,
+      "medium": "oil on canvas",
+      "dimensions": "overall: 73.5 × 101.4 cm (28 15/16 × 39 15/16 in.)\r\nframed: 80.01 × 108.59 × 6.35 cm (31 1/2 × 42 3/4 × 2 1/2 in.)",
+      "ngaObjectId": 67378
+    },
+    {
+      "title": "Untitled (two women at the window)",
+      "year": 1937,
+      "medium": "oil on canvas",
+      "dimensions": "overall: 91.4 x 61 cm (36 x 24 in.)\r\nframed: 97.79 x 67.31 x 6.35 cm (38 1/2 x 26 1/2 x 2 1/2 in.)",
+      "ngaObjectId": 67350
+    },
+    {
+      "title": "The Party",
+      "year": 1938,
+      "medium": "oil on canvas",
+      "dimensions": "overall: 60 x 80.6 cm (23 5/8 x 31 3/4 in.)",
+      "ngaObjectId": 67411
+    },
+    {
+      "title": "Untitled (head)",
+      "year": 1938,
+      "medium": "oil on canvas",
+      "dimensions": "overall: 40.7 x 51.1 cm (16 x 20 1/8 in.)",
+      "ngaObjectId": 67467
+    },
+    {
+      "title": "Untitled",
+      "year": 1939,
+      "medium": "watercolor, ink, and graphite on watercolor paper",
+      "dimensions": "sheet: 38.1 × 53.34 cm (15 × 21 in.)",
+      "ngaObjectId": 67537
+    },
+    {
+      "title": "Untitled (man with racket and ball)",
+      "year": 1939,
+      "medium": "oil on gesso board",
+      "dimensions": "overall: 22.7 x 30.2 cm (8 15/16 x 11 7/8 in.)",
+      "ngaObjectId": 69279
+    },
+    {
+      "title": "Untitled",
+      "year": 1940,
+      "medium": "oil on canvas",
+      "dimensions": "overall: 50.8 x 70.8 cm (20 x 27 7/8 in.)\r\nframed: 60.2 x 80 x 6.8 cm (23 11/16 x 31 1/2 x 2 11/16 in.)",
+      "ngaObjectId": 67389
+    },
+    {
+      "title": "Untitled",
+      "year": 1940,
+      "medium": "oil on canvas",
+      "dimensions": "overall: 91.6 x 71.3 cm (36 1/16 x 28 1/16 in.)\r\nframed: 101.6 x 81.3 x 8.7 cm (40 x 32 x 3 7/16 in.)",
+      "ngaObjectId": 67393
+    },
+    {
+      "title": "Untitled",
+      "year": 1941,
+      "medium": "oil on canvas",
+      "dimensions": "overall: 45.8 × 61.5 cm (18 1/16 × 24 3/16 in.)",
+      "ngaObjectId": 67388
+    },
+    {
+      "title": "Untitled",
+      "year": 1941,
+      "medium": "oil on canvas",
+      "dimensions": "overall: 61 × 81 cm (24 × 31 7/8 in.)\r\nframed: 71.12 × 91.12 × 8.26 cm (28 × 35 7/8 × 3 1/4 in.)",
+      "ngaObjectId": 67390
+    },
+    {
+      "title": "Untitled",
+      "year": 1942,
+      "medium": "oil on canvas",
+      "dimensions": "overall: 75.9 x 91.8 cm (29 7/8 x 36 1/8 in.)\r\nframed: 89.4 x 105.9 x 8.9 cm (35 3/16 x 41 11/16 x 3 1/2 in.)",
+      "ngaObjectId": 67416
+    },
+    {
+      "title": "Untitled",
+      "year": 1942,
+      "medium": "oil on canvas",
+      "dimensions": "overall: 51.1 x 71.4 cm (20 1/8 x 28 1/8 in.)",
+      "ngaObjectId": 67461
+    },
+    {
+      "title": "Untitled",
+      "year": 1943,
+      "medium": "oil and chalk on canvas",
+      "dimensions": "overall: 75.6 x 91 cm (29 3/4 x 35 13/16 in.)\r\nframed: 82.2 x 98 x 7.5 cm (32 3/8 x 38 9/16 x 2 15/16 in.)",
+      "ngaObjectId": 67417
+    },
+    {
+      "title": "Untitled",
+      "year": 1943,
+      "medium": "oil on canvas",
+      "dimensions": "overall: 100 x 69.8 cm (39 3/8 x 27 1/2 in.)\r\nframed: 109.4 x 79.2 x 6.7 cm (43 1/16 x 31 3/16 x 2 5/8 in.)",
+      "ngaObjectId": 67419
+    },
+    {
+      "title": "Birth of Cephalopods",
+      "year": 1944,
+      "medium": "oil on canvas",
+      "dimensions": "overall: 100.3 x 135.9 cm (39 1/2 x 53 1/2 in.)",
+      "ngaObjectId": 67379
+    },
+    {
+      "title": "Hierarchical Birds",
+      "year": 1944,
+      "medium": "oil on canvas",
+      "dimensions": "overall: 100.7 × 80.5 cm (39 5/8 × 31 11/16 in.)\r\nframed: 107.95 × 87 × 8.57 cm (42 1/2 × 34 1/4 × 3 3/8 in.)",
+      "ngaObjectId": 67377
+    },
+    {
+      "title": "Ceremonial",
+      "year": 1945,
+      "medium": "oil on canvas",
+      "dimensions": "overall: 136.8 x 100.3 cm (53 7/8 x 39 1/2 in.)\r\nframed: 146.5 x 110.5 x 8.7 cm (57 11/16 x 43 1/2 x 3 7/16 in.)",
+      "ngaObjectId": 67364
+    },
+    {
+      "title": "Phalanx of the Mind",
+      "year": 1945,
+      "medium": "oil on canvas",
+      "dimensions": "overall: 137.9 x 90.8 cm (54 5/16 x 35 3/4 in.)\r\nframed: 142.4 x 95.3 x 5.9 cm (56 1/16 x 37 1/2 x 2 5/16 in.)",
+      "ngaObjectId": 67363
+    },
+    {
+      "title": "Fantasy at Dawn [obverse]",
+      "year": 1946,
+      "medium": "oil on canvas",
+      "dimensions": "overall: 130.2 x 81.5 cm (51 1/4 x 32 1/16 in.)",
+      "ngaObjectId": 67361
+    },
+    {
+      "title": "Sea Fantasy",
+      "year": 1946,
+      "medium": "oil on canvas",
+      "dimensions": "overall: 111.8 × 91.8 cm (44 × 36 1/8 in.)\r\nframed: 118.75 × 98.43 × 8.89 cm (46 3/4 × 38 3/4 × 3 1/2 in.)",
+      "ngaObjectId": 67365
+    },
+    {
+      "title": "No. 3",
+      "year": 1947,
+      "medium": "oil on canvas",
+      "dimensions": "overall: 100.8 x 138.1 cm (39 11/16 x 54 3/8 in.)",
+      "ngaObjectId": 67359
+    },
+    {
+      "title": "Untitled",
+      "year": 1947,
+      "medium": "oil on canvas",
+      "dimensions": "overall: 96.2 x 116.4 cm (37 7/8 x 45 13/16 in.)",
+      "ngaObjectId": 67357
+    },
+    {
+      "title": "No. 22",
+      "year": 1948,
+      "medium": "oil on canvas",
+      "dimensions": "overall: 97.8 × 99.7 × 3.49 cm (38 1/2 × 39 1/4 × 1 3/8 in.)",
+      "ngaObjectId": 67358
+    },
+    {
+      "title": "Untitled",
+      "year": 1948,
+      "medium": "oil on canvas",
+      "dimensions": "overall: 126.4 x 111.8 cm (49 3/4 x 44 in.)\r\nframed: 134.9 x 119.4 x 7.3 cm (53 1/8 x 47 x 2 7/8 in.)",
+      "ngaObjectId": 67360
+    },
+    {
+      "title": "Untitled",
+      "year": 1949,
+      "medium": "pigmented hide glue and oil on canvas",
+      "dimensions": "overall: 204.15 × 168.6 × 5.08 cm (80 3/8 × 66 3/8 × 2 in.)",
+      "ngaObjectId": 67496
+    },
+    {
+      "title": "Untitled",
+      "year": 1950,
+      "medium": "pigmented hide glue and oil on canvas",
+      "dimensions": "overall: 109.6 × 126.1 cm (43 1/8 × 49 5/8 in.)\r\nframed: 133.99 × 149.23 × 9.21 cm (52 3/4 × 58 3/4 × 3 5/8 in.)",
+      "ngaObjectId": 67517
+    },
+    {
+      "title": "Untitled",
+      "year": 1951,
+      "medium": "oil on canvas",
+      "dimensions": "overall: 112.4 x 94.9 cm (44 1/4 x 37 3/8 in.)",
+      "ngaObjectId": 67515
+    },
+    {
+      "title": "Untitled",
+      "year": 1952,
+      "medium": "oil on canvas",
+      "dimensions": "overall: 75.2 x 166.4 cm (29 5/8 x 65 1/2 in.)",
+      "ngaObjectId": 67519
+    },
+    {
+      "title": "Untitled",
+      "year": 1953,
+      "medium": "pigmented hide glue and oil on canvas",
+      "dimensions": "overall: 195 x 172.1 cm (76 3/4 x 67 3/4 in.)",
+      "ngaObjectId": 67493
+    },
+    {
+      "title": "Orange and Tan",
+      "year": 1954,
+      "medium": "pigmented hide glue and oil on canvas",
+      "dimensions": "overall: 206.4 x 160.6 cm (81 1/4 x 63 1/4 in.)",
+      "ngaObjectId": 56350
+    },
+    {
+      "title": "Red Band",
+      "year": 1955,
+      "medium": "pigmented hide glue and oil on canvas",
+      "dimensions": "overall: 204.2 x 171.7 cm (80 3/8 x 67 5/8 in.)",
+      "ngaObjectId": 67513
+    },
+    {
+      "title": "Untitled",
+      "year": 1956,
+      "medium": "pigmented hide glue, oil, and acrylic on canvas",
+      "dimensions": "overall: 242.9 x 207 cm (95 5/8 x 81 1/2 in.)",
+      "ngaObjectId": 67506
+    },
+    {
+      "title": "Untitled",
+      "year": 1957,
+      "medium": "oil on canvas",
+      "dimensions": "overall: 247.3 × 207.8 cm (97 3/8 × 81 13/16 in.)",
+      "ngaObjectId": 67499
+    },
+    {
+      "title": "Untitled (Seagram Mural sketch)",
+      "year": 1958,
+      "medium": "oil and acrylic on canvas",
+      "dimensions": "overall: 183.1 x 152.6 cm (72 1/16 x 60 1/16 in.)",
+      "ngaObjectId": 65910
+    },
+    {
+      "title": "Untitled (Seagram Mural sketch)",
+      "year": 1959,
+      "medium": "oil and acrylic on canvas",
+      "dimensions": "overall: 183.5 x 152.7 cm (72 1/4 x 60 1/8 in.)",
+      "ngaObjectId": 65911
+    },
+    {
+      "title": "No. 1",
+      "year": 1961,
+      "medium": "pigmented hide glue and oil on canvas",
+      "dimensions": "overall: 258.8 x 227.6 cm (101 7/8 x 89 5/8 in.)",
+      "ngaObjectId": 67509
+    },
+    {
+      "title": "Untitled (Harvard Mural sketch)",
+      "year": 1962,
+      "medium": "oil, acrylic and mixed media on canvas",
+      "dimensions": "overall: 175.6 x 142.6 cm (69 1/8 x 56 1/8 in.)\r\nframed: 181 x 148.3 x 7 cm (71 1/4 x 58 3/8 x 2 3/4 in.)",
+      "ngaObjectId": 67507
+    },
+    {
+      "title": "Untitled",
+      "year": 1963,
+      "medium": "oil, acrylic and mixed media on canvas",
+      "dimensions": "overall: 341.6 x 183.2 cm (134 1/2 x 72 1/8 in.)\r\nframed: 348.62 × 189.87 × 9.21 cm (137 1/4 × 74 3/4 × 3 5/8 in.)",
+      "ngaObjectId": 67529
+    },
+    {
+      "title": "No. 5",
+      "year": 1964,
+      "medium": "oil, acrylic and mixed media on canvas",
+      "dimensions": "overall: 206.2 x 195.7 cm (81 3/16 x 77 1/16 in.)",
+      "ngaObjectId": 67491
+    },
+    {
+      "title": "Untitled",
+      "year": 1967,
+      "medium": "oil and watercolor on watercolor paper mounted on hardboard",
+      "dimensions": "overall: 76.4 × 55.9 cm (30 1/16 × 22 in.)",
+      "ngaObjectId": 67633
+    },
+    {
+      "title": "Untitled",
+      "year": 1968,
+      "medium": "acrylic on paper",
+      "dimensions": "",
+      "ngaObjectId": 67610
+    },
+    {
+      "title": "Untitled",
+      "year": 1969,
+      "medium": "acrylic on canvas",
+      "dimensions": "overall: 177.17 × 158.12 × 5.08 cm (69 3/4 × 62 1/4 × 2 in.)",
+      "ngaObjectId": 67521
+    },
+    {
+      "title": "Untitled",
+      "year": 1970,
+      "medium": "acrylic on canvas",
+      "dimensions": "overall: 152.4 x 145.1 cm (60 x 57 1/8 in.)",
+      "ngaObjectId": 67531
+    }
+  ]
+}

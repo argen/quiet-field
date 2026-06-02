@@ -1,0 +1,425 @@
+{
+  "artist": "Paul Klee",
+  "rights": "pd",
+  "collection": "abstract",
+  "works": [
+    {
+      "id": "arctic-dew",
+      "filename": "Arctic Dew, 1920 - Paul Klee.jpg",
+      "title": "Arctic Dew",
+      "year": 1920,
+      "artistName": "Paul Klee",
+      "width": 17341,
+      "height": 17939,
+      "timeOfDay": [
+        "dawn",
+        "morning"
+      ],
+      "weather": [
+        "clear",
+        "snow"
+      ]
+    },
+    {
+      "id": "colors-from-a-distance",
+      "filename": "Colors from a Distance, 1932 - Paul Klee.jpg",
+      "title": "Colors from a Distance",
+      "year": 1932,
+      "artistName": "Paul Klee",
+      "width": 4500,
+      "height": 4990,
+      "timeOfDay": [
+        "noon",
+        "afternoon"
+      ],
+      "weather": [
+        "clear"
+      ]
+    },
+    {
+      "id": "fire-at-full-moon",
+      "filename": "Fire at Full Moon, 1933 - Paul Klee.jpg",
+      "title": "Fire at Full Moon",
+      "year": 1933,
+      "artistName": "Paul Klee",
+      "width": 3245,
+      "height": 2500,
+      "timeOfDay": [
+        "night"
+      ],
+      "weather": [
+        "clear"
+      ]
+    },
+    {
+      "id": "rose-garden",
+      "filename": "Klee, Paul - Rose Garden - Google Art Project.jpg",
+      "title": "Rose Garden",
+      "year": 1920,
+      "artistName": "Paul Klee",
+      "width": 3945,
+      "height": 4521,
+      "timeOfDay": [
+        "afternoon",
+        "noon"
+      ],
+      "weather": [
+        "clear"
+      ]
+    },
+    {
+      "id": "signs-in-yellow",
+      "filename": "Paul Klee - Signs In Yellow - Google Art Project.jpg",
+      "title": "Signs in Yellow",
+      "year": 1937,
+      "artistName": "Paul Klee",
+      "width": 2164,
+      "height": 3785,
+      "timeOfDay": [
+        "noon",
+        "afternoon"
+      ],
+      "weather": [
+        "clear"
+      ]
+    },
+    {
+      "id": "virtue-wagon",
+      "filename": "Paul Klee - The Virtue Wagon (to the memory of October 5, 1922) - Google Art Project.jpg",
+      "title": "The Virtue Wagon",
+      "year": 1922,
+      "artistName": "Paul Klee",
+      "width": 3217,
+      "height": 2425,
+      "timeOfDay": [
+        "dusk",
+        "night"
+      ],
+      "weather": [
+        "cloudy"
+      ]
+    },
+    {
+      "id": "after-the-flood",
+      "filename": "Paul Klee - After The Flood - Google Art Project.jpg",
+      "title": "After the Flood",
+      "year": 1936,
+      "artistName": "Paul Klee",
+      "width": 2651,
+      "height": 2015,
+      "timeOfDay": [
+        "dusk"
+      ],
+      "weather": [
+        "overcast",
+        "rain"
+      ]
+    },
+    {
+      "id": "musique-diurne",
+      "filename": "Musique diurne, 1940 - Paul Klee.jpg",
+      "title": "Musique Diurne",
+      "year": 1940,
+      "artistName": "Paul Klee",
+      "width": 6936,
+      "height": 4656,
+      "timeOfDay": [
+        "noon",
+        "afternoon"
+      ],
+      "weather": [
+        "clear"
+      ]
+    },
+    {
+      "id": "hardy-plants",
+      "filename": "Paul Klee - Hardy Plants - Google Art Project.jpg",
+      "title": "Hardy Plants",
+      "year": 1934,
+      "artistName": "Paul Klee",
+      "width": 4751,
+      "height": 3534,
+      "timeOfDay": [
+        "afternoon"
+      ],
+      "weather": [
+        "clear",
+        "cloudy"
+      ]
+    },
+    {
+      "id": "fish-magic",
+      "filename": "Paul Klee, Swiss - Fish Magic - Google Art Project.jpg",
+      "title": "Fish Magic",
+      "year": 1925,
+      "artistName": "Paul Klee",
+      "width": 5288,
+      "height": 4150,
+      "timeOfDay": [
+        "night"
+      ],
+      "weather": [
+        "clear"
+      ]
+    },
+    {
+      "id": "glance-of-a-landscape",
+      "filename": "Paul Klee, Swiss - Glance of a Landscape - Google Art Project.jpg",
+      "title": "Glance of a Landscape",
+      "year": 1926,
+      "artistName": "Paul Klee",
+      "width": 4166,
+      "height": 2764,
+      "timeOfDay": [
+        "dusk",
+        "night"
+      ],
+      "weather": [
+        "cloudy",
+        "overcast"
+      ]
+    },
+    {
+      "id": "river-construction-landscape",
+      "filename": "River Construction Landscape, 1924 - Paul Klee.jpg",
+      "title": "River Construction Landscape",
+      "year": 1924,
+      "artistName": "Paul Klee",
+      "width": 5298,
+      "height": 3551,
+      "timeOfDay": [
+        "morning",
+        "noon"
+      ],
+      "weather": [
+        "clear",
+        "cloudy"
+      ]
+    },
+    {
+      "id": "wald-bau",
+      "filename": "Wald Bau, 1919 - Paul Klee.jpg",
+      "title": "Wald Bau (Forest Construction)",
+      "year": 1919,
+      "artistName": "Paul Klee",
+      "width": 19931,
+      "height": 21142,
+      "timeOfDay": [
+        "afternoon",
+        "dusk"
+      ],
+      "weather": [
+        "cloudy",
+        "overcast"
+      ]
+    },
+    {
+      "id": "winter-day-before-noon",
+      "filename": "Winter Day, Shortly before Noon, 1922 - Paul Klee.jpg",
+      "title": "Winter Day, Shortly before Noon",
+      "year": 1922,
+      "artistName": "Paul Klee",
+      "width": 4604,
+      "height": 3167,
+      "timeOfDay": [
+        "morning",
+        "noon"
+      ],
+      "weather": [
+        "clear",
+        "snow"
+      ]
+    },
+    {
+      "id": "womens-pavilion",
+      "filename": "Women's Pavilion, 1921 - Paul Klee.jpg",
+      "title": "Women's Pavilion",
+      "year": 1921,
+      "artistName": "Paul Klee",
+      "width": 4916,
+      "height": 3855,
+      "timeOfDay": [
+        "afternoon"
+      ],
+      "weather": [
+        "clear"
+      ]
+    },
+    {
+      "id": "polyphony",
+      "filename": "Polyphony, 1932 Paul Klee.jpg",
+      "title": "Polyphony",
+      "year": 1932,
+      "artistName": "Paul Klee",
+      "width": 2549,
+      "height": 1560,
+      "timeOfDay": [
+        "noon",
+        "afternoon"
+      ],
+      "weather": [
+        "clear",
+        "cloudy"
+      ]
+    },
+    {
+      "id": "polyphonic-white",
+      "filename": "Polyphon gefasstes Weiss, 1930 - Paul Klee.jpg",
+      "title": "Polyphonically Bounded White",
+      "year": 1930,
+      "artistName": "Paul Klee",
+      "width": 3500,
+      "height": 5059,
+      "timeOfDay": [
+        "dawn",
+        "morning"
+      ],
+      "weather": [
+        "fog",
+        "overcast"
+      ]
+    },
+    {
+      "id": "ad-parnassum",
+      "filename": "Ad Parnassum, Paul Klee (1932, 274).jpg",
+      "title": "Ad Parnassum",
+      "year": 1932,
+      "artistName": "Paul Klee",
+      "width": 1650,
+      "height": 1339,
+      "timeOfDay": [
+        "noon",
+        "afternoon"
+      ],
+      "weather": [
+        "clear"
+      ]
+    },
+    {
+      "id": "static-dynamic-gradation",
+      "filename": "Static-Dynamic Gradation, 1923 - Paul Klee, MET DP-817-001.jpg",
+      "title": "Static-Dynamic Gradation",
+      "year": 1923,
+      "artistName": "Paul Klee",
+      "width": 2758,
+      "height": 4000,
+      "timeOfDay": [
+        "noon"
+      ],
+      "weather": [
+        "clear"
+      ]
+    },
+    {
+      "id": "sudliche-garten",
+      "filename": "Klee SÜDLICHE GÄRTEN, 1936.jpg",
+      "title": "Südliche Gärten (Southern Gardens)",
+      "year": 1936,
+      "artistName": "Paul Klee",
+      "width": 1075,
+      "height": 937,
+      "timeOfDay": [
+        "noon",
+        "afternoon"
+      ],
+      "weather": [
+        "clear"
+      ]
+    },
+    {
+      "id": "burg-und-sonne",
+      "filename": "Burg und Sonne - Klee.jpg",
+      "title": "Burg und Sonne (Castle and Sun)",
+      "year": 1928,
+      "artistName": "Paul Klee",
+      "width": 8070,
+      "height": 6621,
+      "timeOfDay": [
+        "noon",
+        "afternoon"
+      ],
+      "weather": [
+        "clear"
+      ]
+    },
+    {
+      "id": "red-balloon",
+      "filename": "Paul Klee, 1922, Red Balloon, oil on chalk-primed gauze, mounted on board, 31.7 x 31.1 cm, Solomon R. Guggenheim Museum.jpg",
+      "title": "Red Balloon",
+      "year": 1922,
+      "artistName": "Paul Klee",
+      "width": 3929,
+      "height": 4096,
+      "timeOfDay": [
+        "afternoon",
+        "dusk"
+      ],
+      "weather": [
+        "clear"
+      ]
+    },
+    {
+      "id": "abstract-trio",
+      "filename": "Abstract Trio, 1923 - Paul Klee, MET DT1769.jpg",
+      "title": "Abstract Trio",
+      "year": 1923,
+      "artistName": "Paul Klee",
+      "width": 3811,
+      "height": 2591,
+      "timeOfDay": [
+        "dusk",
+        "night"
+      ],
+      "weather": [
+        "clear"
+      ]
+    },
+    {
+      "id": "tomb-in-three-parts",
+      "filename": "Tomb in Three Parts, 1923 - Paul Klee.jpg",
+      "title": "Tomb in Three Parts",
+      "year": 1923,
+      "artistName": "Paul Klee",
+      "width": 3632,
+      "height": 2696,
+      "timeOfDay": [
+        "dusk",
+        "night"
+      ],
+      "weather": [
+        "overcast"
+      ]
+    },
+    {
+      "id": "dunkelbuntes-gartenbild",
+      "filename": "Dunkelbuntes Gartenbild, 1923 - Paul Klee.jpg",
+      "title": "Dunkelbuntes Gartenbild (Dark Colourful Garden Picture)",
+      "year": 1923,
+      "artistName": "Paul Klee",
+      "width": 2880,
+      "height": 2305,
+      "timeOfDay": [
+        "dusk",
+        "night"
+      ],
+      "weather": [
+        "cloudy"
+      ]
+    },
+    {
+      "id": "moon-play",
+      "filename": "Paul Klee - Moon Play, 1923.jpg",
+      "title": "Moon Play",
+      "year": 1923,
+      "artistName": "Paul Klee",
+      "width": 1950,
+      "height": 2500,
+      "timeOfDay": [
+        "night"
+      ],
+      "weather": [
+        "clear"
+      ]
+    }
+  ]
+}

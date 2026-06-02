@@ -1,0 +1,23 @@
+{
+  "artist": "Hilma af Klint",
+  "rights": "pd",
+  "collection": "abstract",
+  "works": [
+    { "id": "ten-largest-no-1-childhood", "filename": "Hilma af Klint - The Ten Largest No. 1 - Childhood - 1907.jpg", "title": "The Ten Largest, No. 1, Childhood", "year": 1907, "width": 1355, "height": 1800, "timeOfDay": ["dawn","morning"], "weather": ["clear"] },
+    { "id": "ten-largest-no-2-childhood", "filename": "Hilma af Klint - The Ten Largest No. 2 - Childhood - 1907.jpg", "title": "The Ten Largest, No. 2, Childhood", "year": 1907, "width": 1337, "height": 1800, "timeOfDay": ["morning","dawn"], "weather": ["clear"] },
+    { "id": "ten-largest-no-3-youth", "filename": "Hilma af Klint - The Ten Largest No. 3 - Youth - 1907.jpg", "title": "The Ten Largest, No. 3, Youth", "year": 1907, "width": 1350, "height": 1800, "timeOfDay": ["morning","noon"], "weather": ["clear"] },
+    { "id": "ten-largest-no-4-youth", "filename": "Hilma af Klint - The Ten Largest No. 4 - Youth - 1907.jpg", "title": "The Ten Largest, No. 4, Youth", "year": 1907, "width": 1342, "height": 1800, "timeOfDay": ["noon","afternoon"], "weather": ["clear"] },
+    { "id": "ten-largest-no-5-adulthood", "filename": "Hilma af Klint - The Ten Largest No. 5 - Adulthood - 1907.jpg", "title": "The Ten Largest, No. 5, Adulthood", "year": 1907, "width": 1347, "height": 1800, "timeOfDay": ["afternoon","noon"], "weather": ["clear","cloudy"] },
+    { "id": "ten-largest-no-6-adulthood", "filename": "Hilma af Klint - The Ten Largest No. 6 - 1907.jpg", "title": "The Ten Largest, No. 6, Adulthood", "year": 1907, "width": 1338, "height": 1800, "timeOfDay": ["afternoon","dusk"], "weather": ["clear","cloudy"] },
+    { "id": "ten-largest-no-7-adulthood", "filename": "Hilma af Klint - The Ten Largest No. 7 - Adulthood - 1907.jpg", "title": "The Ten Largest, No. 7, Adulthood", "year": 1907, "width": 1357, "height": 1800, "timeOfDay": ["afternoon","dusk"], "weather": ["clear"] },
+    { "id": "ten-largest-no-8-adulthood", "filename": "Hilma af Klint - The Ten Largest No. 8 - Adulthood - 1907.jpg", "title": "The Ten Largest, No. 8, Adulthood", "year": 1907, "width": 1357, "height": 1800, "timeOfDay": ["dusk","afternoon"], "weather": ["cloudy","clear"] },
+    { "id": "ten-largest-no-9-old-age", "filename": "Hilma af Klint - The Ten Largest No. 9 - 1907.jpg", "title": "The Ten Largest, No. 9, Old Age", "year": 1907, "width": 1353, "height": 1800, "timeOfDay": ["dusk","night"], "weather": ["overcast","cloudy"] },
+    { "id": "ten-largest-no-10-old-age", "filename": "Hilma af Klint - The Ten Largest no. 10 - Old Age - 1907.jpg", "title": "The Ten Largest, No. 10, Old Age", "year": 1907, "width": 902, "height": 1200, "timeOfDay": ["dusk","night"], "weather": ["overcast"] },
+    { "id": "primordial-chaos-no-16", "filename": "Hilma af Klint, 1906-07, Primordial Chaos - No 16.jpg", "title": "Primordial Chaos, No. 16", "year": 1906, "width": 3660, "height": 5066, "timeOfDay": ["dawn","morning"], "weather": ["storm","cloudy"] },
+    { "id": "the-dove-no-1", "filename": "Hilma af Klint - Group IX UW No. 25, The Dove, No. 1 (13912).jpg", "title": "The Dove, No. 1 (Group IX/UW)", "year": 1915, "width": 3042, "height": 3994, "timeOfDay": ["noon","afternoon"], "weather": ["clear","storm"] },
+    { "id": "the-dove-no-2", "filename": "Hilma af Klint - 1915 - The Dove - No 2 - Group IX-UW - The SUW-UW Series.jpg", "title": "The Dove, No. 2 (Group IX/UW, SUW-UW Series)", "year": 1915, "width": 767, "height": 1000, "timeOfDay": ["afternoon","dusk"], "weather": ["clear","cloudy"] },
+    { "id": "altarpiece-no-1-group-x", "filename": "Hilma af Klint - Altarpiece No. 1 Group X (13919).jpg", "title": "Altarpiece, No. 1 (Group X)", "year": 1915, "width": 2869, "height": 3808, "timeOfDay": ["dawn","noon"], "weather": ["clear"] },
+    { "id": "altarpiece-no-2-group-x", "filename": "Hilma af Klint - Altarpiece No. 2 (13916).jpg", "title": "Altarpiece, No. 2 (Group X)", "year": 1915, "width": 3243, "height": 4315, "timeOfDay": ["night","dusk"], "weather": ["overcast","clear"] },
+    { "id": "evolution-no-13-group-vi", "filename": "Hilma af Klint - Group VI, Evolution No. 13 (13949).jpg", "title": "Evolution, No. 13 (Group VI)", "year": 1908, "width": 3367, "height": 2586, "timeOfDay": ["morning","noon"], "weather": ["clear","cloudy"] }
+  ]
+}

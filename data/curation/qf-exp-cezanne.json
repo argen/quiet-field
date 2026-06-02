@@ -1,0 +1,127 @@
+{
+  "artist": "Paul Cézanne",
+  "rights": "pd",
+  "collection": "abstract",
+  "works": [
+    {
+      "id": "mont-sainte-victoire-lauves-barnes-bf13",
+      "filename": "Paul Cézanne - Mont Sainte-Victoire (La Montagne Sainte-Victoire) - BF13 - Barnes Foundation.jpg",
+      "title": "Mont Sainte-Victoire (La Montagne Sainte-Victoire)",
+      "year": 1904,
+      "width": 4096,
+      "height": 3308,
+      "timeOfDay": ["morning", "noon"],
+      "weather": ["clear"]
+    },
+    {
+      "id": "mont-sainte-victoire-lauves-1902-06",
+      "filename": "Paul Cézanne - Mont Sainte-Victoire (1902-06).jpg",
+      "title": "Mont Sainte-Victoire seen from Les Lauves",
+      "year": 1905,
+      "width": 3672,
+      "height": 2116,
+      "timeOfDay": ["afternoon"],
+      "weather": ["clear", "cloudy"]
+    },
+    {
+      "id": "mont-sainte-victoire-chateau-noir-gap",
+      "filename": "Paul Cezanne - Mont Sainte-Victoire and Château Noir - Google Art Project.jpg",
+      "title": "Mont Sainte-Victoire and Château Noir",
+      "year": 1904,
+      "width": 5001,
+      "height": 3982,
+      "timeOfDay": ["noon"],
+      "weather": ["clear"]
+    },
+    {
+      "id": "mont-sainte-victoire-bibemus-quarry",
+      "filename": "La Montagne Sainte-Victoire vue de la carrière Bibémus, par Paul Cézanne.jpg",
+      "title": "Mont Sainte-Victoire seen from the Bibémus Quarry",
+      "year": 1897,
+      "width": 5508,
+      "height": 4381,
+      "timeOfDay": ["noon", "afternoon"],
+      "weather": ["clear"]
+    },
+    {
+      "id": "mont-sainte-victoire-courtauld",
+      "filename": "Cezanne - Mont Sainte-Victoire, Courtauld.jpg",
+      "title": "Mont Sainte-Victoire with Large Pine",
+      "year": 1887,
+      "width": 6000,
+      "height": 4343,
+      "timeOfDay": ["morning"],
+      "weather": ["clear"]
+    },
+    {
+      "id": "mont-sainte-victoire-viaduct-met",
+      "filename": "Paul Cézanne - Mont Sainte-Victoire and the Viaduct of the Arc River Valley (Metropolitan Museum of Art).jpg",
+      "title": "Mont Sainte-Victoire and the Viaduct of the Arc River Valley",
+      "year": 1885,
+      "width": 5108,
+      "height": 4138,
+      "timeOfDay": ["morning", "noon"],
+      "weather": ["clear"]
+    },
+    {
+      "id": "mont-sainte-victoire-cleveland",
+      "filename": "Paul Cézanne - Mount Sainte-Victoire - 1958.21 - Cleveland Museum of Art.jpg",
+      "title": "Mont Sainte-Victoire",
+      "year": 1904,
+      "width": 14368,
+      "height": 11448,
+      "timeOfDay": ["afternoon", "dusk"],
+      "weather": ["cloudy", "overcast"]
+    },
+    {
+      "id": "mont-sainte-victoire-amsterdam-1888",
+      "filename": "Amsterdam - Stedelijk Museum - Paul Cézanne (1839-1906) - La Montagne Sainte-Victoire (A2217) 1888.jpg",
+      "title": "La Montagne Sainte-Victoire",
+      "year": 1888,
+      "width": 5532,
+      "height": 4783,
+      "timeOfDay": ["noon"],
+      "weather": ["clear", "cloudy"]
+    },
+    {
+      "id": "grandes-baigneuses-barnes-bf934",
+      "filename": "Paul Cézanne - The Large Bathers (Les Grandes baigneuses) - BF934 - Barnes Foundation.jpg",
+      "title": "The Large Bathers (Les Grandes Baigneuses)",
+      "year": 1906,
+      "width": 4096,
+      "height": 2426,
+      "timeOfDay": ["afternoon"],
+      "weather": ["clear", "cloudy"]
+    },
+    {
+      "id": "grandes-baigneuses-national-gallery",
+      "filename": "Paul Cézanne - Bathers (Les Grandes Baigneuses) - Google Art Project.jpg",
+      "title": "The Large Bathers (Les Grandes Baigneuses)",
+      "year": 1905,
+      "width": 3000,
+      "height": 2096,
+      "timeOfDay": ["afternoon", "dusk"],
+      "weather": ["cloudy", "overcast"]
+    },
+    {
+      "id": "trois-baigneuses-petit-palais",
+      "filename": "Trois baigneuses, par Paul Cézanne, Musée du Petit Palais.jpg",
+      "title": "Three Bathers (Trois baigneuses)",
+      "year": 1882,
+      "width": 7300,
+      "height": 6925,
+      "timeOfDay": ["morning"],
+      "weather": ["clear", "cloudy"]
+    },
+    {
+      "id": "seven-bathers-gap",
+      "filename": "Paul Cézanne - Seven Bathers - Google Art Project.jpg",
+      "title": "Seven Bathers (Sept Baigneurs)",
+      "year": 1900,
+      "width": 2609,
+      "height": 2166,
+      "timeOfDay": ["noon"],
+      "weather": ["clear"]
+    }
+  ]
+}

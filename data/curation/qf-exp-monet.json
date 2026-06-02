@@ -1,0 +1,167 @@
+{
+  "artist": "Claude Monet",
+  "rights": "pd",
+  "collection": "abstract",
+  "works": [
+    {
+      "id": "nympheas-1905",
+      "filename": "Claude Monet - Nymphéas (1905).jpg",
+      "title": "Nymphéas (Water Lilies)",
+      "year": 1905,
+      "width": 2145,
+      "height": 1909,
+      "timeOfDay": ["afternoon"],
+      "weather": ["clear", "cloudy"]
+    },
+    {
+      "id": "waterlilies-google",
+      "filename": "Claude Monet - Waterlilies - Google Art Project.jpg",
+      "title": "Water Lilies",
+      "year": 1916,
+      "width": 4001,
+      "height": 3127,
+      "timeOfDay": ["noon", "afternoon"],
+      "weather": ["clear"]
+    },
+    {
+      "id": "pond-with-water-lilies",
+      "filename": "Claude Monet - Pond with Water Lilies - Google Art Project.jpg",
+      "title": "Pond with Water Lilies",
+      "year": 1907,
+      "width": 3568,
+      "height": 5001,
+      "timeOfDay": ["morning", "afternoon"],
+      "weather": ["clear", "cloudy"]
+    },
+    {
+      "id": "nympheas-reflets-de-saule",
+      "filename": "Nymphéas reflets de saule 1916-19.jpg",
+      "title": "Nymphéas, reflets de saule (Water Lilies, Reflections of Willows)",
+      "year": 1918,
+      "width": 1279,
+      "height": 1074,
+      "timeOfDay": ["dusk", "afternoon"],
+      "weather": ["overcast"]
+    },
+    {
+      "id": "le-bassin-aux-nympheas-w1898",
+      "filename": "Claude Monet - Le bassin aux nymphéas (W1898).jpg",
+      "title": "Le bassin aux nymphéas (The Water Lily Pond)",
+      "year": 1919,
+      "width": 3200,
+      "height": 1575,
+      "timeOfDay": ["morning"],
+      "weather": ["fog", "cloudy"]
+    },
+    {
+      "id": "parliament-fog-high-museum",
+      "filename": "Claude Monet - Houses of Parliament in the Fog - High Museum of Art.jpg",
+      "title": "Houses of Parliament in the Fog",
+      "year": 1903,
+      "width": 2048,
+      "height": 1803,
+      "timeOfDay": ["morning"],
+      "weather": ["fog", "overcast"]
+    },
+    {
+      "id": "parliament-sunset",
+      "filename": "Claude Monet - The Houses of Parliament, Sunset.jpg",
+      "title": "The Houses of Parliament, Sunset",
+      "year": 1903,
+      "width": 5500,
+      "height": 4858,
+      "timeOfDay": ["dusk"],
+      "weather": ["cloudy", "fog"]
+    },
+    {
+      "id": "parliament-effect-of-fog",
+      "filename": "Monet - The Houses of Parliament (Effect of Fog).jpg",
+      "title": "The Houses of Parliament (Effect of Fog)",
+      "year": 1904,
+      "width": 2071,
+      "height": 1800,
+      "timeOfDay": ["afternoon"],
+      "weather": ["fog", "overcast"]
+    },
+    {
+      "id": "rouen-cathedral-fog-w1349",
+      "filename": "La Cathédrale dans le brouillard (1894) Claude Monet (W 1349).jpg",
+      "title": "La Cathédrale dans le brouillard (Rouen Cathedral in the Fog)",
+      "year": 1894,
+      "width": 1960,
+      "height": 2880,
+      "timeOfDay": ["morning"],
+      "weather": ["fog"]
+    },
+    {
+      "id": "rouen-cathedral-sunset-grey-pink",
+      "filename": "Rouen Cathedral- Setting Sun, Symphony in Grey and Pink.jpg",
+      "title": "Rouen Cathedral: Setting Sun, Symphony in Grey and Pink",
+      "year": 1894,
+      "width": 1920,
+      "height": 2966,
+      "timeOfDay": ["dusk"],
+      "weather": ["cloudy"]
+    },
+    {
+      "id": "rouen-cathedral-morning-effect",
+      "filename": "Claude Monet - Rouen Cathedral, Facade (Morning effect).JPG",
+      "title": "Rouen Cathedral, Façade (Morning Effect)",
+      "year": 1894,
+      "width": 3622,
+      "height": 5642,
+      "timeOfDay": ["dawn", "morning"],
+      "weather": ["fog", "clear"]
+    },
+    {
+      "id": "morning-on-the-seine",
+      "filename": "Claude Monet - Morning on the Seine - Google Art Project.jpg",
+      "title": "Morning on the Seine",
+      "year": 1897,
+      "width": 4140,
+      "height": 3307,
+      "timeOfDay": ["dawn", "morning"],
+      "weather": ["fog", "clear"]
+    },
+    {
+      "id": "branch-of-the-seine-mist",
+      "filename": "Monet - Branch of the Seine near Giverny (Mist), from the series “Mornings on the Seine”, 1897.jpg",
+      "title": "Branch of the Seine near Giverny (Mist)",
+      "year": 1897,
+      "width": 3000,
+      "height": 2904,
+      "timeOfDay": ["dawn", "morning"],
+      "weather": ["fog"]
+    },
+    {
+      "id": "waterloo-bridge-morning-fog",
+      "filename": "Monet - Waterloo Bridge, Morning Fog, 1901.jpg",
+      "title": "Waterloo Bridge, Morning Fog",
+      "year": 1901,
+      "width": 1500,
+      "height": 959,
+      "timeOfDay": ["morning"],
+      "weather": ["fog", "overcast"]
+    },
+    {
+      "id": "charing-cross-bridge-fog",
+      "filename": "Monet - Charing Cross Bridge Fog on the Thames, 1903.jpg",
+      "title": "Charing Cross Bridge, Fog on the Thames",
+      "year": 1903,
+      "width": 2400,
+      "height": 1908,
+      "timeOfDay": ["afternoon"],
+      "weather": ["fog"]
+    },
+    {
+      "id": "san-giorgio-maggiore-twilight",
+      "filename": "Claude Monet, Saint-Georges majeur au crépuscule.jpg",
+      "title": "San Giorgio Maggiore at Dusk (Saint-Georges majeur au crépuscule)",
+      "year": 1908,
+      "width": 2480,
+      "height": 1758,
+      "timeOfDay": ["dusk"],
+      "weather": ["clear", "cloudy"]
+    }
+  ]
+}

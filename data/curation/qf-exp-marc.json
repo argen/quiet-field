@@ -1,0 +1,127 @@
+{
+  "artist": "Franz Marc",
+  "rights": "pd",
+  "collection": "abstract",
+  "works": [
+    {
+      "id": "kaempfende-formen",
+      "filename": "Franz Marc - Kämpfende Formen 1914.jpg",
+      "title": "Fighting Forms (Kämpfende Formen)",
+      "year": 1914,
+      "width": 3000,
+      "height": 2087,
+      "timeOfDay": ["dusk", "night"],
+      "weather": ["storm"]
+    },
+    {
+      "id": "das-arme-land-tirol",
+      "filename": "Marc das-arme-land-tirol.jpg",
+      "title": "Tyrol (Das arme Land Tirol)",
+      "year": 1913,
+      "width": 2385,
+      "height": 1570,
+      "timeOfDay": ["dusk", "night"],
+      "weather": ["overcast", "snow", "storm"]
+    },
+    {
+      "id": "die-gelbe-kuh",
+      "filename": "Franz Marc. Yellow Cow (Gelbe Kuh), 1911 (48784088867).jpg",
+      "title": "The Yellow Cow (Die gelbe Kuh)",
+      "year": 1911,
+      "width": 3362,
+      "height": 2470,
+      "timeOfDay": ["morning", "noon"],
+      "weather": ["clear"]
+    },
+    {
+      "id": "roter-stier",
+      "filename": "Franz Marc Roter Stier, 1912.jpg",
+      "title": "Red Bull (Roter Stier)",
+      "year": 1912,
+      "width": 2642,
+      "height": 2058,
+      "timeOfDay": ["afternoon"],
+      "weather": ["clear"]
+    },
+    {
+      "id": "die-fuechse",
+      "filename": "Franz Marc - The Foxes - Google Art Project.jpg",
+      "title": "The Foxes (Die Füchse)",
+      "year": 1913,
+      "width": 2497,
+      "height": 3358,
+      "timeOfDay": ["dusk"],
+      "weather": ["clear"]
+    },
+    {
+      "id": "rehe-im-walde",
+      "filename": "Franz Marc - Rehe im Walde I 1913.jpg",
+      "title": "Deer in the Forest I (Rehe im Walde I)",
+      "year": 1913,
+      "width": 3940,
+      "height": 3820,
+      "timeOfDay": ["afternoon"],
+      "weather": ["cloudy"]
+    },
+    {
+      "id": "der-traum",
+      "filename": "Franz Marc - Der Traum - Google Art Project.jpg",
+      "title": "The Dream (Der Traum)",
+      "year": 1912,
+      "width": 4677,
+      "height": 3445,
+      "timeOfDay": ["noon"],
+      "weather": ["clear"]
+    },
+    {
+      "id": "tiger",
+      "filename": "Marc tiger.jpg",
+      "title": "Tiger",
+      "year": 1912,
+      "width": 2406,
+      "height": 2610,
+      "timeOfDay": ["noon", "afternoon"],
+      "weather": ["clear"]
+    },
+    {
+      "id": "im-regen",
+      "filename": "Marc im-regen.jpg",
+      "title": "In the Rain (Im Regen)",
+      "year": 1912,
+      "width": 2409,
+      "height": 1856,
+      "timeOfDay": ["afternoon"],
+      "weather": ["rain", "storm"]
+    },
+    {
+      "id": "aufsteigende-nebel",
+      "filename": "Franz Marc - Aufsteigende Nebel - 8924 - Bavarian State Painting Collections.jpg",
+      "title": "Rising Mist (Aufsteigende Nebel)",
+      "year": 1912,
+      "width": 4822,
+      "height": 3124,
+      "timeOfDay": ["dawn", "morning"],
+      "weather": ["fog", "overcast"]
+    },
+    {
+      "id": "siberian-dogs-in-the-snow",
+      "filename": "Franz Marc, Siberian Dogs in the Snow, 1909-1910, NGA 62640.jpg",
+      "title": "Siberian Dogs in the Snow",
+      "year": 1910,
+      "width": 4000,
+      "height": 2846,
+      "timeOfDay": ["noon"],
+      "weather": ["snow", "overcast"]
+    },
+    {
+      "id": "der-mandrill",
+      "filename": "Marc der-mandrill.jpg",
+      "title": "The Mandrill (Der Mandrill)",
+      "year": 1913,
+      "width": 2397,
+      "height": 1686,
+      "timeOfDay": ["afternoon"],
+      "weather": ["clear", "cloudy"]
+    }
+  ]
+}

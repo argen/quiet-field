@@ -1,0 +1,166 @@
+{
+  "artist": "Caspar David Friedrich",
+  "rights": "pd",
+  "works": [
+    {
+      "id": "wanderer-above-the-sea-of-fog",
+      "filename": "Caspar David Friedrich - Wanderer above the Sea of Fog.jpeg",
+      "title": "Wanderer above the Sea of Fog",
+      "year": 1818,
+      "width": 5256,
+      "height": 6742,
+      "timeOfDay": ["morning"],
+      "weather": ["fog", "cloudy"]
+    },
+    {
+      "id": "monk-by-the-sea",
+      "filename": "Caspar David Friedrich - Der Mönch am Meer - Google Art Project.jpg",
+      "title": "The Monk by the Sea",
+      "year": 1810,
+      "width": 3543,
+      "height": 2254,
+      "timeOfDay": ["dusk", "night"],
+      "weather": ["overcast", "storm"]
+    },
+    {
+      "id": "abbey-in-the-oakwood",
+      "filename": "Abtei im Eichwald- (Caspar David Friedrich)-WUS03167.jpg",
+      "title": "The Abbey in the Oakwood",
+      "year": 1810,
+      "width": 5138,
+      "height": 3499,
+      "timeOfDay": ["dusk"],
+      "weather": ["fog", "snow", "overcast"]
+    },
+    {
+      "id": "cross-in-the-mountains-tetschen-altar",
+      "filename": "Caspar David Friedrich - The Cross in the Mountains - Google Art Project.jpg",
+      "title": "The Cross in the Mountains (Tetschen Altar)",
+      "year": 1808,
+      "width": 2485,
+      "height": 2932,
+      "timeOfDay": ["dusk"],
+      "weather": ["clear", "cloudy"]
+    },
+    {
+      "id": "the-sea-of-ice",
+      "filename": "Das Eismeer (Caspar David Friedrich)-WUS03283.jpg",
+      "title": "The Sea of Ice",
+      "year": 1824,
+      "width": 5209,
+      "height": 3473,
+      "timeOfDay": ["noon", "afternoon"],
+      "weather": ["snow", "overcast"]
+    },
+    {
+      "id": "morning-mist-in-the-mountains",
+      "filename": "Morgennebel im Gebirge (Caspar David Friedrich)-WUS03249.jpg",
+      "title": "Morning Mist in the Mountains",
+      "year": 1808,
+      "width": 6000,
+      "height": 4000,
+      "timeOfDay": ["dawn", "morning"],
+      "weather": ["fog"]
+    },
+    {
+      "id": "two-men-contemplating-the-moon",
+      "filename": "Zwei Männer in Betrachtung des Mondes (Privatsammlung)-WUS03302.jpg",
+      "title": "Two Men Contemplating the Moon",
+      "year": 1820,
+      "width": 4215,
+      "height": 3595,
+      "timeOfDay": ["night"],
+      "weather": ["clear"]
+    },
+    {
+      "id": "man-and-woman-contemplating-the-moon",
+      "filename": "Mann und Frau in Betrachtung des Mondes (Caspar David Friedrich)-WUS03304.jpg",
+      "title": "Man and Woman Contemplating the Moon",
+      "year": 1824,
+      "width": 3916,
+      "height": 3156,
+      "timeOfDay": ["dusk", "night"],
+      "weather": ["clear"]
+    },
+    {
+      "id": "greifswald-in-moonlight",
+      "filename": "Greifswald im Mondschein (Caspar David Friedrich)-WUS03270.jpg",
+      "title": "Greifswald in Moonlight",
+      "year": 1817,
+      "width": 4171,
+      "height": 3463,
+      "timeOfDay": ["night"],
+      "weather": ["fog", "clear"]
+    },
+    {
+      "id": "chalk-cliffs-on-rugen",
+      "filename": "Kreidefelsen auf Rügen (Caspar David Friedrich)-WUS03299.jpg",
+      "title": "Chalk Cliffs on Rügen",
+      "year": 1818,
+      "width": 5354,
+      "height": 3569,
+      "timeOfDay": ["noon", "afternoon"],
+      "weather": ["clear"]
+    },
+    {
+      "id": "riesengebirge-landscape",
+      "filename": "Riesengebirgslandschaft (Caspar David Friedrich)-WUS03232.jpg",
+      "title": "Riesengebirge Landscape with Rising Fog",
+      "year": 1820,
+      "width": 4708,
+      "height": 3569,
+      "timeOfDay": ["morning"],
+      "weather": ["fog"]
+    },
+    {
+      "id": "snow-hill-with-ravens",
+      "filename": "Caspar David Friedrich - Schneehügel mit Raben.jpg",
+      "title": "Snow Hill with Ravens",
+      "year": 1830,
+      "width": 1554,
+      "height": 1157,
+      "timeOfDay": ["afternoon"],
+      "weather": ["snow", "overcast"]
+    },
+    {
+      "id": "after-the-storm",
+      "filename": "Caspar David Friedrich, Efter stormen, 1817, KMS8817, Statens Museum for Kunst.jpg",
+      "title": "After the Storm",
+      "year": 1817,
+      "width": 11752,
+      "height": 8576,
+      "timeOfDay": ["dawn", "morning"],
+      "weather": ["cloudy", "storm"]
+    },
+    {
+      "id": "woman-at-the-window",
+      "filename": "Frau am Fenster (Caspar David Friedrich)-WUS03296.jpg",
+      "title": "Woman at the Window",
+      "year": 1822,
+      "width": 3294,
+      "height": 3996,
+      "timeOfDay": ["afternoon", "noon"],
+      "weather": ["clear"]
+    },
+    {
+      "id": "fog-in-the-elbe-valley",
+      "filename": "Nebel im Elbtal (Caspar David Friedrich)-DSC3197.jpg",
+      "title": "Fog in the Elbe Valley",
+      "year": 1821,
+      "width": 3547,
+      "height": 3147,
+      "timeOfDay": ["dawn", "morning"],
+      "weather": ["fog"]
+    },
+    {
+      "id": "moonlit-night-on-the-baltic-shore",
+      "filename": "Caspar David Friedrich, Mondnacht am Ostseestrand, 1816-18, MGS-20160312-001.jpg",
+      "title": "Moonlit Night on the Baltic Shore",
+      "year": 1818,
+      "width": 2277,
+      "height": 1647,
+      "timeOfDay": ["night"],
+      "weather": ["clear", "cloudy"]
+    }
+  ]
+}

@@ -1,0 +1,433 @@
+{
+  "artist": "Piet Mondrian",
+  "rights": "pd",
+  "collection": "abstract",
+  "works": [
+    {
+      "id": "tableau-no-viii-1925",
+      "filename": "'Tableau No. VIII' by Piet Mondrian, 1925.jpg",
+      "title": "Tableau No. VIII",
+      "year": 1925,
+      "artistName": "Piet Mondrian",
+      "width": 2000,
+      "height": 2374,
+      "timeOfDay": [
+        "noon"
+      ],
+      "weather": [
+        "clear"
+      ]
+    },
+    {
+      "id": "composition-red-yellow-blue",
+      "filename": "Compositie met rood, geel en blauw.jpg",
+      "title": "Composition with Red, Yellow and Blue",
+      "year": 1930,
+      "artistName": "Piet Mondrian",
+      "width": 3881,
+      "height": 3016,
+      "timeOfDay": [
+        "noon"
+      ],
+      "weather": [
+        "clear"
+      ]
+    },
+    {
+      "id": "composition-c-no-iii-red-yellow-blue-1935",
+      "filename": "Composition C (No.III) with Red, Yellow and Blue - Mondrian (1935).jpg",
+      "title": "Composition C (No. III) with Red, Yellow and Blue",
+      "year": 1935,
+      "artistName": "Piet Mondrian",
+      "width": 2013,
+      "height": 2043,
+      "timeOfDay": [
+        "morning"
+      ],
+      "weather": [
+        "clear"
+      ]
+    },
+    {
+      "id": "composition-no-1-red-black",
+      "filename": "Composition No.1 with Red and Black Piet Mondrian.jpg",
+      "title": "Composition No. 1 with Red and Black",
+      "year": 1936,
+      "artistName": "Piet Mondrian",
+      "width": 2290,
+      "height": 2290,
+      "timeOfDay": [
+        "afternoon"
+      ],
+      "weather": [
+        "clear",
+        "cloudy"
+      ]
+    },
+    {
+      "id": "composition-blue-black-yellow-red-1922",
+      "filename": "Composition with Blue, Black, Yellow, and Red, by Piet Mondrian, 1922, oil on canvas - Busch-Reisinger Museum - Harvard University - DSC01630.jpg",
+      "title": "Composition with Blue, Black, Yellow, and Red",
+      "year": 1922,
+      "artistName": "Piet Mondrian",
+      "width": 2807,
+      "height": 3215,
+      "timeOfDay": [
+        "noon"
+      ],
+      "weather": [
+        "clear"
+      ]
+    },
+    {
+      "id": "composition-1921-met",
+      "filename": "Composition, 1921 - Piet Mondrian, MET DT4479.jpg",
+      "title": "Composition",
+      "year": 1921,
+      "artistName": "Piet Mondrian",
+      "width": 3638,
+      "height": 3660,
+      "timeOfDay": [
+        "morning"
+      ],
+      "weather": [
+        "clear"
+      ]
+    },
+    {
+      "id": "no-11-1939",
+      "filename": "Mondriaan - No. 11.jpg",
+      "title": "No. 11",
+      "year": 1939,
+      "artistName": "Piet Mondrian",
+      "width": 2937,
+      "height": 2207,
+      "timeOfDay": [
+        "dusk"
+      ],
+      "weather": [
+        "cloudy"
+      ]
+    },
+    {
+      "id": "composition-b-no-ii-red-1935",
+      "filename": "Mondrian - Composition B (No.II) with Red, 1935.jpg",
+      "title": "Composition B (No. II) with Red",
+      "year": 1935,
+      "artistName": "Piet Mondrian",
+      "width": 1219,
+      "height": 1536,
+      "timeOfDay": [
+        "noon"
+      ],
+      "weather": [
+        "clear"
+      ]
+    },
+    {
+      "id": "composition-no-ii-red-blue-1929",
+      "filename": "Mondrian - Composition No. II, with Red and Blue, 1929.jpg",
+      "title": "Composition No. II, with Red and Blue",
+      "year": 1929,
+      "artistName": "Piet Mondrian",
+      "width": 1607,
+      "height": 2000,
+      "timeOfDay": [
+        "afternoon"
+      ],
+      "weather": [
+        "clear"
+      ]
+    },
+    {
+      "id": "composition-no-i-red-blue-1931",
+      "filename": "Mondrian - Composition in Colours Composition No. I with Red and Blue, 1931.jpg",
+      "title": "Composition No. I with Red and Blue",
+      "year": 1931,
+      "artistName": "Piet Mondrian",
+      "width": 2740,
+      "height": 2750,
+      "timeOfDay": [
+        "morning"
+      ],
+      "weather": [
+        "clear"
+      ]
+    },
+    {
+      "id": "composition-white-black-red-1936",
+      "filename": "Mondrian - Composition in White, Black, and Red Paris, 1936.jpg",
+      "title": "Composition in White, Black, and Red",
+      "year": 1936,
+      "artistName": "Piet Mondrian",
+      "width": 2000,
+      "height": 1971,
+      "timeOfDay": [
+        "overcast"
+      ],
+      "weather": [
+        "overcast",
+        "cloudy"
+      ]
+    },
+    {
+      "id": "composition-yellow-blue-white-i-1937",
+      "filename": "Mondrian - Composition in Yellow, Blue, and White, I, 1937.jpg",
+      "title": "Composition in Yellow, Blue, and White, I",
+      "year": 1937,
+      "artistName": "Piet Mondrian",
+      "width": 1932,
+      "height": 2000,
+      "timeOfDay": [
+        "noon"
+      ],
+      "weather": [
+        "clear"
+      ]
+    },
+    {
+      "id": "composition-no-i-red-black-1929",
+      "filename": "Mondrian - Composition no. I, avec rouge et noir, 1929.jpg",
+      "title": "Composition No. I, with Red and Black",
+      "year": 1929,
+      "artistName": "Piet Mondrian",
+      "width": 5088,
+      "height": 5139,
+      "timeOfDay": [
+        "afternoon"
+      ],
+      "weather": [
+        "clear"
+      ]
+    },
+    {
+      "id": "composition-blue-yellow-1932",
+      "filename": "Mondrian - Composition with Blue and Yellow, 1932.jpg",
+      "title": "Composition with Blue and Yellow",
+      "year": 1932,
+      "artistName": "Piet Mondrian",
+      "width": 1232,
+      "height": 1500,
+      "timeOfDay": [
+        "morning"
+      ],
+      "weather": [
+        "clear"
+      ]
+    },
+    {
+      "id": "composition-with-blue-1926",
+      "filename": "Mondrian - Composition with Blue, 1926.jpg",
+      "title": "Composition with Blue",
+      "year": 1926,
+      "artistName": "Piet Mondrian",
+      "width": 1500,
+      "height": 1497,
+      "timeOfDay": [
+        "dusk"
+      ],
+      "weather": [
+        "cloudy"
+      ]
+    },
+    {
+      "id": "composition-red-blue-1933",
+      "filename": "Mondrian - Composition with Red and Blue, 1933.jpg",
+      "title": "Composition with Red and Blue",
+      "year": 1933,
+      "artistName": "Piet Mondrian",
+      "width": 1606,
+      "height": 2000,
+      "timeOfDay": [
+        "noon"
+      ],
+      "weather": [
+        "clear"
+      ]
+    },
+    {
+      "id": "composition-yellow-blue-black-lightblue-1929",
+      "filename": "Mondrian - Composition with Yellow, Blue, Black and Light Blue, 1929.tif",
+      "title": "Composition with Yellow, Blue, Black and Light Blue",
+      "year": 1929,
+      "artistName": "Piet Mondrian",
+      "width": 2899,
+      "height": 3000,
+      "timeOfDay": [
+        "morning"
+      ],
+      "weather": [
+        "clear"
+      ]
+    },
+    {
+      "id": "fox-trot-a-1930",
+      "filename": "Mondrian - Fox Trot A, 1930.tif",
+      "title": "Fox Trot A",
+      "year": 1930,
+      "artistName": "Piet Mondrian",
+      "width": 3000,
+      "height": 2988,
+      "timeOfDay": [
+        "night"
+      ],
+      "weather": [
+        "clear"
+      ]
+    },
+    {
+      "id": "new-york-city-2-1941",
+      "filename": "Mondrian - New York City 2 (unfinished, formerly New York City III), 1941.jpg",
+      "title": "New York City 2 (unfinished)",
+      "year": 1941,
+      "artistName": "Piet Mondrian",
+      "width": 3477,
+      "height": 4000,
+      "timeOfDay": [
+        "noon",
+        "afternoon"
+      ],
+      "weather": [
+        "clear"
+      ]
+    },
+    {
+      "id": "opposition-of-lines-red-yellow-1937",
+      "filename": "Mondrian - Opposition of Lines, Red and Yellow, 1937.jpg",
+      "title": "Opposition of Lines, Red and Yellow",
+      "year": 1937,
+      "artistName": "Piet Mondrian",
+      "width": 1153,
+      "height": 1500,
+      "timeOfDay": [
+        "overcast"
+      ],
+      "weather": [
+        "overcast"
+      ]
+    },
+    {
+      "id": "tableau-i-lozenge-four-lines-gray-1926",
+      "filename": "Mondrian - Tableau I Lozenge with Four Lines and Gray, 1926.jpg",
+      "title": "Tableau I: Lozenge with Four Lines and Gray",
+      "year": 1926,
+      "artistName": "Piet Mondrian",
+      "width": 1967,
+      "height": 2000,
+      "timeOfDay": [
+        "overcast"
+      ],
+      "weather": [
+        "overcast",
+        "fog"
+      ]
+    },
+    {
+      "id": "composition-large-blue-plane-1921",
+      "filename": "Piet Mondrian - Composition with Large Blue Plane, Red, Black, Yellow, and Gray - 1984.200.FA - Dallas Museum of Art.jpg",
+      "title": "Composition with Large Blue Plane, Red, Black, Yellow, and Gray",
+      "year": 1921,
+      "artistName": "Piet Mondrian",
+      "width": 7028,
+      "height": 8465,
+      "timeOfDay": [
+        "afternoon"
+      ],
+      "weather": [
+        "clear"
+      ]
+    },
+    {
+      "id": "composition-blue-red-yellow-black-mia",
+      "filename": "Piet Mondrian - Composition with Blue, Red, Yellow, and Black - 65.5 - Minneapolis Institute of Arts.jpg",
+      "title": "Composition with Blue, Red, Yellow, and Black",
+      "year": 1922,
+      "artistName": "Piet Mondrian",
+      "width": 5632,
+      "height": 4832,
+      "timeOfDay": [
+        "noon"
+      ],
+      "weather": [
+        "clear"
+      ]
+    },
+    {
+      "id": "composition-double-lines-white-blue",
+      "filename": "Piet Mondrian Composition with double lines and white and blue.jpg",
+      "title": "Composition with Double Lines and White and Blue",
+      "year": 1934,
+      "artistName": "Piet Mondrian",
+      "width": 2018,
+      "height": 2056,
+      "timeOfDay": [
+        "dawn"
+      ],
+      "weather": [
+        "clear",
+        "fog"
+      ]
+    },
+    {
+      "id": "composition-yellow-red-blue-1927",
+      "filename": "Piet mondrian, composizione con rosso, giallo e blu, 1927.jpg",
+      "title": "Composition with Red, Yellow and Blue",
+      "year": 1927,
+      "artistName": "Piet Mondrian",
+      "width": 1988,
+      "height": 1996,
+      "timeOfDay": [
+        "morning"
+      ],
+      "weather": [
+        "clear"
+      ]
+    },
+    {
+      "id": "composition-blue-red-yellow-black-paris-1922",
+      "filename": "Piet mondrian, composizione in blu, rosso, giallo e nero, parigi 1922.jpg",
+      "title": "Composition in Blue, Red, Yellow and Black",
+      "year": 1922,
+      "artistName": "Piet Mondrian",
+      "width": 3728,
+      "height": 5008,
+      "timeOfDay": [
+        "afternoon"
+      ],
+      "weather": [
+        "clear"
+      ]
+    },
+    {
+      "id": "composition-yellow-blue-1932-pma",
+      "filename": "Piet mondrian, composizione con giallo e blu, 1932 (PMoA).jpg",
+      "title": "Composition with Yellow and Blue",
+      "year": 1932,
+      "artistName": "Piet Mondrian",
+      "width": 3696,
+      "height": 4280,
+      "timeOfDay": [
+        "noon"
+      ],
+      "weather": [
+        "clear"
+      ]
+    },
+    {
+      "id": "composition-white-red-1936-pma",
+      "filename": "Piet mondrian, composizione con bianco e rosso, 1936 (PMoA) 02.jpg",
+      "title": "Composition with White and Red",
+      "year": 1936,
+      "artistName": "Piet Mondrian",
+      "width": 3474,
+      "height": 3552,
+      "timeOfDay": [
+        "morning"
+      ],
+      "weather": [
+        "clear",
+        "cloudy"
+      ]
+    }
+  ]
+}

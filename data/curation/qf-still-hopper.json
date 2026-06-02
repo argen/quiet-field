@@ -1,0 +1,226 @@
+{
+  "artist": "Edward Hopper",
+  "rights": "personal",
+  "works": [
+    {
+      "id": "nighthawks",
+      "filename": "Nighthawks by Edward Hopper 1942.jpg",
+      "title": "Nighthawks",
+      "year": 1942,
+      "width": 6000,
+      "height": 3274,
+      "timeOfDay": ["night"],
+      "weather": ["clear"]
+    },
+    {
+      "id": "cape-cod-evening",
+      "filename": "Cape Cod Evening.jpg",
+      "title": "Cape Cod Evening",
+      "year": 1939,
+      "width": 4096,
+      "height": 3072,
+      "timeOfDay": ["dusk", "afternoon"],
+      "weather": ["clear"]
+    },
+    {
+      "id": "morning-sun",
+      "filename": "Edward Hopper - Morning Sun - c 1952 - Columbus Museum of Art.jpg",
+      "title": "Morning Sun",
+      "year": 1952,
+      "width": 9357,
+      "height": 6506,
+      "timeOfDay": ["dawn", "morning"],
+      "weather": ["clear"]
+    },
+    {
+      "id": "eleven-am",
+      "filename": "Painting Eleven A.M. (1926) by American artist Edward Hopper.jpg",
+      "title": "Eleven A.M.",
+      "year": 1926,
+      "width": 1599,
+      "height": 1242,
+      "timeOfDay": ["morning"],
+      "weather": ["clear", "cloudy"]
+    },
+    {
+      "id": "ground-swell",
+      "filename": "Ground swell.jpg",
+      "title": "Ground Swell",
+      "year": 1939,
+      "width": 2852,
+      "height": 2057,
+      "timeOfDay": ["noon", "afternoon"],
+      "weather": ["clear"]
+    },
+    {
+      "id": "the-long-leg",
+      "filename": "The long leg.jpg",
+      "title": "The Long Leg",
+      "year": 1935,
+      "width": 4096,
+      "height": 2688,
+      "timeOfDay": ["noon", "afternoon"],
+      "weather": ["clear"]
+    },
+    {
+      "id": "the-lee-shore",
+      "filename": "The Lee Shore.jpg",
+      "title": "The Lee Shore",
+      "year": 1941,
+      "width": 2764,
+      "height": 1774,
+      "timeOfDay": ["afternoon"],
+      "weather": ["clear", "cloudy"]
+    },
+    {
+      "id": "lighthouse-hill",
+      "filename": "Lighthouse Hill, 1927 by Edward Hopper.jpg",
+      "title": "Lighthouse Hill",
+      "year": 1927,
+      "width": 1000,
+      "height": 711,
+      "timeOfDay": ["afternoon"],
+      "weather": ["clear"]
+    },
+    {
+      "id": "light-at-two-lights",
+      "filename": "Light at Two Lights.jpg",
+      "title": "The Lighthouse at Two Lights",
+      "year": 1929,
+      "width": 3840,
+      "height": 2416,
+      "timeOfDay": ["noon", "afternoon"],
+      "weather": ["clear"]
+    },
+    {
+      "id": "coast-guard-station-two-lights",
+      "filename": "Coast-Guard-Station-Two-Lights-Maine-Edward-Hopper-1927.jpg",
+      "title": "Coast Guard Station, Two Lights, Maine",
+      "year": 1927,
+      "width": 2000,
+      "height": 1417,
+      "timeOfDay": ["morning"],
+      "weather": ["clear"]
+    },
+    {
+      "id": "squam-light",
+      "filename": "Squam Light, by Edward Hopper.webp",
+      "title": "Squam Light",
+      "year": 1912,
+      "width": 2880,
+      "height": 2407,
+      "timeOfDay": ["afternoon"],
+      "weather": ["clear", "cloudy"]
+    },
+    {
+      "id": "maine-in-fog",
+      "filename": "Maine in Fog, by Edward Hopper.jpg",
+      "title": "Maine in Fog",
+      "year": 1926,
+      "width": 2048,
+      "height": 1191,
+      "timeOfDay": ["morning"],
+      "weather": ["fog", "overcast"]
+    },
+    {
+      "id": "haskells-house",
+      "filename": "Edward Hopper, Haskell's House, 1924, NGA 95419.jpg",
+      "title": "Haskell's House",
+      "year": 1924,
+      "width": 4000,
+      "height": 2784,
+      "timeOfDay": ["afternoon"],
+      "weather": ["clear"]
+    },
+    {
+      "id": "the-mansard-roof",
+      "filename": "The Mansard Roof Edward Hopper 1923.jpg",
+      "title": "The Mansard Roof",
+      "year": 1923,
+      "width": 2000,
+      "height": 1410,
+      "timeOfDay": ["afternoon"],
+      "weather": ["clear"]
+    },
+    {
+      "id": "cottages-at-north-truro",
+      "filename": "Edward hopper cottages at north truro.jpg",
+      "title": "Cottages at North Truro",
+      "year": 1938,
+      "width": 3200,
+      "height": 2265,
+      "timeOfDay": ["afternoon"],
+      "weather": ["clear"]
+    },
+    {
+      "id": "universalist-church",
+      "filename": "Universalist Church (Edward Hopper, 1926).jpg",
+      "title": "Universalist Church",
+      "year": 1926,
+      "width": 4398,
+      "height": 3114,
+      "timeOfDay": ["noon"],
+      "weather": ["clear"]
+    },
+    {
+      "id": "railroad-sunset",
+      "filename": "Railroad Sunset, by Edward Hopper.jpg",
+      "title": "Railroad Sunset",
+      "year": 1929,
+      "width": 2048,
+      "height": 1241,
+      "timeOfDay": ["dusk"],
+      "weather": ["clear"]
+    },
+    {
+      "id": "blackwells-island",
+      "filename": "Blackwell's Island Edward Hopper 1928.jpg",
+      "title": "Blackwell's Island",
+      "year": 1928,
+      "width": 3200,
+      "height": 1836,
+      "timeOfDay": ["afternoon"],
+      "weather": ["clear"]
+    },
+    {
+      "id": "the-city",
+      "filename": "The City 1927 UAMA.jpg",
+      "title": "The City",
+      "year": 1927,
+      "width": 1600,
+      "height": 1256,
+      "timeOfDay": ["morning", "noon"],
+      "weather": ["clear", "cloudy"]
+    },
+    {
+      "id": "night-windows",
+      "filename": "Night Windows Hopper MOMA 1928.jpg",
+      "title": "Night Windows",
+      "year": 1928,
+      "width": 2000,
+      "height": 1709,
+      "timeOfDay": ["night"],
+      "weather": ["clear"]
+    },
+    {
+      "id": "new-york-restaurant",
+      "filename": "New York Restaurant by Edward Hopper, Muskegon Museum of Art.jpg",
+      "title": "New York Restaurant",
+      "year": 1922,
+      "width": 3426,
+      "height": 2751,
+      "timeOfDay": ["afternoon"],
+      "weather": ["clear"]
+    },
+    {
+      "id": "summer-interior",
+      "filename": "Summer Interior, by Edward Hopper.jpg",
+      "title": "Summer Interior",
+      "year": 1909,
+      "width": 2048,
+      "height": 1707,
+      "timeOfDay": ["afternoon"],
+      "weather": ["clear"]
+    }
+  ]
+}

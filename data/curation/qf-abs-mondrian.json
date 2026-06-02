@@ -1,0 +1,167 @@
+{
+  "artist": "Piet Mondrian",
+  "rights": "pd",
+  "collection": "abstract",
+  "works": [
+    {
+      "id": "composition-oval-color-planes-1",
+      "filename": "Piet Mondrian (1872-1944)- Composition in Oval with Color Planes 1, oil on canvas, 1914, Museum of Modern Art.JPG",
+      "title": "Composition in Oval with Color Planes 1",
+      "year": 1914,
+      "width": 2295,
+      "height": 3161,
+      "timeOfDay": ["dusk", "afternoon"],
+      "weather": ["overcast", "fog"]
+    },
+    {
+      "id": "composition-brown-and-gray",
+      "filename": "Composition in Brown and Gray, Piet Mondrian, 1913.jpg",
+      "title": "Composition in Brown and Gray",
+      "year": 1913,
+      "width": 1767,
+      "height": 2000,
+      "timeOfDay": ["dusk", "night"],
+      "weather": ["overcast", "fog"]
+    },
+    {
+      "id": "composition-no-xiii-composition-2",
+      "filename": "Composition No XIII - Composition 2, Piet Mondrian, 1913.jpg",
+      "title": "Composition No. XIII (Composition 2)",
+      "year": 1913,
+      "width": 2230,
+      "height": 2750,
+      "timeOfDay": ["afternoon", "dusk"],
+      "weather": ["cloudy", "overcast"]
+    },
+    {
+      "id": "composition-color-planes-3-1917",
+      "filename": "Piet mondrian, composizione n. 3 con colori piatti, 1917.jpg",
+      "title": "Composition No. 3 with Color Planes",
+      "year": 1917,
+      "width": 3570,
+      "height": 3048,
+      "timeOfDay": ["morning", "noon"],
+      "weather": ["clear", "cloudy"]
+    },
+    {
+      "id": "composition-black-and-white-1917",
+      "filename": "Composition in Black and White, 1917.jpg",
+      "title": "Composition in Black and White",
+      "year": 1917,
+      "width": 598,
+      "height": 600,
+      "timeOfDay": ["dawn", "morning"],
+      "weather": ["fog", "overcast"]
+    },
+    {
+      "id": "composition-color-planes-gray-lines-1918",
+      "filename": "Mondrian, Composition with color planes and gray lines, 1918.jpg",
+      "title": "Composition with Color Planes and Gray Lines",
+      "year": 1918,
+      "width": 582,
+      "height": 476,
+      "timeOfDay": ["morning", "noon"],
+      "weather": ["clear", "cloudy"]
+    },
+    {
+      "id": "composition-yellow-red-black-blue-gray-1920",
+      "filename": "Amsterdam - Stedelijk Museum - Piet Mondrian (1872-1944) - Composition with Yellow, Red, Black, Blue, and Gray (A 9864) 1920.jpg",
+      "title": "Composition with Yellow, Red, Black, Blue, and Gray",
+      "year": 1920,
+      "width": 3653,
+      "height": 3116,
+      "timeOfDay": ["noon", "afternoon"],
+      "weather": ["clear", "cloudy"]
+    },
+    {
+      "id": "composition-blue-yellow-red-black-gray-1922",
+      "filename": "Composition with Blue, Black, Yellow, and Red, by Piet Mondrian, 1922, oil on canvas - Busch-Reisinger Museum - Harvard University - DSC01630.jpg",
+      "title": "Composition with Blue, Black, Yellow, and Red",
+      "year": 1922,
+      "width": 2807,
+      "height": 3215,
+      "timeOfDay": ["noon"],
+      "weather": ["clear"]
+    },
+    {
+      "id": "composition-blue-red-yellow-black-1922",
+      "filename": "Piet mondrian, composizione in blu, rosso, giallo e nero, parigi 1922.jpg",
+      "title": "Composition in Blue, Red, Yellow and Black",
+      "year": 1922,
+      "width": 3728,
+      "height": 5008,
+      "timeOfDay": ["noon", "afternoon"],
+      "weather": ["clear"]
+    },
+    {
+      "id": "tableau-i-lozenge-four-lines-gray-1926",
+      "filename": "Mondrian - Tableau I Lozenge with Four Lines and Gray, 1926.jpg",
+      "title": "Tableau I: Lozenge with Four Lines and Gray",
+      "year": 1926,
+      "width": 1967,
+      "height": 2000,
+      "timeOfDay": ["dawn", "morning"],
+      "weather": ["fog", "overcast"]
+    },
+    {
+      "id": "composition-blue-1926",
+      "filename": "Mondrian - Composition with Blue, 1926.jpg",
+      "title": "Composition with Blue",
+      "year": 1926,
+      "width": 1500,
+      "height": 1497,
+      "timeOfDay": ["morning", "dawn"],
+      "weather": ["clear", "fog"]
+    },
+    {
+      "id": "fox-trot-a-1930",
+      "filename": "Mondrian - Fox Trot A, 1930.tif",
+      "title": "Fox Trot A",
+      "year": 1930,
+      "width": 3000,
+      "height": 2988,
+      "timeOfDay": ["night", "dusk"],
+      "weather": ["clear", "overcast"]
+    },
+    {
+      "id": "composition-no-i-red-blue-1931",
+      "filename": "Mondrian - Composition in Colours Composition No. I with Red and Blue, 1931.jpg",
+      "title": "Composition No. I with Red and Blue",
+      "year": 1931,
+      "width": 2740,
+      "height": 2750,
+      "timeOfDay": ["noon", "afternoon"],
+      "weather": ["clear"]
+    },
+    {
+      "id": "lozenge-yellow-lines-1933",
+      "filename": "Piet mondrian, composizione a losanga con linee gialle, 1933.jpg",
+      "title": "Lozenge Composition with Yellow Lines",
+      "year": 1933,
+      "width": 2695,
+      "height": 2832,
+      "timeOfDay": ["noon", "morning"],
+      "weather": ["clear"]
+    },
+    {
+      "id": "composition-white-black-red-1936",
+      "filename": "Mondrian - Composition in White, Black, and Red Paris, 1936.jpg",
+      "title": "Composition in White, Black, and Red",
+      "year": 1936,
+      "width": 2000,
+      "height": 1971,
+      "timeOfDay": ["morning", "noon"],
+      "weather": ["clear", "fog"]
+    },
+    {
+      "id": "composition-double-lines-white-blue",
+      "filename": "Piet Mondrian Composition with double lines and white and blue.jpg",
+      "title": "Composition with Double Lines and White and Blue",
+      "year": null,
+      "width": 2018,
+      "height": 2056,
+      "timeOfDay": ["dawn", "morning"],
+      "weather": ["clear", "fog"]
+    }
+  ]
+}

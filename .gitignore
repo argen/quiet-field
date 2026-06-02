@@ -1,0 +1,9 @@
+node_modules/
+dist/
+*.log
+.DS_Store
+.vite/
+
+# Downloaded painting images — reproducible artifacts, not source.
+# Regenerate with: node scripts/generate-catalog.mjs  (sources in data/curation/)
+public/art/stillness/

@@ -1,0 +1,32 @@
+{
+  "palettes": [
+    { "id": "saffron-over-rust", "name": "saffron over rust", "base": "#6e3b22", "fields": ["#e0902f", "#9c3a26"], "timeOfDay": ["afternoon", "noon"], "brightness": 0.62, "temperature": 0.9, "weather": ["clear"] },
+    { "id": "orange-red-yellow", "name": "orange, red, yellow", "base": "#b8442a", "fields": ["#e98a2b", "#c23a25", "#e8c14a"], "timeOfDay": ["noon"], "brightness": 0.7, "temperature": 0.95, "weather": ["clear"] },
+    { "id": "vermilion-and-rose", "name": "vermilion and rose", "base": "#7a2b33", "fields": ["#d34b3e", "#c77b86"], "timeOfDay": ["afternoon", "dusk"], "brightness": 0.6, "temperature": 0.82, "weather": ["clear"] },
+    { "id": "tangerine-dusk", "name": "tangerine dusk", "base": "#7d3320", "fields": ["#e87b3c", "#a83b2e"], "timeOfDay": ["dusk"], "brightness": 0.55, "temperature": 0.9, "weather": ["clear"] },
+    { "id": "marigold-noon", "name": "marigold at noon", "base": "#8a6a1e", "fields": ["#e6b22e", "#b07d22"], "timeOfDay": ["noon"], "brightness": 0.7, "temperature": 0.85, "weather": ["clear"] },
+    { "id": "cadmium-glow", "name": "cadmium glow", "base": "#8c3d1a", "fields": ["#e87422", "#d4a32a"], "timeOfDay": ["afternoon", "noon"], "brightness": 0.64, "temperature": 0.92, "weather": ["clear"] },
+    { "id": "scarlet-noon", "name": "scarlet noon", "base": "#6e2420", "fields": ["#d8392c", "#e88a3a"], "timeOfDay": ["noon"], "brightness": 0.6, "temperature": 0.94, "weather": ["clear"] },
+    { "id": "cobalt-and-teal", "name": "cobalt and teal", "base": "#173a4e", "fields": ["#1f6f8b", "#2a9aa0"], "timeOfDay": ["dawn", "morning"], "brightness": 0.5, "temperature": 0.25, "weather": ["clear"] },
+    { "id": "emerald-deep", "name": "emerald, deep", "base": "#103a2c", "fields": ["#1f7a52", "#2fa06a"], "timeOfDay": ["morning"], "brightness": 0.5, "temperature": 0.35, "weather": ["clear"] },
+    { "id": "ultramarine", "name": "ultramarine night", "base": "#1a2a5e", "fields": ["#2c47a0", "#3f6fc4"], "timeOfDay": ["night", "dusk"], "brightness": 0.34, "temperature": 0.28, "weather": ["clear"] },
+    { "id": "peacock", "name": "peacock", "base": "#123a3e", "fields": ["#1d6b6e", "#2f9b8e"], "timeOfDay": ["afternoon"], "brightness": 0.5, "temperature": 0.3, "weather": ["clear"] },
+    { "id": "viridian-and-gold", "name": "viridian and gold", "base": "#1d3a2a", "fields": ["#2f7a55", "#c9a73e"], "timeOfDay": ["morning", "noon"], "brightness": 0.52, "temperature": 0.5, "weather": ["clear"] },
+    { "id": "lime-and-cobalt", "name": "lime and cobalt", "base": "#2a3a3a", "fields": ["#9ab83a", "#2f5fb0"], "timeOfDay": ["noon"], "brightness": 0.58, "temperature": 0.45, "weather": ["clear"] },
+    { "id": "cerulean-and-coral", "name": "cerulean and coral", "base": "#1f3a52", "fields": ["#2f7fb0", "#e07a5a"], "timeOfDay": ["dawn", "morning"], "brightness": 0.56, "temperature": 0.5, "weather": ["clear"] },
+    { "id": "coral-and-azure", "name": "coral and azure", "base": "#3a4a5e", "fields": ["#e88a6a", "#3f8fc0"], "timeOfDay": ["morning"], "brightness": 0.6, "temperature": 0.55, "weather": ["clear", "cloudy"] },
+    { "id": "magenta-and-plum", "name": "magenta and plum", "base": "#4a1f3e", "fields": ["#a83a72", "#6e2f5a"], "timeOfDay": ["dusk", "night"], "brightness": 0.4, "temperature": 0.6, "weather": ["clear"] },
+    { "id": "amethyst-over-wine", "name": "amethyst over wine", "base": "#3a2140", "fields": ["#7d4a9c", "#7a2f43"], "timeOfDay": ["night"], "brightness": 0.34, "temperature": 0.55, "weather": ["clear"] },
+    { "id": "crimson-and-indigo", "name": "crimson and indigo", "base": "#2a1f3a", "fields": ["#b3334a", "#2f3a6e"], "timeOfDay": ["dusk"], "brightness": 0.4, "temperature": 0.55, "weather": ["clear"] },
+    { "id": "violet-noon", "name": "violet at noon", "base": "#3e2f5a", "fields": ["#6f4fb0", "#9a7fd0"], "timeOfDay": ["noon"], "brightness": 0.56, "temperature": 0.45, "weather": ["clear"] },
+    { "id": "fuchsia-dusk", "name": "fuchsia dusk", "base": "#4e203c", "fields": ["#c0418a", "#7a2f5e"], "timeOfDay": ["dusk"], "brightness": 0.46, "temperature": 0.62, "weather": ["clear"] },
+    { "id": "blue-over-orange", "name": "blue over orange", "base": "#2a3550", "fields": ["#3a6db0", "#d97a32"], "timeOfDay": ["afternoon"], "brightness": 0.56, "temperature": 0.5, "weather": ["clear"] },
+    { "id": "green-over-magenta", "name": "green over magenta", "base": "#2e2a3e", "fields": ["#3f9a6a", "#b0407e"], "timeOfDay": ["noon", "afternoon"], "brightness": 0.54, "temperature": 0.5, "weather": ["clear"] },
+    { "id": "yellow-over-violet", "name": "yellow over violet", "base": "#4a3f6a", "fields": ["#e0c24a", "#6f4fa0"], "timeOfDay": ["dusk"], "brightness": 0.55, "temperature": 0.5, "weather": ["clear"] },
+    { "id": "red-over-teal", "name": "red over teal", "base": "#1f3a3e", "fields": ["#cc4030", "#2f8e8a"], "timeOfDay": ["afternoon"], "brightness": 0.52, "temperature": 0.55, "weather": ["clear"] },
+    { "id": "rose-gold-warm", "name": "rose gold", "base": "#7a4a3a", "fields": ["#e0a07a", "#c46a4a"], "timeOfDay": ["dawn", "dusk"], "brightness": 0.6, "temperature": 0.78, "weather": ["clear"] },
+    { "id": "saffron-and-emerald", "name": "saffron and emerald", "base": "#3a3a1e", "fields": ["#e0b02e", "#2f8a5a"], "timeOfDay": ["noon", "morning"], "brightness": 0.58, "temperature": 0.6, "weather": ["clear"] },
+    { "id": "burnt-orange-over-petrol", "name": "burnt orange over petrol", "base": "#2a3338", "fields": ["#cf6a2a", "#2a6a72"], "timeOfDay": ["dusk", "afternoon"], "brightness": 0.48, "temperature": 0.6, "weather": ["clear", "cloudy"] },
+    { "id": "plum-and-amber", "name": "plum and amber", "base": "#3a2a32", "fields": ["#8a3f6a", "#d99a3a"], "timeOfDay": ["dusk"], "brightness": 0.48, "temperature": 0.62, "weather": ["clear"] }
+  ]
+}

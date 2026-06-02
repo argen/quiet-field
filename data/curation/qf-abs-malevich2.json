@@ -1,0 +1,293 @@
+{
+  "artist": "Kazimir Malevich",
+  "rights": "pd",
+  "collection": "abstract",
+  "works": [
+    {
+      "id": "black-square-1915",
+      "filename": "Kazimir malevich, quadrato nero, 1915, 01.JPG",
+      "title": "Black Square",
+      "year": 1915,
+      "artistName": "Kazimir Malevich",
+      "width": 1996,
+      "height": 1953,
+      "timeOfDay": ["night"],
+      "weather": ["clear"]
+    },
+    {
+      "id": "red-square-1915",
+      "filename": "Kazimir malevich, quadrato rosso (realismo del pittore di una campagnola in due dimensioni), 1915.JPG",
+      "title": "Red Square (Painterly Realism of a Peasant Woman in Two Dimensions)",
+      "year": 1915,
+      "artistName": "Kazimir Malevich",
+      "width": 1381,
+      "height": 1380,
+      "timeOfDay": ["noon"],
+      "weather": ["clear"]
+    },
+    {
+      "id": "four-squares-1915",
+      "filename": "Четыре квадрата (Four square) (Kazimir Malevič, Russia, 1915).png",
+      "title": "Four Squares",
+      "year": 1915,
+      "artistName": "Kazimir Malevich",
+      "width": 1218,
+      "height": 1208,
+      "timeOfDay": ["noon"],
+      "weather": ["clear"]
+    },
+    {
+      "id": "black-square-and-red-square",
+      "filename": "Black Square and Red Square (Malevich, 1915).jpg",
+      "title": "Black Square and Red Square (Boy with Knapsack)",
+      "year": 1915,
+      "artistName": "Kazimir Malevich",
+      "width": 1243,
+      "height": 2000,
+      "timeOfDay": ["noon"],
+      "weather": ["clear"]
+    },
+    {
+      "id": "suprematism-1915-grm",
+      "filename": "Suprematism by Malevich (1915, GRM) FRAME by shakko.jpg",
+      "title": "Suprematism",
+      "year": 1915,
+      "artistName": "Kazimir Malevich",
+      "width": 4398,
+      "height": 3252,
+      "timeOfDay": ["noon"],
+      "weather": ["clear"]
+    },
+    {
+      "id": "suprematist-composition-yellow-orange-green",
+      "filename": "Amsterdam - Stedelijk Museum - Kazimir Malevich (1878-1935) - Suprematist Composition (with Yellow, Orange and Green Rectangle) (A 7675) 1915-16.jpg",
+      "title": "Suprematist Composition (with Yellow, Orange and Green Rectangle)",
+      "year": 1915,
+      "artistName": "Kazimir Malevich",
+      "width": 1189,
+      "height": 1471,
+      "timeOfDay": ["afternoon"],
+      "weather": ["clear"]
+    },
+    {
+      "id": "suprematism-abstract-composition-1915",
+      "filename": "Suprematism - Abstract Composition (Malevich, 1915).jpg",
+      "title": "Suprematism (Abstract Composition)",
+      "year": 1915,
+      "artistName": "Kazimir Malevich",
+      "width": 2000,
+      "height": 1987,
+      "timeOfDay": ["noon"],
+      "weather": ["clear"]
+    },
+    {
+      "id": "suprematist-composition-airplane-flying",
+      "filename": "Suprematist Composition - Airplane Flying (Malevich, 1915).jpg",
+      "title": "Suprematist Composition: Airplane Flying",
+      "year": 1915,
+      "artistName": "Kazimir Malevich",
+      "width": 1660,
+      "height": 2000,
+      "timeOfDay": ["noon"],
+      "weather": ["clear"]
+    },
+    {
+      "id": "suprematism-no-50-1915",
+      "filename": "Malewitsch - Suprematismus Nr 50 - 1915.jpeg",
+      "title": "Suprematism No. 50",
+      "year": 1915,
+      "artistName": "Kazimir Malevich",
+      "width": 2154,
+      "height": 3198,
+      "timeOfDay": ["noon"],
+      "weather": ["clear"]
+    },
+    {
+      "id": "plane-in-extension-1915",
+      "filename": "Plane in extension (Kazimir Malevich, 1915).png",
+      "title": "Plane in Extension",
+      "year": 1915,
+      "artistName": "Kazimir Malevich",
+      "width": 2343,
+      "height": 4000,
+      "timeOfDay": ["noon"],
+      "weather": ["clear"]
+    },
+    {
+      "id": "dynamic-suprematism-1916",
+      "filename": "Dynamic Suprematism (Malevich, 1916).jpg",
+      "title": "Dynamic Suprematism",
+      "year": 1916,
+      "artistName": "Kazimir Malevich",
+      "width": 1536,
+      "height": 1522,
+      "timeOfDay": ["noon"],
+      "weather": ["clear"]
+    },
+    {
+      "id": "supremus-no-55-1916",
+      "filename": "Supremus 55 (Malevich, 1916).jpg",
+      "title": "Supremus No. 55",
+      "year": 1916,
+      "artistName": "Kazimir Malevich",
+      "width": 820,
+      "height": 820,
+      "timeOfDay": ["afternoon"],
+      "weather": ["clear"]
+    },
+    {
+      "id": "supremus-no-56-1916",
+      "filename": "Kazimir malevich, suprematismo (supremus no. 56), 1916.JPG",
+      "title": "Supremus No. 56",
+      "year": 1916,
+      "artistName": "Kazimir Malevich",
+      "width": 1468,
+      "height": 1656,
+      "timeOfDay": ["afternoon"],
+      "weather": ["clear"]
+    },
+    {
+      "id": "supremus-no-58-1916",
+      "filename": "Kazimir malevich, suprematismo (supremus no. 58), 1916.JPG",
+      "title": "Supremus No. 58 (Yellow and Black)",
+      "year": 1916,
+      "artistName": "Kazimir Malevich",
+      "width": 1420,
+      "height": 1587,
+      "timeOfDay": ["dusk"],
+      "weather": ["clear"]
+    },
+    {
+      "id": "suprematism-no-65-1916",
+      "filename": "Malewitsch - Suprematism Nr 65.jpg",
+      "title": "Suprematism No. 65",
+      "year": 1916,
+      "artistName": "Kazimir Malevich",
+      "width": 867,
+      "height": 1100,
+      "timeOfDay": ["afternoon"],
+      "weather": ["clear"]
+    },
+    {
+      "id": "suprematist-composition-1916-lot136",
+      "filename": "Malevich - SUPREMATIST COMPOSITION, 1916, lot.136.jpg",
+      "title": "Suprematist Composition",
+      "year": 1916,
+      "artistName": "Kazimir Malevich",
+      "width": 1921,
+      "height": 2877,
+      "timeOfDay": ["noon"],
+      "weather": ["clear"]
+    },
+    {
+      "id": "suprematism-google-art",
+      "filename": "Kazimir Malevich - Suprematism - Google Art Project.jpg",
+      "title": "Suprematism",
+      "year": 1915,
+      "artistName": "Kazimir Malevich",
+      "width": 3303,
+      "height": 3809,
+      "timeOfDay": ["noon"],
+      "weather": ["clear"]
+    },
+    {
+      "id": "magnetic-construction-1916",
+      "filename": "Kazimir Malevich, Magnetic Construction (S-240), 1916.jpg",
+      "title": "Magnetic Construction",
+      "year": 1916,
+      "artistName": "Kazimir Malevich",
+      "width": 1430,
+      "height": 1600,
+      "timeOfDay": ["noon"],
+      "weather": ["clear"]
+    },
+    {
+      "id": "compact-magnetic-composition-1916",
+      "filename": "Kazimir Malevich, Compact Magnetic Composition (S-309), 1916.jpg",
+      "title": "Compact Magnetic Composition",
+      "year": 1916,
+      "artistName": "Kazimir Malevich",
+      "width": 1151,
+      "height": 1608,
+      "timeOfDay": ["noon"],
+      "weather": ["clear"]
+    },
+    {
+      "id": "gugg-suprematist-composition",
+      "filename": "GUGG Untitled (Suprematist Composition, Malevich a).jpg",
+      "title": "Untitled (Suprematist Composition)",
+      "year": 1916,
+      "artistName": "Kazimir Malevich",
+      "width": 2441,
+      "height": 3000,
+      "timeOfDay": ["noon"],
+      "weather": ["clear"]
+    },
+    {
+      "id": "two-planes-in-extension",
+      "filename": "Two Planes in Extension (Kazimir Malevich, 1916–19 (?).png",
+      "title": "Two Planes in Extension",
+      "year": 1917,
+      "artistName": "Kazimir Malevich",
+      "width": 3341,
+      "height": 4000,
+      "timeOfDay": ["noon"],
+      "weather": ["clear"]
+    },
+    {
+      "id": "suprematist-painting-1917",
+      "filename": "Suprematist Painting (Malevich, 1917).jpg",
+      "title": "Suprematist Painting",
+      "year": 1917,
+      "artistName": "Kazimir Malevich",
+      "width": 1343,
+      "height": 2000,
+      "timeOfDay": ["afternoon"],
+      "weather": ["clear"]
+    },
+    {
+      "id": "white-on-white-1918",
+      "filename": "Kazimir Malevich - 'Suprematist Composition- White on White', oil on canvas, 1918, Museum of Modern Art.jpg",
+      "title": "Suprematist Composition: White on White",
+      "year": 1918,
+      "artistName": "Kazimir Malevich",
+      "width": 1626,
+      "height": 1686,
+      "timeOfDay": ["morning"],
+      "weather": ["fog"]
+    },
+    {
+      "id": "mystic-suprematism-black-cross-red-oval",
+      "filename": "Malevich - Mystic Suprematism (Black Cross on Red Oval), lot.8.jpg",
+      "title": "Mystic Suprematism (Black Cross on Red Oval)",
+      "year": 1922,
+      "artistName": "Kazimir Malevich",
+      "width": 2880,
+      "height": 4925,
+      "timeOfDay": ["dusk"],
+      "weather": ["clear"]
+    },
+    {
+      "id": "suprematism-supremus-67",
+      "filename": "Suprematism (Supremus 67) by Malevich (1928-9, GRM) FRAME by shakko.jpg",
+      "title": "Suprematism (Supremus No. 67)",
+      "year": 1928,
+      "artistName": "Kazimir Malevich",
+      "width": 4201,
+      "height": 2995,
+      "timeOfDay": ["noon"],
+      "weather": ["clear"]
+    },
+    {
+      "id": "suprematist-construction-colours-1928",
+      "filename": "Kazimir malevich, suprematista costruzione di colori, 1928-29.JPG",
+      "title": "Suprematist Construction of Colours",
+      "year": 1928,
+      "artistName": "Kazimir Malevich",
+      "width": 1108,
+      "height": 1515,
+      "timeOfDay": ["afternoon"],
+      "weather": ["clear"]
+    }
+  ]
+}

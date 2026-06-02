@@ -1,0 +1,127 @@
+{
+  "artist": "Caspar David Friedrich",
+  "rights": "pd",
+  "collection": "abstract",
+  "works": [
+    {
+      "id": "wanderer-above-the-sea-of-fog",
+      "filename": "Caspar David Friedrich - Wanderer above the sea of fog.jpg",
+      "title": "Wanderer above the Sea of Fog",
+      "year": 1818,
+      "width": 2327,
+      "height": 2980,
+      "timeOfDay": ["morning"],
+      "weather": ["fog", "cloudy"]
+    },
+    {
+      "id": "meeresstrand-im-nebel",
+      "filename": "Caspar David Friedrich - Meeresstrand im Nebel (ca.1807).jpg",
+      "title": "Sea Shore in Fog",
+      "year": 1807,
+      "width": 3508,
+      "height": 2295,
+      "timeOfDay": ["morning"],
+      "weather": ["fog", "overcast"]
+    },
+    {
+      "id": "morgennebel-im-gebirge",
+      "filename": "Morgennebel im Gebirge (Caspar David Friedrich)-WUS03249.jpg",
+      "title": "Morning Mist in the Mountains",
+      "year": 1808,
+      "width": 6000,
+      "height": 4000,
+      "timeOfDay": ["dawn", "morning"],
+      "weather": ["fog"]
+    },
+    {
+      "id": "flussufer-im-nebel",
+      "filename": "Flussufer im Nebel (Caspar David Friedrich)-WUS03290.jpg",
+      "title": "Riverbank in Fog",
+      "year": 1820,
+      "width": 3899,
+      "height": 3209,
+      "timeOfDay": ["dawn"],
+      "weather": ["fog", "overcast"]
+    },
+    {
+      "id": "riesengebirgslandschaft-mit-aufsteigendem-nebel",
+      "filename": "Riesengebirgslandschaft mit aufsteigendem Nebel (Caspar David Friedrich)-WUS03226.jpg",
+      "title": "Riesengebirge Landscape with Rising Fog",
+      "year": 1820,
+      "width": 4734,
+      "height": 3965,
+      "timeOfDay": ["morning"],
+      "weather": ["fog", "clear"]
+    },
+    {
+      "id": "mondnacht-am-ostseestrand",
+      "filename": "Caspar David Friedrich, Mondnacht am Ostseestrand, 1816-18, MGS-20160312-001.jpg",
+      "title": "Moonlit Night on the Baltic Shore",
+      "year": 1817,
+      "width": 2277,
+      "height": 1647,
+      "timeOfDay": ["night"],
+      "weather": ["clear"]
+    },
+    {
+      "id": "mann-und-frau-in-betrachtung-des-mondes",
+      "filename": "Mann und Frau in Betrachtung des Mondes (Caspar David Friedrich)-WUS03304.jpg",
+      "title": "Man and Woman Contemplating the Moon",
+      "year": 1824,
+      "width": 3916,
+      "height": 3156,
+      "timeOfDay": ["night", "dusk"],
+      "weather": ["clear"]
+    },
+    {
+      "id": "greifswald-im-mondschein",
+      "filename": "Greifswald im Mondschein (Caspar David Friedrich)-WUS03270.jpg",
+      "title": "Greifswald in Moonlight",
+      "year": 1817,
+      "width": 4171,
+      "height": 3463,
+      "timeOfDay": ["night", "dusk"],
+      "weather": ["clear"]
+    },
+    {
+      "id": "seestueck-bei-mondschein",
+      "filename": "Seestück bei Mondschein (Caspar David Friedrich)-WUS03284.jpg",
+      "title": "Seascape by Moonlight",
+      "year": 1830,
+      "width": 3692,
+      "height": 3182,
+      "timeOfDay": ["night"],
+      "weather": ["cloudy", "clear"]
+    },
+    {
+      "id": "der-greifswalder-hafen",
+      "filename": "Der Greifswalder Hafen (Caspar David Friedrich)-WUS03292.jpg",
+      "title": "The Harbour at Greifswald",
+      "year": 1820,
+      "width": 3595,
+      "height": 4402,
+      "timeOfDay": ["dusk"],
+      "weather": ["clear", "cloudy"]
+    },
+    {
+      "id": "efter-stormen",
+      "filename": "Caspar David Friedrich, Efter stormen, 1817, KMS8817, Statens Museum for Kunst.jpg",
+      "title": "After the Storm",
+      "year": 1817,
+      "width": 11752,
+      "height": 8576,
+      "timeOfDay": ["afternoon"],
+      "weather": ["cloudy", "storm"]
+    },
+    {
+      "id": "nebel-im-elbtal",
+      "filename": "Nebel im Elbtal (Caspar David Friedrich)-DSC3197.jpg",
+      "title": "Fog in the Elbe Valley",
+      "year": 1821,
+      "width": 3547,
+      "height": 3147,
+      "timeOfDay": ["dawn"],
+      "weather": ["fog", "overcast"]
+    }
+  ]
+}

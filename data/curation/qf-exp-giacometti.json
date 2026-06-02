@@ -1,0 +1,107 @@
+{
+  "artist": "Augusto Giacometti",
+  "rights": "pd",
+  "collection": "abstract",
+  "works": [
+    {
+      "id": "chromatic-fantasy-1914",
+      "filename": "Chromatic Fantasy Augusto Giacometti - 1914.jpg",
+      "title": "Chromatic Fantasy",
+      "year": 1914,
+      "width": 1021,
+      "height": 1024,
+      "timeOfDay": ["dawn", "morning"],
+      "weather": ["clear"]
+    },
+    {
+      "id": "colorful-fantasy-1913",
+      "filename": "Colorful Fantasy Augusto Giacometti (1913).jpg",
+      "title": "Colorful Fantasy",
+      "year": 1913,
+      "width": 1021,
+      "height": 1024,
+      "timeOfDay": ["noon", "afternoon"],
+      "weather": ["clear"]
+    },
+    {
+      "id": "chromatische-fantasie-kunsthaus",
+      "filename": "Augusto Giacometti - Chromatische Fantasie - 1954-0030 - Kunsthaus Zürich.jpg",
+      "title": "Chromatische Fantasie",
+      "year": null,
+      "width": 1194,
+      "height": 1200,
+      "timeOfDay": ["dusk"],
+      "weather": ["clear", "cloudy"]
+    },
+    {
+      "id": "glass-bubble-1910",
+      "filename": "Augusto giacometti, bolla di vetro, 1910.JPG",
+      "title": "Glass Bubble (Bolla di vetro)",
+      "year": 1910,
+      "width": 1853,
+      "height": 1853,
+      "timeOfDay": ["morning"],
+      "weather": ["clear", "fog"]
+    },
+    {
+      "id": "the-glass-sphere-1910",
+      "filename": "The Glass Sphere Augusto Giacometti (1910).jpg",
+      "title": "The Glass Sphere",
+      "year": 1910,
+      "width": 1024,
+      "height": 1024,
+      "timeOfDay": ["afternoon"],
+      "weather": ["clear", "cloudy"]
+    },
+    {
+      "id": "glass-polyhedron-1919",
+      "filename": "Glass Polyhedron Augusto Giacometti (1919).jpg",
+      "title": "Glass Polyhedron",
+      "year": 1919,
+      "width": 1023,
+      "height": 1024,
+      "timeOfDay": ["dusk", "night"],
+      "weather": ["clear"]
+    },
+    {
+      "id": "magic-1917",
+      "filename": "Magic Augusto Giacometti (1917).jpg",
+      "title": "Magic",
+      "year": 1917,
+      "width": 1024,
+      "height": 1024,
+      "timeOfDay": ["night"],
+      "weather": ["overcast", "fog"]
+    },
+    {
+      "id": "circling-of-the-planets-1907",
+      "filename": "The Circling of the Planets Augusto Giacometti (1907).jpg",
+      "title": "The Circling of the Planets",
+      "year": 1907,
+      "width": 1024,
+      "height": 1263,
+      "timeOfDay": ["night"],
+      "weather": ["clear"]
+    },
+    {
+      "id": "werden-kunsthaus",
+      "filename": "Augusto Giacometti - Werden - 1980-0022 - Kunsthaus Zürich.jpg",
+      "title": "Werden (Becoming)",
+      "year": null,
+      "width": 1200,
+      "height": 1193,
+      "timeOfDay": ["dawn"],
+      "weather": ["fog", "cloudy"]
+    },
+    {
+      "id": "abstraktion-nach-glasmalerei-1899",
+      "filename": "Augusto Giacometti Abstraktion nach einer Glasmalerei 1899.jpg",
+      "title": "Abstraktion nach einer Glasmalerei",
+      "year": 1899,
+      "width": 3881,
+      "height": 3693,
+      "timeOfDay": ["afternoon", "dusk"],
+      "weather": ["clear"]
+    }
+  ]
+}

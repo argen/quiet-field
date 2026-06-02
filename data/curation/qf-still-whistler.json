@@ -1,0 +1,150 @@
+{
+  "artist": "James McNeill Whistler",
+  "rights": "pd",
+  "works": [
+    {
+      "id": "nocturne-blue-silver-chelsea",
+      "filename": "James Abbott McNeill Whistler - Nocturne- Blue and Silver - Chelsea - Google Art Project.jpg",
+      "title": "Nocturne: Blue and Silver - Chelsea",
+      "year": 1871,
+      "width": 2951, "height": 2419,
+      "timeOfDay": ["dusk", "night"],
+      "weather": ["clear", "fog"]
+    },
+    {
+      "id": "nocturne-river-at-battersea",
+      "filename": "James Abbott McNeill Whistler - Nocturne- The River at Battersea - Google Art Project.jpg",
+      "title": "Nocturne: The River at Battersea",
+      "year": 1878,
+      "width": 2701, "height": 2072,
+      "timeOfDay": ["night"],
+      "weather": ["fog", "cloudy"]
+    },
+    {
+      "id": "nocturne-blue-silver-lagoon-venice",
+      "filename": "James Abbott McNeill Whistler - Nocturne in Blue and Silver- The Lagoon, Venice - Google Art Project.jpg",
+      "title": "Nocturne in Blue and Silver: The Lagoon, Venice",
+      "year": 1880,
+      "width": 5425, "height": 4159,
+      "timeOfDay": ["dusk", "night"],
+      "weather": ["clear", "fog"]
+    },
+    {
+      "id": "nocturne-black-gold-fire-wheel",
+      "filename": "James Abbott McNeill Whistler (1834-1903) - Nocturne, Black and Gold - The Fire Wheel - N03419 - National Gallery.jpg",
+      "title": "Nocturne: Black and Gold - The Fire Wheel",
+      "year": 1875,
+      "width": 1200, "height": 843,
+      "timeOfDay": ["night"],
+      "weather": ["clear"]
+    },
+    {
+      "id": "nocturne-blue-silver-cremorne-lights",
+      "filename": "James Abbott McNeill Whistler (1834-1903) - Nocturne, Blue and Silver - Cremorne Lights - N03420 - National Gallery.jpg",
+      "title": "Nocturne: Blue and Silver - Cremorne Lights",
+      "year": 1872,
+      "width": 1200, "height": 804,
+      "timeOfDay": ["night"],
+      "weather": ["fog", "cloudy"]
+    },
+    {
+      "id": "nocturne-black-gold-falling-rocket",
+      "filename": "Whistler James Nocturne in Black and Gold The Falling Rocket 1875.jpg",
+      "title": "Nocturne in Black and Gold: The Falling Rocket",
+      "year": 1875,
+      "width": 707, "height": 1000,
+      "timeOfDay": ["night"],
+      "weather": ["clear", "fog"]
+    },
+    {
+      "id": "nocturne-blue-gold-southampton-water",
+      "filename": "James McNeill Whistler - Nocturne, Blue and Gold—Southampton Water - 1900.52 - Art Institute of Chicago.jpg",
+      "title": "Nocturne: Blue and Gold - Southampton Water",
+      "year": 1872,
+      "width": 3000, "height": 1983,
+      "timeOfDay": ["dusk", "night"],
+      "weather": ["clear", "fog"]
+    },
+    {
+      "id": "nocturne-blue-gold-valparaiso",
+      "filename": "James McNeill Whistler - Nocturne in Blue and Gold- Valparaiso - Google Art Project.jpg",
+      "title": "Nocturne in Blue and Gold: Valparaiso",
+      "year": 1866,
+      "width": 1600, "height": 2432,
+      "timeOfDay": ["dusk", "night"],
+      "weather": ["clear", "cloudy"]
+    },
+    {
+      "id": "nocturne-black-red-back-canal-holland",
+      "filename": "James McNeill Whistler - Nocturne- Black and Red—Back Canal, Holland - Google Art Project.jpg",
+      "title": "Nocturne: Black and Red - Back Canal, Holland",
+      "year": 1882,
+      "width": 5601, "height": 4402,
+      "timeOfDay": ["night"],
+      "weather": ["clear"]
+    },
+    {
+      "id": "nocturne-blue-silver-bognor",
+      "filename": "James McNeill Whistler - Nocturne- Blue and Silver—Bognor - Google Art Project.jpg",
+      "title": "Nocturne: Blue and Silver - Bognor",
+      "year": 1876,
+      "width": 2424, "height": 1392,
+      "timeOfDay": ["dusk", "night"],
+      "weather": ["clear", "fog"]
+    },
+    {
+      "id": "sea-and-rain",
+      "filename": "James McNeill Whistler - Sea and Rain - Google Art Project.jpg",
+      "title": "Sea and Rain",
+      "year": 1865,
+      "width": 1500, "height": 1029,
+      "timeOfDay": ["afternoon"],
+      "weather": ["rain", "overcast"]
+    },
+    {
+      "id": "the-thames-in-ice",
+      "filename": "James McNeill Whistler - The Thames in Ice - Google Art Project.jpg",
+      "title": "The Thames in Ice",
+      "year": 1860,
+      "width": 2660, "height": 3600,
+      "timeOfDay": ["morning", "afternoon"],
+      "weather": ["snow", "overcast"]
+    },
+    {
+      "id": "nocturne-grey-gold-canal",
+      "filename": "Whistler nocturne-grey-and-gold-canal-1884.jpg",
+      "title": "Nocturne: Grey and Gold - Canal, Holland",
+      "year": 1884,
+      "width": 870, "height": 1085,
+      "timeOfDay": ["dusk", "night"],
+      "weather": ["snow", "overcast"]
+    },
+    {
+      "id": "nocturne-grey-silver-chelsea-embankment-winter",
+      "filename": "James McNeill Whistler - Nocturne Grey and Silver--Chelsea Embankment, Winter (c. 1879).jpg",
+      "title": "Nocturne: Grey and Silver - Chelsea Embankment, Winter",
+      "year": 1879,
+      "width": 3895, "height": 5323,
+      "timeOfDay": ["dusk", "night"],
+      "weather": ["fog", "snow"]
+    },
+    {
+      "id": "trouville-grey-green-silver-sea",
+      "filename": "James McNeill Whistler - Trouville (Grey and Green, the Silver Sea) - 1922.448 - Art Institute of Chicago.jpg",
+      "title": "Trouville (Grey and Green, the Silver Sea)",
+      "year": 1865,
+      "width": 3000, "height": 1990,
+      "timeOfDay": ["afternoon", "dusk"],
+      "weather": ["overcast", "cloudy"]
+    },
+    {
+      "id": "grey-silver-old-battersea-reach",
+      "filename": "James McNeill Whistler - Grey and Silver- Old Battersea Reach - Google Art Project.jpg",
+      "title": "Grey and Silver: Old Battersea Reach",
+      "year": 1863,
+      "width": 5670, "height": 4176,
+      "timeOfDay": ["morning"],
+      "weather": ["fog", "overcast"]
+    }
+  ]
+}

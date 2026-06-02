@@ -1,0 +1,127 @@
+{
+  "artist": "James McNeill Whistler",
+  "rights": "pd",
+  "collection": "abstract",
+  "works": [
+    {
+      "id": "nocturne-blue-and-gold-valparaiso",
+      "filename": "Whistler - Nocturne in Blue and Gold Valparaiso (1866) y076.jpg",
+      "title": "Nocturne in Blue and Gold: Valparaiso",
+      "year": 1866,
+      "width": 4151,
+      "height": 6302,
+      "timeOfDay": ["night", "dusk"],
+      "weather": ["clear", "fog"]
+    },
+    {
+      "id": "nocturne-blue-and-silver-battersea-reach",
+      "filename": "Whistler - Nocturne Blue and Silver--Battersea Reach, 1870-1875, F1902.97a-b.jpg",
+      "title": "Nocturne: Blue and Silver — Battersea Reach",
+      "year": 1873,
+      "width": 8700,
+      "height": 6593,
+      "timeOfDay": ["night", "dusk"],
+      "weather": ["fog", "clear"]
+    },
+    {
+      "id": "nocturne-grey-and-silver-chelsea-embankment-winter",
+      "filename": "Whistler - Nocturne Grey and Silver--Chelsea Embankment, Winter, ca. 1879, F1902.143a-b.png",
+      "title": "Nocturne: Grey and Silver — Chelsea Embankment, Winter",
+      "year": 1879,
+      "width": 7056,
+      "height": 8372,
+      "timeOfDay": ["night", "dusk"],
+      "weather": ["fog", "snow", "overcast"]
+    },
+    {
+      "id": "nocturne-blue-and-gold-southampton-water",
+      "filename": "James McNeill Whistler - Nocturne- Blue and Gold--Southampton Water - Google Art Project.jpg",
+      "title": "Nocturne: Blue and Gold — Southampton Water",
+      "year": 1872,
+      "width": 6001,
+      "height": 3969,
+      "timeOfDay": ["night", "dusk"],
+      "weather": ["clear", "fog"]
+    },
+    {
+      "id": "nocturne-the-solent",
+      "filename": "Whistler - Nocturne, The Solent, 1866, 01.1185.png",
+      "title": "Nocturne: The Solent",
+      "year": 1866,
+      "width": 4000,
+      "height": 2202,
+      "timeOfDay": ["night"],
+      "weather": ["fog", "clear"]
+    },
+    {
+      "id": "symphony-in-grey-early-morning-thames",
+      "filename": "Whistler - Symphony in Grey Early Morning, Thames, 1871, F1904.50a-b.jpg",
+      "title": "Symphony in Grey: Early Morning, Thames",
+      "year": 1871,
+      "width": 8656,
+      "height": 6774,
+      "timeOfDay": ["dawn", "morning"],
+      "weather": ["fog", "overcast"]
+    },
+    {
+      "id": "crepuscule-in-opal-trouville",
+      "filename": "Whistler - Crepuscule in Opal, Trouville, 1865, 1923.20.jpg",
+      "title": "Crepuscule in Opal: Trouville",
+      "year": 1865,
+      "width": 2936,
+      "height": 2195,
+      "timeOfDay": ["dusk"],
+      "weather": ["cloudy", "fog"]
+    },
+    {
+      "id": "crepuscule-in-flesh-colour-and-green-valparaiso",
+      "filename": "James Abbott McNeill Whistler (1834-1903) - Crepuscule in Flesh Colour and Green, Valparaiso - N05065 - National Gallery.jpg",
+      "title": "Crepuscule in Flesh Colour and Green: Valparaiso",
+      "year": 1866,
+      "width": 1064,
+      "height": 808,
+      "timeOfDay": ["dusk"],
+      "weather": ["clear", "cloudy"]
+    },
+    {
+      "id": "symphony-in-grey-and-green-the-ocean",
+      "filename": "Whistler James Symphony in Grey and Green The Ocean 1866-72.jpg",
+      "title": "Symphony in Grey and Green: The Ocean",
+      "year": 1866,
+      "width": 1948,
+      "height": 1550,
+      "timeOfDay": ["afternoon"],
+      "weather": ["overcast", "cloudy"]
+    },
+    {
+      "id": "battersea-dawn",
+      "filename": "James McNeill Whistler, Battersea - Dawn, 1875, NGA 10986.jpg",
+      "title": "Battersea: Dawn",
+      "year": 1875,
+      "width": 4000,
+      "height": 2731,
+      "timeOfDay": ["dawn"],
+      "weather": ["fog", "overcast"]
+    },
+    {
+      "id": "variations-in-blue-and-green",
+      "filename": "Whistler - Variations in Blue and Green, ca. 1868, F1903.178a-b.png",
+      "title": "Variations in Blue and Green",
+      "year": 1868,
+      "width": 2700,
+      "height": 2289,
+      "timeOfDay": ["dusk", "afternoon"],
+      "weather": ["clear", "cloudy"]
+    },
+    {
+      "id": "violet-and-silver-the-great-sea",
+      "filename": "Whistler - Violet and Silver The Great Sea, ca. 1884, F1902.148a-b.png",
+      "title": "Violet and Silver: The Great Sea",
+      "year": 1884,
+      "width": 3000,
+      "height": 1751,
+      "timeOfDay": ["afternoon", "dusk"],
+      "weather": ["overcast", "storm", "cloudy"]
+    }
+  ]
+}

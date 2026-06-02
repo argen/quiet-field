@@ -1,0 +1,293 @@
+{
+  "artist": "various",
+  "rights": "pd",
+  "collection": "abstract",
+  "works": [
+    {
+      "id": "taeuberarp-bewegtes-kreisbild-1935",
+      "filename": "Bewegtes Kreisbild 1935, Sophie Taeuber-Arp.jpg",
+      "title": "Bewegtes Kreisbild (Moving Circle Picture)",
+      "year": 1935,
+      "artistName": "Sophie Taeuber-Arp",
+      "width": 2727,
+      "height": 2104,
+      "timeOfDay": ["noon", "afternoon"],
+      "weather": ["clear"]
+    },
+    {
+      "id": "taeuberarp-quattro-spazi-croce-1932",
+      "filename": "Sophie taeuber-arp, quattro spazi a croce rotta, 1932.JPG",
+      "title": "Four Spaces with Broken Cross",
+      "year": 1932,
+      "artistName": "Sophie Taeuber-Arp",
+      "width": 1872,
+      "height": 2104,
+      "timeOfDay": ["morning"],
+      "weather": ["clear", "cloudy"]
+    },
+    {
+      "id": "taeuberarp-geometric-undulating-lines",
+      "filename": "Sophie Taeuber-Arp, Geometric and Undulating Lines.jpg",
+      "title": "Geometric and Undulating Lines",
+      "year": 1935,
+      "artistName": "Sophie Taeuber-Arp",
+      "width": 6793,
+      "height": 3821,
+      "timeOfDay": ["dawn", "morning"],
+      "weather": ["clear"]
+    },
+    {
+      "id": "vandoesburg-counter-composition-v-1924",
+      "filename": "Theo van Doesburg Counter-CompositionV (1924).jpg",
+      "title": "Counter-Composition V",
+      "year": 1924,
+      "artistName": "Theo van Doesburg",
+      "width": 1441,
+      "height": 1462,
+      "timeOfDay": ["noon"],
+      "weather": ["clear"]
+    },
+    {
+      "id": "vandoesburg-simultaneous-counter-composition-1929",
+      "filename": "Simultaneous Counter-Composition 1929-30 Theo van Doesburg.jpg",
+      "title": "Simultaneous Counter-Composition",
+      "year": 1930,
+      "artistName": "Theo van Doesburg",
+      "width": 2825,
+      "height": 2868,
+      "timeOfDay": ["noon", "afternoon"],
+      "weather": ["clear"]
+    },
+    {
+      "id": "vandoesburg-contra-composition-xvi",
+      "filename": "Theo van Doesburg Contra-Composition XVI.jpg",
+      "title": "Contra-Composition XVI",
+      "year": 1925,
+      "artistName": "Theo van Doesburg",
+      "width": 4629,
+      "height": 2544,
+      "timeOfDay": ["afternoon"],
+      "weather": ["clear", "cloudy"]
+    },
+    {
+      "id": "lissitzky-komposition",
+      "filename": "El Lissitzky Komposition.jpg",
+      "title": "Komposition (Proun)",
+      "year": 1922,
+      "artistName": "El Lissitzky",
+      "width": 2244,
+      "height": 2692,
+      "timeOfDay": ["dusk", "night"],
+      "weather": ["overcast", "fog"]
+    },
+    {
+      "id": "moholynagy-a-ii-1924",
+      "filename": "László Moholy-Nagy, A II, 1924 (guggenheim NY).jpg",
+      "title": "A II",
+      "year": 1924,
+      "artistName": "László Moholy-Nagy",
+      "width": 2244,
+      "height": 1900,
+      "timeOfDay": ["noon"],
+      "weather": ["clear"]
+    },
+    {
+      "id": "moholynagy-k-vii-1922",
+      "filename": "László Moholy-Nagy, K VII, 1922 (tate modern).jpg",
+      "title": "K VII",
+      "year": 1922,
+      "artistName": "László Moholy-Nagy",
+      "width": 2296,
+      "height": 1968,
+      "timeOfDay": ["morning", "noon"],
+      "weather": ["clear", "cloudy"]
+    },
+    {
+      "id": "moholynagy-z-vii-1926",
+      "filename": "László Moholy-Nagy, Z VII, 1926 (nga).jpg",
+      "title": "Z VII",
+      "year": 1926,
+      "artistName": "László Moholy-Nagy",
+      "width": 2100,
+      "height": 2542,
+      "timeOfDay": ["afternoon", "dusk"],
+      "weather": ["clear"]
+    },
+    {
+      "id": "moholynagy-am-3-1923",
+      "filename": "László Moholy-Nagy Am 3 1923.jpeg",
+      "title": "Am 3",
+      "year": 1923,
+      "artistName": "László Moholy-Nagy",
+      "width": 2048,
+      "height": 1612,
+      "timeOfDay": ["dusk", "night"],
+      "weather": ["overcast", "storm"]
+    },
+    {
+      "id": "delaunay-premier-disque-1913",
+      "filename": "Robert Delaunay, 1913, Premier Disque, 134 cm, 52.7 inches, Private collection.jpg",
+      "title": "Premier Disque (First Disc)",
+      "year": 1913,
+      "artistName": "Robert Delaunay",
+      "width": 893,
+      "height": 900,
+      "timeOfDay": ["dawn", "noon"],
+      "weather": ["clear"]
+    },
+    {
+      "id": "delaunay-formes-circulaires-lune",
+      "filename": "Robert Delaunay - Formes circulaires, lune no. 1 - G 16898 - AK 35 - Lenbachhaus.jpg",
+      "title": "Formes circulaires, lune no. 1",
+      "year": 1913,
+      "artistName": "Robert Delaunay",
+      "width": 1643,
+      "height": 2000,
+      "timeOfDay": ["night"],
+      "weather": ["clear", "fog"]
+    },
+    {
+      "id": "delaunay-disks-1930",
+      "filename": "Robert Delaunay - Disks - 1930-33 - Museum of Modern Art.jpg",
+      "title": "Disks",
+      "year": 1930,
+      "artistName": "Robert Delaunay",
+      "width": 1976,
+      "height": 2000,
+      "timeOfDay": ["noon", "afternoon"],
+      "weather": ["clear"]
+    },
+    {
+      "id": "delaunay-rythme-1934",
+      "filename": "Robert Delaunay Rythme 1934.jpg",
+      "title": "Rythme",
+      "year": 1934,
+      "artistName": "Robert Delaunay",
+      "width": 4096,
+      "height": 5035,
+      "timeOfDay": ["afternoon"],
+      "weather": ["clear", "cloudy"]
+    },
+    {
+      "id": "giacometti-chromatische-fantasie-1914",
+      "filename": "Chromatic Fantasy Augusto Giacometti - 1914.jpg",
+      "title": "Chromatic Fantasy",
+      "year": 1914,
+      "artistName": "Augusto Giacometti",
+      "width": 1021,
+      "height": 1024,
+      "timeOfDay": ["dawn", "dusk"],
+      "weather": ["clear", "fog"]
+    },
+    {
+      "id": "giacometti-das-kreisen-der-planeten",
+      "filename": "Augusto Giacometti - Das Kreisen der Planeten - 1967-0061 - Kunsthaus Zürich.jpg",
+      "title": "Das Kreisen der Planeten (The Orbiting of the Planets)",
+      "year": 1917,
+      "artistName": "Augusto Giacometti",
+      "width": 970,
+      "height": 1200,
+      "timeOfDay": ["night"],
+      "weather": ["clear"]
+    },
+    {
+      "id": "hartley-painting-no-48",
+      "filename": "Marsden Hartley - Painting No. 48 - Google Art Project.jpg",
+      "title": "Painting No. 48",
+      "year": 1913,
+      "artistName": "Marsden Hartley",
+      "width": 4572,
+      "height": 4606,
+      "timeOfDay": ["afternoon", "dusk"],
+      "weather": ["storm", "cloudy"]
+    },
+    {
+      "id": "hartley-abstraction",
+      "filename": "Marsden Hartley - Abstraction - Google Art Project.jpg",
+      "title": "Abstraction",
+      "year": 1913,
+      "artistName": "Marsden Hartley",
+      "width": 2040,
+      "height": 2401,
+      "timeOfDay": ["dusk", "night"],
+      "weather": ["storm", "overcast"]
+    },
+    {
+      "id": "popova-painterly-architectonic-1917",
+      "filename": "Painterly Architectonic (Lyubov Popova, 1917).jpg",
+      "title": "Painterly Architectonic",
+      "year": 1917,
+      "artistName": "Lyubov Popova",
+      "width": 1500,
+      "height": 1822,
+      "timeOfDay": ["noon", "afternoon"],
+      "weather": ["clear"]
+    },
+    {
+      "id": "popova-spatial-force-construction-1921",
+      "filename": "Painterly-Force Construction by Lyubov Popova, 1921.jpg",
+      "title": "Painterly (Spatial-Force) Construction",
+      "year": 1921,
+      "artistName": "Lyubov Popova",
+      "width": 2000,
+      "height": 3046,
+      "timeOfDay": ["dusk", "night"],
+      "weather": ["overcast", "storm"]
+    },
+    {
+      "id": "rozanova-non-objective-composition-1916",
+      "filename": "Non-Objective Composition (Suprematism) (Rozanova, 1916-1917) - anagoria.jpg",
+      "title": "Non-Objective Composition (Suprematism)",
+      "year": 1916,
+      "artistName": "Olga Rozanova",
+      "width": 2442,
+      "height": 3198,
+      "timeOfDay": ["noon"],
+      "weather": ["clear"]
+    },
+    {
+      "id": "rozanova-non-objective-composition-1-1915",
+      "filename": "Non-Objective Composition 1 (Rozanova, 1915).jpeg",
+      "title": "Non-Objective Composition 1",
+      "year": 1915,
+      "artistName": "Olga Rozanova",
+      "width": 2633,
+      "height": 3896,
+      "timeOfDay": ["morning", "afternoon"],
+      "weather": ["clear", "cloudy"]
+    },
+    {
+      "id": "ciurlionis-sonata-of-the-stars-allegro",
+      "filename": "Sonata No. 6 (Sonata of the Stars). Allegro.jpeg",
+      "title": "Sonata of the Stars (Allegro)",
+      "year": 1908,
+      "artistName": "Mikalojus Konstantinas Čiurlionis",
+      "width": 2689,
+      "height": 3134,
+      "timeOfDay": ["night", "dawn"],
+      "weather": ["clear", "fog"]
+    },
+    {
+      "id": "ciurlionis-sonata-of-the-stars-andante",
+      "filename": "Sonata No. 6 (Sonata of the Stars). Andante.jpeg",
+      "title": "Sonata of the Stars (Andante)",
+      "year": 1908,
+      "artistName": "Mikalojus Konstantinas Čiurlionis",
+      "width": 2600,
+      "height": 3060,
+      "timeOfDay": ["night"],
+      "weather": ["fog", "overcast"]
+    },
+    {
+      "id": "kliun-kkliun-001",
+      "filename": "Kkliun 001.jpg",
+      "title": "Suprematist Composition",
+      "year": 1915,
+      "artistName": "Ivan Kliun",
+      "width": 1529,
+      "height": 1974,
+      "timeOfDay": ["morning", "noon"],
+      "weather": ["clear", "cloudy"]
+    }
+  ]
+}

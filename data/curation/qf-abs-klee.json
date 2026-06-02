@@ -1,0 +1,25 @@
+{
+  "artist": "Paul Klee",
+  "rights": "pd",
+  "collection": "abstract",
+  "works": [
+    { "id": "static-dynamic-gradation-1923", "filename": "Static-Dynamic Gradation, 1923 - Paul Klee, MET DP-817-001.jpg", "title": "Static-Dynamic Gradation", "year": 1923, "width": 2758, "height": 4000, "timeOfDay": ["dawn","morning"], "weather": ["clear"] },
+    { "id": "abstract-trio-1923", "filename": "Abstract Trio, 1923 - Paul Klee, MET DT1769.jpg", "title": "Abstract Trio", "year": 1923, "width": 3811, "height": 2591, "timeOfDay": ["dusk","night"], "weather": ["overcast","fog"] },
+    { "id": "variations-progressive-motif-1927", "filename": "Variations (Progressive Motif), 1927 - Paul Klee, MET DP-825-001.jpg", "title": "Variations (Progressive Motif)", "year": 1927, "width": 3753, "height": 3891, "timeOfDay": ["night"], "weather": ["overcast","storm"] },
+    { "id": "ad-marginem-1930", "filename": "Ad marginem, Paul Klee (1930).jpg", "title": "Ad marginem", "year": 1930, "width": 4450, "height": 5904, "timeOfDay": ["afternoon","dusk"], "weather": ["overcast","fog"] },
+    { "id": "red-and-green-architecture-1922", "filename": "Red and Green Architecture (1922) by Paul Klee - Yale University Art Gallery.jpg", "title": "Red and Green Architecture", "year": 1922, "width": 3000, "height": 2684, "timeOfDay": ["dusk","night"], "weather": ["cloudy","overcast"] },
+    { "id": "translucencies-orange-blue-1915", "filename": "Translucencies, Orange-Blue, 1915 - Paul Klee.jpg", "title": "Translucencies, Orange-Blue", "year": 1915, "width": 2048, "height": 1328, "timeOfDay": ["dusk"], "weather": ["clear","cloudy"] },
+    { "id": "kristall-stufung-1921", "filename": "Kristall-Stufung, Paul Klee (1921).jpg", "title": "Crystal Gradation", "year": 1921, "width": 6539, "height": 5279, "timeOfDay": ["morning"], "weather": ["clear","snow"] },
+    { "id": "alter-klang-1925", "filename": "Alter Klang, 1925 - Paul Klee.jpg", "title": "Ancient Sound (Alter Klang)", "year": 1925, "width": 4462, "height": 4459, "timeOfDay": ["night"], "weather": ["overcast"] },
+    { "id": "burg-und-sonne-1928", "filename": "Burg und Sonne - Klee.jpg", "title": "Castle and Sun (Burg und Sonne)", "year": 1928, "width": 8070, "height": 6621, "timeOfDay": ["noon","afternoon"], "weather": ["clear"] },
+    { "id": "farbtafel-qu-1-1930", "filename": "Farbtafel Qu 1, 1930 - Paul Klee.jpg", "title": "Colour Table (Qu 1)", "year": 1930, "width": 6307, "height": 5299, "timeOfDay": ["night"], "weather": ["overcast","fog"] },
+    { "id": "rhythmisches-1930", "filename": "Rhythmisches, 1930 - Paul Klee.jpg", "title": "Rhythmical (Rhythmisches)", "year": 1930, "width": 2922, "height": 4000, "timeOfDay": ["afternoon","dusk"], "weather": ["overcast"] },
+    { "id": "fire-at-full-moon-1933", "filename": "Fire at Full Moon, 1933 - Paul Klee.jpg", "title": "Fire at Full Moon", "year": 1933, "width": 3245, "height": 2500, "timeOfDay": ["night"], "weather": ["storm"] },
+    { "id": "fermata-1933", "filename": "Fermata, 1933 - Paul Klee.jpg", "title": "Fermata", "year": 1933, "width": 3256, "height": 2836, "timeOfDay": ["afternoon"], "weather": ["overcast","cloudy"] },
+    { "id": "efflorescence-1937", "filename": "Efflorescence, Paul Klee, 1937, oil and pencil on cardboard - Phillips Collection - DSC04911.JPG", "title": "Efflorescence", "year": 1937, "width": 3062, "height": 3761, "timeOfDay": ["dusk","night"], "weather": ["overcast","storm"] },
+    { "id": "polyphony-1932", "filename": "Polyphony, 1932 Paul Klee.jpg", "title": "Polyphony", "year": 1932, "width": 2549, "height": 1560, "timeOfDay": ["morning","noon"], "weather": ["clear"] },
+    { "id": "may-picture-1925", "filename": "May Picture, 1925 - Paul Klee, MET DP-824-001.jpg", "title": "May Picture", "year": 1925, "width": 3919, "height": 3361, "timeOfDay": ["noon","afternoon"], "weather": ["clear","cloudy"] },
+    { "id": "hauptweg-und-nebenwege-1929", "filename": "Paul Klee - Hauptweg und Nebenwege.JPG", "title": "Highway and Byways (Hauptweg und Nebenwege)", "year": 1929, "width": 1728, "height": 3072, "timeOfDay": ["morning","noon"], "weather": ["clear"] },
+    { "id": "structural-i-1924", "filename": "Structural I, 1924 - Paul Klee, MET DT7805.jpg", "title": "Structural I", "year": 1924, "width": 1760, "height": 3722, "timeOfDay": ["dawn","morning"], "weather": ["cloudy","overcast"] }
+  ]
+}

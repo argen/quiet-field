@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiet Field — Settings</title>
+    <style>
+      :root { color-scheme: light dark; }
+      body {
+        margin: 0; min-height: 100vh;
+        font-family: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+        background: #16140f; color: #e7e0d4;
+        display: grid; grid-template-columns: 1fr 1fr; gap: 0;
+      }
+      @media (max-width: 720px) { body { grid-template-columns: 1fr; } }
+      .panel { padding: 8vmin 6vmin; max-width: 460px; }
+      h1 { font-size: 1.7rem; font-weight: 400; letter-spacing: 0.02em; margin: 0 0 0.2em; }
+      .sub { opacity: 0.6; font-style: italic; margin: 0 0 2.4em; font-size: 0.95rem; }
+      fieldset { border: 0; border-top: 1px solid rgba(255,255,255,0.12); padding: 1.4em 0 0; margin: 0 0 1.8em; }
+      legend { padding: 0; font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.18em; opacity: 0.55; }
+      .row { display: flex; align-items: center; justify-content: space-between; gap: 1em; padding: 0.5em 0; }
+      .row label { font-size: 1.02rem; }
+      .row .hint { display: block; font-size: 0.82rem; opacity: 0.5; font-style: italic; }
+      .seg { display: inline-flex; border: 1px solid rgba(255,255,255,0.18); border-radius: 999px; overflow: hidden; }
+      .seg button {
+        background: transparent; color: inherit; border: 0; padding: 0.4em 1.1em;
+        font: inherit; cursor: pointer; opacity: 0.6;
+      }
+      .seg button[aria-pressed="true"] { background: rgba(255,255,255,0.14); opacity: 1; }
+      .seg button:disabled { opacity: 0.25; cursor: not-allowed; }
+      input[type="checkbox"] { width: 1.2em; height: 1.2em; accent-color: #b98d57; }
+      .preview { position: relative; min-height: 100vh; }
+      footer { font-size: 0.8rem; opacity: 0.4; margin-top: 2em; line-height: 1.5; }
+    </style>
+  </head>
+  <body>
+    <section class="panel">
+      <h1>Quiet Field</h1>
+      <p class="sub">color fields in the spirit of Rothko, for every new tab</p>
+
+      <fieldset>
+        <legend>Edition</legend>
+        <div class="row">
+          <label>Collection
+            <span class="hint">Fields are generated; Abstract is public-domain abstraction; Hopper is personal</span>
+          </label>
+          <div class="seg" data-key="edition">
+            <button type="button" data-value="fields">Fields</button>
+            <button type="button" data-value="abstract">Abstract</button>
+            <button type="button" data-value="hopper">Hopper</button>
+          </div>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Framing</legend>
+        <div class="row">
+          <label>Presentation
+            <span class="hint">Hung on a wall, or filling the screen</span>
+          </label>
+          <div class="seg" data-key="framing">
+            <button type="button" data-value="framed">Framed</button>
+            <button type="button" data-value="full">Full bleed</button>
+          </div>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Ambient</legend>
+        <div class="row">
+          <label for="overlay">Show the wall label
+            <span class="hint">The time and the field's name, lower left — fades after a beat</span>
+          </label>
+          <input type="checkbox" id="overlay" data-key="overlay" />
+        </div>
+        <div class="row">
+          <label for="weather">Match the weather
+            <span class="hint">Asks for your location, then picks art that fits the sky right now</span>
+          </label>
+          <input type="checkbox" id="weather" data-key="weather" />
+        </div>
+      </fieldset>
+
+      <footer>
+        Fields are original generated artworks. Abstract shows public-domain
+        paintings (Kandinsky, Klee, Mondrian, Malevich, Turner and more). Hopper
+        is shown for personal use only. Changes apply to your next new tab.
+      </footer>
+    </section>
+    <div class="preview" id="preview"></div>
+    <script type="module" src="./settings.ts"></script>
+  </body>
+</html>

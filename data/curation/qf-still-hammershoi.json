@@ -1,0 +1,206 @@
+{
+  "artist": "Vilhelm Hammershøi",
+  "rights": "pd",
+  "works": [
+    {
+      "id": "interior-strandgade-30-1900",
+      "filename": "Vilhelm Hammershøi, Interiør fra Strandgade 30, 1900.jpg",
+      "title": "Interior, Strandgade 30",
+      "year": 1900,
+      "width": 2796,
+      "height": 3266,
+      "timeOfDay": ["morning", "noon"],
+      "weather": ["overcast", "cloudy"]
+    },
+    {
+      "id": "interior-1890",
+      "filename": "'Interior', painting by Vilhelm Hammershøi, 1890.jpg",
+      "title": "Interior",
+      "year": 1890,
+      "width": 3220,
+      "height": 4000,
+      "timeOfDay": ["afternoon"],
+      "weather": ["overcast"]
+    },
+    {
+      "id": "moonlight-strandgade-30",
+      "filename": "Vilhelm Hammershøi, \"Moonlight, Strandgade 30\", 1900–1906, 2012.203, MET.jpg",
+      "title": "Moonlight, Strandgade 30",
+      "year": 1903,
+      "width": 3905,
+      "height": 3118,
+      "timeOfDay": ["night"],
+      "weather": ["clear"]
+    },
+    {
+      "id": "interior-artificial-light",
+      "filename": "Vilhelm Hammershøi - Interior. Artificial Light - KMS8677 - Statens Museum for Kunst.jpg",
+      "title": "Interior. Artificial Light",
+      "year": 1909,
+      "width": 4724,
+      "height": 3429,
+      "timeOfDay": ["night", "dusk"],
+      "weather": ["overcast"]
+    },
+    {
+      "id": "from-christianshavns-canal",
+      "filename": "Vilhelm Hammershøi - From Christianshavn's Canal, Copenhagen - KMS8415 - Statens Museum for Kunst.jpg",
+      "title": "From Christianshavn's Canal, Copenhagen",
+      "year": 1898,
+      "width": 6861,
+      "height": 5518,
+      "timeOfDay": ["morning"],
+      "weather": ["fog", "overcast"]
+    },
+    {
+      "id": "sunny-interior",
+      "filename": "Vilhelm Hammershøi Sunny Interior.jpg",
+      "title": "Sunny Interior",
+      "year": 1905,
+      "width": 3024,
+      "height": 4032,
+      "timeOfDay": ["noon", "afternoon"],
+      "weather": ["clear"]
+    },
+    {
+      "id": "interior-table-bookcase-windsor-chair",
+      "filename": "Vilhelm Hammershøi Interior with a Table, Bookcase and Windsor Chair Strandgade 25.jpg",
+      "title": "Interior with a Table, Bookcase and Windsor Chair, Strandgade 25",
+      "year": 1910,
+      "width": 3021,
+      "height": 3525,
+      "timeOfDay": ["afternoon"],
+      "weather": ["overcast", "cloudy"]
+    },
+    {
+      "id": "interior-from-bredgade",
+      "filename": "Vilhelm Hammershøi Interior from Bredgade.jpg",
+      "title": "Interior from Bredgade",
+      "year": 1912,
+      "width": 4284,
+      "height": 4706,
+      "timeOfDay": ["morning"],
+      "weather": ["overcast"]
+    },
+    {
+      "id": "interior-music-room",
+      "filename": "Vilhelm Hammershøi Interior Music Room.jpg",
+      "title": "Interior, the Music Room",
+      "year": 1907,
+      "width": 4280,
+      "height": 4882,
+      "timeOfDay": ["afternoon"],
+      "weather": ["cloudy"]
+    },
+    {
+      "id": "white-doors-open-doors",
+      "filename": "Vilhelm Hammershøi- Weiße Türen, offene Türen, 1905.jpg",
+      "title": "White Doors, Open Doors",
+      "year": 1905,
+      "width": 3463,
+      "height": 2933,
+      "timeOfDay": ["noon", "afternoon"],
+      "weather": ["clear", "overcast"]
+    },
+    {
+      "id": "white-doors-strandgade-30-1899",
+      "filename": "Vilhelm Hammershoi, Hvide dore. Strandgade 30, 1899, 414, Ordrupgaard.tif",
+      "title": "White Doors, Strandgade 30",
+      "year": 1899,
+      "width": 5523,
+      "height": 5922,
+      "timeOfDay": ["morning"],
+      "weather": ["overcast"]
+    },
+    {
+      "id": "sondermarken-park-winter",
+      "filename": "Vilhelm Hammershøi - Søndermarken Park in winter - Google Art Project.jpg",
+      "title": "Søndermarken Park in Winter",
+      "year": 1896,
+      "width": 3769,
+      "height": 4876,
+      "timeOfDay": ["afternoon", "dusk"],
+      "weather": ["snow", "overcast"]
+    },
+    {
+      "id": "interior-artists-easel",
+      "filename": "Vilhelm Hammershøi - Interior with the Artist's Easel - Google Art Project.jpg",
+      "title": "Interior with the Artist's Easel",
+      "year": 1910,
+      "width": 4540,
+      "height": 5590,
+      "timeOfDay": ["afternoon"],
+      "weather": ["overcast"]
+    },
+    {
+      "id": "interior-sunlight-on-the-floor",
+      "filename": "Vilhelm Hammershøi (1864-1916) - Interior, Sunlight on the Floor - N04509 - National Gallery.jpg",
+      "title": "Interior, Sunlight on the Floor",
+      "year": 1906,
+      "width": 1021,
+      "height": 1200,
+      "timeOfDay": ["noon", "afternoon"],
+      "weather": ["clear"]
+    },
+    {
+      "id": "interior-with-a-mirror",
+      "filename": "Vilhelm Hammershøi - Interior with a mirror (ca.1907).jpg",
+      "title": "Interior with a Mirror",
+      "year": 1907,
+      "width": 1592,
+      "height": 2000,
+      "timeOfDay": ["morning"],
+      "weather": ["overcast"]
+    },
+    {
+      "id": "tall-windows",
+      "filename": "Hammershøi Tall windows.jpg",
+      "title": "Tall Windows",
+      "year": 1913,
+      "width": 2000,
+      "height": 2466,
+      "timeOfDay": ["dawn", "morning"],
+      "weather": ["fog", "overcast"]
+    },
+    {
+      "id": "interior-strandgade-30-1906-aros",
+      "filename": "Vilhelm Hammershøi, Interiør, Strandgade 30, 1906, 121, ARoS Aarhus Kunstmuseum.jpg",
+      "title": "Interior, Strandgade 30",
+      "year": 1906,
+      "width": 3357,
+      "height": 4134,
+      "timeOfDay": ["afternoon"],
+      "weather": ["cloudy"]
+    },
+    {
+      "id": "interior-with-windsor-chair-1913",
+      "filename": "Vilhelm Hammershøi - Interior with windsor chair (1913).jpg",
+      "title": "Interior with Windsor Chair",
+      "year": 1913,
+      "width": 2979,
+      "height": 3999,
+      "timeOfDay": ["morning"],
+      "weather": ["overcast"]
+    },
+    {
+      "id": "buildings-asiatic-company",
+      "filename": "Vilhelm Hammershøi - The Buildings of the Asiatic Company, seen from St. Annæ Street - Google Art Project.jpg",
+      "title": "The Buildings of the Asiatic Company, seen from St. Annæ Street",
+      "year": 1902,
+      "width": 3729,
+      "height": 3876,
+      "timeOfDay": ["morning", "noon"],
+      "weather": ["fog", "overcast"]
+    },
+    {
+      "id": "amalienborg-plads",
+      "filename": "Hammershøi, Vilhelm - Amalienborg Plads - KMS1542.jpg",
+      "title": "Amalienborg Square, Copenhagen",
+      "year": 1896,
+      "width": 7087,
+      "height": 7116,
+      "timeOfDay": ["dusk", "afternoon"],
+      "weather": ["overcast", "fog"]
+    }
+  ]
+}

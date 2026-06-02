@@ -1,0 +1,487 @@
+{
+  "artist": "Edward Hopper",
+  "rights": "personal",
+  "collection": "hopper",
+  "works": [
+    {
+      "id": "nighthawks",
+      "filename": "Nighthawks by Edward Hopper 1942.jpg",
+      "title": "Nighthawks",
+      "year": 1942,
+      "artistName": "Edward Hopper",
+      "width": 6000,
+      "height": 3274,
+      "timeOfDay": [
+        "night"
+      ],
+      "weather": [
+        "clear"
+      ]
+    },
+    {
+      "id": "automat",
+      "filename": "Automat-edward-hopper-1927.jpg",
+      "title": "Automat",
+      "year": 1927,
+      "artistName": "Edward Hopper",
+      "width": 2000,
+      "height": 1554,
+      "timeOfDay": [
+        "night"
+      ],
+      "weather": [
+        "clear"
+      ]
+    },
+    {
+      "id": "morning-sun",
+      "filename": "Edward Hopper - Morning Sun - c 1952 - Columbus Museum of Art.jpg",
+      "title": "Morning Sun",
+      "year": 1952,
+      "artistName": "Edward Hopper",
+      "width": 9357,
+      "height": 6506,
+      "timeOfDay": [
+        "morning"
+      ],
+      "weather": [
+        "clear"
+      ]
+    },
+    {
+      "id": "eleven-am",
+      "filename": "Painting Eleven A.M. (1926) by American artist Edward Hopper.jpg",
+      "title": "Eleven A.M.",
+      "year": 1926,
+      "artistName": "Edward Hopper",
+      "width": 1599,
+      "height": 1242,
+      "timeOfDay": [
+        "morning"
+      ],
+      "weather": [
+        "overcast",
+        "cloudy"
+      ]
+    },
+    {
+      "id": "hotel-by-a-railroad",
+      "filename": "Hotel-by-a-Railroad-Edward-Hopper-1952.jpg",
+      "title": "Hotel by a Railroad",
+      "year": 1952,
+      "artistName": "Edward Hopper",
+      "width": 1000,
+      "height": 772,
+      "timeOfDay": [
+        "afternoon"
+      ],
+      "weather": [
+        "clear"
+      ]
+    },
+    {
+      "id": "second-story-sunlight",
+      "filename": "Second-Story-Sunlight-Edward-Hopper-1960.jpg",
+      "title": "Second Story Sunlight",
+      "year": 1960,
+      "artistName": "Edward Hopper",
+      "width": 1200,
+      "height": 961,
+      "timeOfDay": [
+        "morning"
+      ],
+      "weather": [
+        "clear"
+      ]
+    },
+    {
+      "id": "girl-at-sewing-machine",
+      "filename": "Girl-at-sewing-machine-edward-hopper-1921.jpg",
+      "title": "Girl at a Sewing Machine",
+      "year": 1921,
+      "artistName": "Edward Hopper",
+      "width": 750,
+      "height": 795,
+      "timeOfDay": [
+        "morning",
+        "noon"
+      ],
+      "weather": [
+        "clear"
+      ]
+    },
+    {
+      "id": "summer-interior",
+      "filename": "Summer Interior, by Edward Hopper.jpg",
+      "title": "Summer Interior",
+      "year": 1909,
+      "artistName": "Edward Hopper",
+      "width": 2048,
+      "height": 1707,
+      "timeOfDay": [
+        "afternoon"
+      ],
+      "weather": [
+        "clear"
+      ]
+    },
+    {
+      "id": "two-on-the-aisle",
+      "filename": "Two on the Aisle.jpg",
+      "title": "Two on the Aisle",
+      "year": 1927,
+      "artistName": "Edward Hopper",
+      "width": 3984,
+      "height": 3318,
+      "timeOfDay": [
+        "night"
+      ],
+      "weather": [
+        "clear"
+      ]
+    },
+    {
+      "id": "new-york-restaurant",
+      "filename": "New York Restaurant by Edward Hopper, Muskegon Museum of Art.jpg",
+      "title": "New York Restaurant",
+      "year": 1922,
+      "artistName": "Edward Hopper",
+      "width": 3426,
+      "height": 2751,
+      "timeOfDay": [
+        "noon",
+        "afternoon"
+      ],
+      "weather": [
+        "clear"
+      ]
+    },
+    {
+      "id": "sunday",
+      "filename": "Sunday, by Edward Hopper.jpg",
+      "title": "Sunday",
+      "year": 1926,
+      "artistName": "Edward Hopper",
+      "width": 1200,
+      "height": 1029,
+      "timeOfDay": [
+        "morning"
+      ],
+      "weather": [
+        "clear"
+      ]
+    },
+    {
+      "id": "barber-shop",
+      "filename": "Barber-Shop-by-Hopper-1931.jpg",
+      "title": "The Barber Shop",
+      "year": 1931,
+      "artistName": "Edward Hopper",
+      "width": 1000,
+      "height": 774,
+      "timeOfDay": [
+        "morning"
+      ],
+      "weather": [
+        "clear"
+      ]
+    },
+    {
+      "id": "soir-bleu",
+      "filename": "Soir Bleu, by Edward Hopper.jpg",
+      "title": "Soir Bleu",
+      "year": 1914,
+      "artistName": "Edward Hopper",
+      "width": 2048,
+      "height": 1019,
+      "timeOfDay": [
+        "dusk",
+        "night"
+      ],
+      "weather": [
+        "clear"
+      ]
+    },
+    {
+      "id": "cape-cod-evening",
+      "filename": "Cape Cod Evening.jpg",
+      "title": "Cape Cod Evening",
+      "year": 1939,
+      "artistName": "Edward Hopper",
+      "width": 4096,
+      "height": 3072,
+      "timeOfDay": [
+        "dusk"
+      ],
+      "weather": [
+        "clear"
+      ]
+    },
+    {
+      "id": "the-mansard-roof",
+      "filename": "The Mansard Roof Edward Hopper 1923.jpg",
+      "title": "The Mansard Roof",
+      "year": 1923,
+      "artistName": "Edward Hopper",
+      "width": 2000,
+      "height": 1410,
+      "timeOfDay": [
+        "afternoon"
+      ],
+      "weather": [
+        "clear",
+        "cloudy"
+      ]
+    },
+    {
+      "id": "coast-guard-station",
+      "filename": "Coast-Guard-Station-Two-Lights-Maine-Edward-Hopper-1927.jpg",
+      "title": "Coast Guard Station, Two Lights, Maine",
+      "year": 1927,
+      "artistName": "Edward Hopper",
+      "width": 2000,
+      "height": 1417,
+      "timeOfDay": [
+        "noon"
+      ],
+      "weather": [
+        "clear"
+      ]
+    },
+    {
+      "id": "light-at-two-lights",
+      "filename": "Light at Two Lights.jpg",
+      "title": "The Lighthouse at Two Lights",
+      "year": 1929,
+      "artistName": "Edward Hopper",
+      "width": 3840,
+      "height": 2416,
+      "timeOfDay": [
+        "noon",
+        "afternoon"
+      ],
+      "weather": [
+        "clear"
+      ]
+    },
+    {
+      "id": "lighthouse-hill",
+      "filename": "Lighthouse Hill, 1927 by Edward Hopper.jpg",
+      "title": "Lighthouse Hill",
+      "year": 1927,
+      "artistName": "Edward Hopper",
+      "width": 1000,
+      "height": 711,
+      "timeOfDay": [
+        "afternoon"
+      ],
+      "weather": [
+        "clear"
+      ]
+    },
+    {
+      "id": "squam-light",
+      "filename": "Squam Light, by Edward Hopper.webp",
+      "title": "Squam Light",
+      "year": 1912,
+      "artistName": "Edward Hopper",
+      "width": 2880,
+      "height": 2407,
+      "timeOfDay": [
+        "noon"
+      ],
+      "weather": [
+        "clear",
+        "cloudy"
+      ]
+    },
+    {
+      "id": "the-long-leg",
+      "filename": "The long leg.jpg",
+      "title": "The Long Leg",
+      "year": 1935,
+      "artistName": "Edward Hopper",
+      "width": 4096,
+      "height": 2688,
+      "timeOfDay": [
+        "noon",
+        "afternoon"
+      ],
+      "weather": [
+        "clear"
+      ]
+    },
+    {
+      "id": "ground-swell",
+      "filename": "Ground swell.jpg",
+      "title": "Ground Swell",
+      "year": 1939,
+      "artistName": "Edward Hopper",
+      "width": 2852,
+      "height": 2057,
+      "timeOfDay": [
+        "noon"
+      ],
+      "weather": [
+        "clear",
+        "cloudy"
+      ]
+    },
+    {
+      "id": "haskells-house",
+      "filename": "Edward Hopper, Haskell's House, 1924, NGA 95419.jpg",
+      "title": "Haskell's House",
+      "year": 1924,
+      "artistName": "Edward Hopper",
+      "width": 4000,
+      "height": 2784,
+      "timeOfDay": [
+        "afternoon"
+      ],
+      "weather": [
+        "clear"
+      ]
+    },
+    {
+      "id": "cottages-at-north-truro",
+      "filename": "Edward hopper cottages at north truro.jpg",
+      "title": "Cottages at North Truro",
+      "year": 1938,
+      "artistName": "Edward Hopper",
+      "width": 3200,
+      "height": 2265,
+      "timeOfDay": [
+        "afternoon"
+      ],
+      "weather": [
+        "clear"
+      ]
+    },
+    {
+      "id": "the-lonely-house",
+      "filename": "The Lonely House, by Edward Hopper.png",
+      "title": "The Lonely House",
+      "year": 1922,
+      "artistName": "Edward Hopper",
+      "width": 971,
+      "height": 800,
+      "timeOfDay": [
+        "afternoon",
+        "dusk"
+      ],
+      "weather": [
+        "overcast",
+        "cloudy"
+      ]
+    },
+    {
+      "id": "house-tops",
+      "filename": "House Tops, by Edward Hopper.png",
+      "title": "House Tops",
+      "year": 1921,
+      "artistName": "Edward Hopper",
+      "width": 948,
+      "height": 728,
+      "timeOfDay": [
+        "morning"
+      ],
+      "weather": [
+        "overcast",
+        "cloudy"
+      ]
+    },
+    {
+      "id": "the-city",
+      "filename": "The City 1927 UAMA.jpg",
+      "title": "The City",
+      "year": 1927,
+      "artistName": "Edward Hopper",
+      "width": 1600,
+      "height": 1256,
+      "timeOfDay": [
+        "morning"
+      ],
+      "weather": [
+        "clear",
+        "cloudy"
+      ]
+    },
+    {
+      "id": "blackwells-island",
+      "filename": "Blackwell's Island Edward Hopper 1928.jpg",
+      "title": "Blackwell's Island",
+      "year": 1928,
+      "artistName": "Edward Hopper",
+      "width": 3200,
+      "height": 1836,
+      "timeOfDay": [
+        "afternoon"
+      ],
+      "weather": [
+        "clear"
+      ]
+    },
+    {
+      "id": "white-river-at-sharon",
+      "filename": "White-River-at-Sharon-Edward-Hopper-1937.jpg",
+      "title": "White River at Sharon",
+      "year": 1937,
+      "artistName": "Edward Hopper",
+      "width": 2000,
+      "height": 1417,
+      "timeOfDay": [
+        "noon"
+      ],
+      "weather": [
+        "clear",
+        "cloudy"
+      ]
+    },
+    {
+      "id": "railroad-sunset",
+      "filename": "Railroad Sunset, by Edward Hopper.jpg",
+      "title": "Railroad Sunset",
+      "year": 1929,
+      "artistName": "Edward Hopper",
+      "width": 2048,
+      "height": 1241,
+      "timeOfDay": [
+        "dusk"
+      ],
+      "weather": [
+        "clear"
+      ]
+    },
+    {
+      "id": "macombs-dam-bridge",
+      "filename": "Macombs-Dam-Bridge-Edward-Hopper-1935.jpg",
+      "title": "Macomb's Dam Bridge",
+      "year": 1935,
+      "artistName": "Edward Hopper",
+      "width": 1536,
+      "height": 912,
+      "timeOfDay": [
+        "afternoon"
+      ],
+      "weather": [
+        "overcast",
+        "cloudy"
+      ]
+    },
+    {
+      "id": "night-windows",
+      "filename": "Night Windows Hopper MOMA 1928.jpg",
+      "title": "Night Windows",
+      "year": 1928,
+      "artistName": "Edward Hopper",
+      "width": 2000,
+      "height": 1709,
+      "timeOfDay": [
+        "night"
+      ],
+      "weather": [
+        "clear"
+      ]
+    }
+  ]
+}

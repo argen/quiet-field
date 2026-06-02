@@ -1,0 +1,187 @@
+{
+  "artist": "Wassily Kandinsky",
+  "rights": "pd",
+  "collection": "abstract",
+  "works": [
+    {
+      "id": "improvisation-33-orient-i",
+      "filename": "Amsterdam - Stedelijk Museum - Wassily Kandinsky (Василий Васильевич Кандинский) (1866-1944) - Improvisation 33 (Orient I) (A 4739) 1913.jpg",
+      "title": "Improvisation 33 (Orient I)",
+      "year": 1913,
+      "width": 4928,
+      "height": 4427,
+      "timeOfDay": ["noon", "afternoon"],
+      "weather": ["clear", "storm"]
+    },
+    {
+      "id": "improvisation-30-cannons",
+      "filename": "Improvisation No 30 Cannons - Wassily Kandinsky - Cleveland Museum of Art (30378464485).jpg",
+      "title": "Improvisation 30 (Cannons)",
+      "year": 1913,
+      "width": 2466,
+      "height": 2500,
+      "timeOfDay": ["afternoon", "dusk"],
+      "weather": ["storm", "cloudy"]
+    },
+    {
+      "id": "painting-with-white-border",
+      "filename": "Painting with White Border by Vasily Kandinsky, May 1913.JPG",
+      "title": "Painting with White Border",
+      "year": 1913,
+      "width": 3640,
+      "height": 2554,
+      "timeOfDay": ["morning", "noon"],
+      "weather": ["clear", "cloudy"]
+    },
+    {
+      "id": "black-lines",
+      "filename": "Black Lines by Vasily Kandinsky, 1913.JPG",
+      "title": "Black Lines",
+      "year": 1913,
+      "width": 2578,
+      "height": 2524,
+      "timeOfDay": ["morning", "noon"],
+      "weather": ["clear"]
+    },
+    {
+      "id": "improvisation-29-the-swan",
+      "filename": "Vasily kandinsky, improvvisazione n. 29 (il cigno), 1912.JPG",
+      "title": "Improvisation 29 (The Swan)",
+      "year": 1912,
+      "width": 2124,
+      "height": 2300,
+      "timeOfDay": ["dawn", "morning"],
+      "weather": ["cloudy", "clear"]
+    },
+    {
+      "id": "with-the-black-arc",
+      "filename": "Vassily kandinsky, con l'arco nero, 1912.JPG",
+      "title": "With the Black Arc",
+      "year": 1912,
+      "width": 2164,
+      "height": 2096,
+      "timeOfDay": ["afternoon", "dusk"],
+      "weather": ["storm"]
+    },
+    {
+      "id": "picture-with-a-red-spot",
+      "filename": "W. Kandinsky - Bild mit rotem Fleck.jpg",
+      "title": "Picture with a Red Spot",
+      "year": 1914,
+      "width": 3484,
+      "height": 3484,
+      "timeOfDay": ["noon", "afternoon"],
+      "weather": ["clear", "storm"]
+    },
+    {
+      "id": "the-deluge",
+      "filename": "Wassily Kandinsky Sintflut.jpg",
+      "title": "The Deluge (Sintflut)",
+      "year": 1912,
+      "width": 2692,
+      "height": 2452,
+      "timeOfDay": ["dusk", "night"],
+      "weather": ["storm", "rain"]
+    },
+    {
+      "id": "deepened-impulse",
+      "filename": "Vertiefte Regung (Deepened Impulse) by Wassily Kandinsky, 1928.jpg",
+      "title": "Deepened Impulse (Vertiefte Regung)",
+      "year": 1928,
+      "width": 1137,
+      "height": 1500,
+      "timeOfDay": ["dusk", "night"],
+      "weather": ["overcast", "storm"]
+    },
+    {
+      "id": "several-circles",
+      "filename": "Vassily Kandinsky, 1926 - Several Circles, Gugg 0910 25.jpg",
+      "title": "Several Circles",
+      "year": 1926,
+      "width": 1800,
+      "height": 1833,
+      "timeOfDay": ["night"],
+      "weather": ["clear", "fog"]
+    },
+    {
+      "id": "circles-in-a-circle",
+      "filename": "Vasily kandinsky, cerchi in un cerchio, 1923 (PMoA) 01.jpg",
+      "title": "Circles in a Circle",
+      "year": 1923,
+      "width": 3660,
+      "height": 3744,
+      "timeOfDay": ["morning", "noon"],
+      "weather": ["clear"]
+    },
+    {
+      "id": "white-center",
+      "filename": "White Center by Vasily Kandinsky, 1921.JPG",
+      "title": "White Center",
+      "year": 1921,
+      "width": 2984,
+      "height": 2604,
+      "timeOfDay": ["morning", "noon"],
+      "weather": ["clear", "cloudy"]
+    },
+    {
+      "id": "circle-on-black",
+      "filename": "Circle on Black by Vasily Kandinsky, 1921.JPG",
+      "title": "Circle on Black",
+      "year": 1921,
+      "width": 2425,
+      "height": 2755,
+      "timeOfDay": ["night"],
+      "weather": ["clear", "storm"]
+    },
+    {
+      "id": "points",
+      "filename": "Wassily Kandinsky, 1920 - Points.jpg",
+      "title": "Points",
+      "year": 1920,
+      "width": 3318,
+      "height": 4001,
+      "timeOfDay": ["dusk", "night"],
+      "weather": ["cloudy", "storm"]
+    },
+    {
+      "id": "yellow-border",
+      "filename": "'Yellow Border' by Wassily Kandinsky, 1930, LACMA.JPG",
+      "title": "Yellow Border",
+      "year": 1930,
+      "width": 2444,
+      "height": 2420,
+      "timeOfDay": ["noon", "afternoon"],
+      "weather": ["clear"]
+    },
+    {
+      "id": "in-the-bright-oval",
+      "filename": "In the Bright Oval by Wassily Kandinsky, 1925 AD, oil on cardboard - Museo Nacional Centro de Arte Reina Sofía - DSC08769.JPG",
+      "title": "In the Bright Oval",
+      "year": 1925,
+      "width": 3407,
+      "height": 4349,
+      "timeOfDay": ["morning", "noon"],
+      "weather": ["clear"]
+    },
+    {
+      "id": "around-the-circle",
+      "filename": "Vassily Kandinsky, 1940 - Around the circle.jpg",
+      "title": "Around the Circle",
+      "year": 1940,
+      "width": 3200,
+      "height": 2073,
+      "timeOfDay": ["dusk", "night"],
+      "weather": ["overcast", "storm"]
+    },
+    {
+      "id": "composition-untitled-amsterdam",
+      "filename": "Zonder titel (Komposition), RP-P-1952-76.jpg",
+      "title": "Composition (Untitled)",
+      "year": null,
+      "width": 4772,
+      "height": 4962,
+      "timeOfDay": ["afternoon", "dusk"],
+      "weather": ["cloudy", "clear"]
+    }
+  ]
+}
