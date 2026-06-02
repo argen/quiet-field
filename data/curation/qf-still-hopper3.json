@@ -1,0 +1,517 @@
+{
+  "artist": "Edward Hopper",
+  "rights": "personal",
+  "collection": "hopper",
+  "works": [
+    {
+      "id": "nighthawks-1942",
+      "filename": "Nighthawks by Edward Hopper 1942.jpg",
+      "title": "Nighthawks",
+      "year": 1942,
+      "width": 6000,
+      "height": 3274,
+      "timeOfDay": ["night"],
+      "weather": ["clear"]
+    },
+    {
+      "id": "early-sunday-morning-1930",
+      "filename": "Early Sunday Morning, by Edward Hopper.jpg",
+      "title": "Early Sunday Morning",
+      "year": 1930,
+      "width": 2048,
+      "height": 1191,
+      "timeOfDay": ["morning"],
+      "weather": ["clear"]
+    },
+    {
+      "id": "chop-suey-1929",
+      "filename": "Chop Suey by Edward Hopper.jpg",
+      "title": "Chop Suey",
+      "year": 1929,
+      "width": 2873,
+      "height": 2462,
+      "timeOfDay": ["afternoon", "noon"],
+      "weather": ["clear"]
+    },
+    {
+      "id": "automat-1927",
+      "filename": "Automat-edward-hopper-1927.jpg",
+      "title": "Automat",
+      "year": 1927,
+      "width": 2000,
+      "height": 1554,
+      "timeOfDay": ["night"],
+      "weather": ["clear"]
+    },
+    {
+      "id": "gas-1940",
+      "filename": "Hopper-Gas-1940.png",
+      "title": "Gas",
+      "year": 1940,
+      "width": 3950,
+      "height": 2563,
+      "timeOfDay": ["dusk"],
+      "weather": ["clear", "cloudy"]
+    },
+    {
+      "id": "office-at-night-1940",
+      "filename": "Office-at-night-edward-hopper-1940.jpg",
+      "title": "Office at Night",
+      "year": 1940,
+      "width": 850,
+      "height": 731,
+      "timeOfDay": ["night"],
+      "weather": ["clear"]
+    },
+    {
+      "id": "morning-sun-1952",
+      "filename": "Edward Hopper - Morning Sun - c 1952 - Columbus Museum of Art.jpg",
+      "title": "Morning Sun",
+      "year": 1952,
+      "width": 9357,
+      "height": 6506,
+      "timeOfDay": ["morning"],
+      "weather": ["clear"]
+    },
+    {
+      "id": "eleven-am-1926",
+      "filename": "Painting Eleven A.M. (1926) by American artist Edward Hopper.jpg",
+      "title": "Eleven A.M.",
+      "year": 1926,
+      "width": 1599,
+      "height": 1242,
+      "timeOfDay": ["morning"],
+      "weather": ["clear"]
+    },
+    {
+      "id": "summer-interior-1909",
+      "filename": "Summer Interior, by Edward Hopper.jpg",
+      "title": "Summer Interior",
+      "year": 1909,
+      "width": 2048,
+      "height": 1707,
+      "timeOfDay": ["afternoon"],
+      "weather": ["clear"]
+    },
+    {
+      "id": "cape-cod-evening-1939",
+      "filename": "Cape Cod Evening.jpg",
+      "title": "Cape Cod Evening",
+      "year": 1939,
+      "width": 4096,
+      "height": 3072,
+      "timeOfDay": ["dusk", "afternoon"],
+      "weather": ["clear", "cloudy"]
+    },
+    {
+      "id": "soir-bleu-1914",
+      "filename": "Soir Bleu, by Edward Hopper.jpg",
+      "title": "Soir Bleu",
+      "year": 1914,
+      "width": 2048,
+      "height": 1019,
+      "timeOfDay": ["night"],
+      "weather": ["clear"]
+    },
+    {
+      "id": "railroad-sunset-1929",
+      "filename": "Railroad Sunset, by Edward Hopper.jpg",
+      "title": "Railroad Sunset",
+      "year": 1929,
+      "width": 2048,
+      "height": 1241,
+      "timeOfDay": ["dusk"],
+      "weather": ["clear", "cloudy"]
+    },
+    {
+      "id": "ground-swell-1939",
+      "filename": "Ground swell.jpg",
+      "title": "Ground Swell",
+      "year": 1939,
+      "width": 2852,
+      "height": 2057,
+      "timeOfDay": ["afternoon"],
+      "weather": ["clear", "cloudy"]
+    },
+    {
+      "id": "the-long-leg-1935",
+      "filename": "The long leg.jpg",
+      "title": "The Long Leg",
+      "year": 1935,
+      "width": 4096,
+      "height": 2688,
+      "timeOfDay": ["afternoon"],
+      "weather": ["clear"]
+    },
+    {
+      "id": "the-lee-shore-1941",
+      "filename": "The Lee Shore.jpg",
+      "title": "The Lee Shore",
+      "year": 1941,
+      "width": 2764,
+      "height": 1774,
+      "timeOfDay": ["afternoon"],
+      "weather": ["clear", "cloudy"]
+    },
+    {
+      "id": "lighthouse-hill-1927",
+      "filename": "Lighthouse Hill, 1927 by Edward Hopper.jpg",
+      "title": "Lighthouse Hill",
+      "year": 1927,
+      "width": 1000,
+      "height": 711,
+      "timeOfDay": ["noon", "afternoon"],
+      "weather": ["clear"]
+    },
+    {
+      "id": "light-at-two-lights",
+      "filename": "Light at Two Lights.jpg",
+      "title": "Light at Two Lights",
+      "year": 1927,
+      "width": 3840,
+      "height": 2416,
+      "timeOfDay": ["morning", "noon"],
+      "weather": ["clear"]
+    },
+    {
+      "id": "squam-light",
+      "filename": "Squam Light, by Edward Hopper.webp",
+      "title": "Squam Light",
+      "year": 1923,
+      "width": 2880,
+      "height": 2407,
+      "timeOfDay": ["noon", "afternoon"],
+      "weather": ["clear"]
+    },
+    {
+      "id": "coast-guard-station-two-lights-1927",
+      "filename": "Coast-Guard-Station-Two-Lights-Maine-Edward-Hopper-1927.jpg",
+      "title": "Coast Guard Station, Two Lights",
+      "year": 1927,
+      "width": 2000,
+      "height": 1417,
+      "timeOfDay": ["noon", "afternoon"],
+      "weather": ["clear"]
+    },
+    {
+      "id": "haskells-house-1924",
+      "filename": "Edward Hopper, Haskell's House, 1924, NGA 95419.jpg",
+      "title": "Haskell's House",
+      "year": 1924,
+      "width": 4000,
+      "height": 2784,
+      "timeOfDay": ["afternoon", "noon"],
+      "weather": ["clear"]
+    },
+    {
+      "id": "mansard-roof-1923",
+      "filename": "The Mansard Roof Edward Hopper 1923.jpg",
+      "title": "The Mansard Roof",
+      "year": 1923,
+      "width": 2000,
+      "height": 1410,
+      "timeOfDay": ["noon", "afternoon"],
+      "weather": ["clear"]
+    },
+    {
+      "id": "cottages-north-truro",
+      "filename": "Edward hopper cottages at north truro.jpg",
+      "title": "Cottages at North Truro",
+      "year": null,
+      "width": 3200,
+      "height": 2265,
+      "timeOfDay": ["afternoon"],
+      "weather": ["clear"]
+    },
+    {
+      "id": "universalist-church-1926",
+      "filename": "Universalist Church (Edward Hopper, 1926).jpg",
+      "title": "Universalist Church",
+      "year": 1926,
+      "width": 4398,
+      "height": 3114,
+      "timeOfDay": ["noon", "afternoon"],
+      "weather": ["clear"]
+    },
+    {
+      "id": "blackwells-island-1928",
+      "filename": "Blackwell's Island Edward Hopper 1928.jpg",
+      "title": "Blackwell's Island",
+      "year": 1928,
+      "width": 3200,
+      "height": 1836,
+      "timeOfDay": ["afternoon"],
+      "weather": ["clear", "cloudy"]
+    },
+    {
+      "id": "the-city-1927",
+      "filename": "The City 1927 UAMA.jpg",
+      "title": "The City",
+      "year": 1927,
+      "width": 1600,
+      "height": 1256,
+      "timeOfDay": ["afternoon"],
+      "weather": ["clear"]
+    },
+    {
+      "id": "night-windows-1928",
+      "filename": "Night Windows Hopper MOMA 1928.jpg",
+      "title": "Night Windows",
+      "year": 1928,
+      "width": 2000,
+      "height": 1709,
+      "timeOfDay": ["night"],
+      "weather": ["clear"]
+    },
+    {
+      "id": "new-york-restaurant-1922",
+      "filename": "New York Restaurant by Edward Hopper, Muskegon Museum of Art.jpg",
+      "title": "New York Restaurant",
+      "year": 1922,
+      "width": 3426,
+      "height": 2751,
+      "timeOfDay": ["afternoon", "evening"],
+      "weather": ["clear"]
+    },
+    {
+      "id": "east-side-interior-1922",
+      "filename": "Edward Hopper, East Side Interior, 1922, NGA 36512.jpg",
+      "title": "East Side Interior",
+      "year": 1922,
+      "width": 4000,
+      "height": 3244,
+      "timeOfDay": ["morning", "afternoon"],
+      "weather": ["clear"]
+    },
+    {
+      "id": "girl-at-sewing-machine-1921",
+      "filename": "Girl at a Sewing Machine - 1921 - Hopper.jpg",
+      "title": "Girl at a Sewing Machine",
+      "year": 1921,
+      "width": 2636,
+      "height": 2750,
+      "timeOfDay": ["morning", "afternoon"],
+      "weather": ["clear"]
+    },
+    {
+      "id": "sunday-1926",
+      "filename": "Sunday, by Edward Hopper.jpg",
+      "title": "Sunday",
+      "year": 1926,
+      "width": 1200,
+      "height": 1029,
+      "timeOfDay": ["morning", "noon"],
+      "weather": ["clear"]
+    },
+    {
+      "id": "barber-shop-1931",
+      "filename": "Barber-Shop-by-Hopper-1931.jpg",
+      "title": "Barber Shop",
+      "year": 1931,
+      "width": 1000,
+      "height": 774,
+      "timeOfDay": ["afternoon", "noon"],
+      "weather": ["clear"]
+    },
+    {
+      "id": "two-on-the-aisle-1927",
+      "filename": "Two on the Aisle.jpg",
+      "title": "Two on the Aisle",
+      "year": 1927,
+      "width": 3984,
+      "height": 3318,
+      "timeOfDay": ["night"],
+      "weather": ["clear"]
+    },
+    {
+      "id": "apartment-houses-1923",
+      "filename": "Apartment Houses by Edward Hopper.png",
+      "title": "Apartment Houses",
+      "year": 1923,
+      "width": 2705,
+      "height": 2135,
+      "timeOfDay": ["afternoon", "noon"],
+      "weather": ["clear"]
+    },
+    {
+      "id": "rocky-cliffs-by-the-sea",
+      "filename": "Rocky Cliffs by the Sea, by Edward Hopper.jpg",
+      "title": "Rocky Cliffs by the Sea",
+      "year": 1916,
+      "width": 2048,
+      "height": 1538,
+      "timeOfDay": ["afternoon", "noon"],
+      "weather": ["clear", "cloudy"]
+    },
+    {
+      "id": "macombs-dam-bridge-1935",
+      "filename": "Macombs-Dam-Bridge-Edward-Hopper-1935.jpg",
+      "title": "Macombs Dam Bridge and 155th Street",
+      "year": 1935,
+      "width": 1536,
+      "height": 912,
+      "timeOfDay": ["afternoon", "noon"],
+      "weather": ["clear", "cloudy"]
+    },
+    {
+      "id": "italian-quarter-gloucester",
+      "filename": "Italian Quarter, Gloucester, by Edward Hopper.jpg",
+      "title": "Italian Quarter, Gloucester",
+      "year": 1912,
+      "width": 2048,
+      "height": 1690,
+      "timeOfDay": ["noon", "afternoon"],
+      "weather": ["clear"]
+    },
+    {
+      "id": "white-river-sharon-1937",
+      "filename": "White-River-at-Sharon-Edward-Hopper-1937.jpg",
+      "title": "White River at Sharon",
+      "year": 1937,
+      "width": 2000,
+      "height": 1417,
+      "timeOfDay": ["afternoon"],
+      "weather": ["clear", "cloudy"]
+    },
+    {
+      "id": "queensborough-bridge",
+      "filename": "Queensborough Bridge, by Edward Hopper.jpg",
+      "title": "Queensborough Bridge",
+      "year": 1913,
+      "width": 2048,
+      "height": 1384,
+      "timeOfDay": ["morning", "afternoon"],
+      "weather": ["cloudy", "overcast"]
+    },
+    {
+      "id": "american-village-1912",
+      "filename": "American Village, by Edward Hopper.jpg",
+      "title": "American Village",
+      "year": 1912,
+      "width": 2048,
+      "height": 1390,
+      "timeOfDay": ["noon", "afternoon"],
+      "weather": ["clear"]
+    },
+    {
+      "id": "the-el-station-1908",
+      "filename": "The El Station, by Edward Hopper.jpg",
+      "title": "The El Station",
+      "year": 1908,
+      "width": 2048,
+      "height": 1418,
+      "timeOfDay": ["afternoon", "dusk"],
+      "weather": ["overcast", "cloudy"]
+    },
+    {
+      "id": "gloucester-harbor",
+      "filename": "Gloucester Harbor, by Edward Hopper.jpg",
+      "title": "Gloucester Harbor",
+      "year": 1912,
+      "width": 2048,
+      "height": 1402,
+      "timeOfDay": ["morning", "noon"],
+      "weather": ["clear", "cloudy"]
+    },
+    {
+      "id": "monhegan-houses-maine-1916",
+      "filename": "Monhegan Houses, Maine, by Edward Hopper, 1916-1919, oil on panel - Portland Museum of Art - Portland, Maine - DSC04187.jpg",
+      "title": "Monhegan Houses, Maine",
+      "year": 1916,
+      "width": 3988,
+      "height": 2973,
+      "timeOfDay": ["noon", "afternoon"],
+      "weather": ["clear"]
+    },
+    {
+      "id": "sailing-1911",
+      "filename": "Sailing Edward Hopper 1911.jpg",
+      "title": "Sailing",
+      "year": 1911,
+      "width": 1680,
+      "height": 1370,
+      "timeOfDay": ["afternoon"],
+      "weather": ["clear"]
+    },
+    {
+      "id": "skylights",
+      "filename": "Skylights, by Edward Hopper.jpg",
+      "title": "Skylights",
+      "year": 1926,
+      "width": 2880,
+      "height": 1780,
+      "timeOfDay": ["morning", "noon"],
+      "weather": ["clear", "cloudy"]
+    },
+    {
+      "id": "railroad-crossing",
+      "filename": "Railroad Crossing, by Edward Hopper.jpg",
+      "title": "Railroad Crossing",
+      "year": 1922,
+      "width": 2048,
+      "height": 1509,
+      "timeOfDay": ["afternoon", "noon"],
+      "weather": ["clear"]
+    },
+    {
+      "id": "pont-du-carrousel-fog",
+      "filename": "(Pont du Carrousel in the Fog), by Edward Hopper.jpg",
+      "title": "Pont du Carrousel in the Fog",
+      "year": 1909,
+      "width": 2048,
+      "height": 1689,
+      "timeOfDay": ["morning", "dawn"],
+      "weather": ["fog", "overcast"]
+    },
+    {
+      "id": "the-louvre-thunderstorm",
+      "filename": "The Louvre in a Thunderstorm, by Edward Hopper.jpg",
+      "title": "The Louvre in a Thunderstorm",
+      "year": 1909,
+      "width": 2048,
+      "height": 1677,
+      "timeOfDay": ["afternoon"],
+      "weather": ["storm", "overcast"]
+    },
+    {
+      "id": "bridge-on-the-seine",
+      "filename": "Bridge on the Seine, by Edward Hopper.jpg",
+      "title": "Bridge on the Seine",
+      "year": 1907,
+      "width": 2048,
+      "height": 1684,
+      "timeOfDay": ["afternoon", "noon"],
+      "weather": ["cloudy", "overcast"]
+    },
+    {
+      "id": "canal-at-charenton",
+      "filename": "Canal at Charneton, by Edward Hopper.jpg",
+      "title": "Canal at Charenton",
+      "year": 1907,
+      "width": 2048,
+      "height": 1690,
+      "timeOfDay": ["afternoon", "morning"],
+      "weather": ["clear", "cloudy"]
+    },
+    {
+      "id": "tall-masts-gloucester-1912",
+      "filename": "Tall Masts, by Edward Hopper.jpg",
+      "title": "Tall Masts (Gloucester)",
+      "year": 1912,
+      "width": 2048,
+      "height": 1696,
+      "timeOfDay": ["afternoon", "dusk"],
+      "weather": ["clear", "cloudy"]
+    },
+    {
+      "id": "river-boat",
+      "filename": "River Boat, by Edward Hopper.jpg",
+      "title": "River Boat",
+      "year": 1930,
+      "width": 2048,
+      "height": 1615,
+      "timeOfDay": ["afternoon", "noon"],
+      "weather": ["clear"]
+    }
+  ]
+}

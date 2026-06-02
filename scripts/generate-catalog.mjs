@@ -22,6 +22,7 @@ const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 const SOURCES = [
   { file: "data/curation/qf-still-hopper.json", collection: "hopper", rights: "personal" },
   { file: "data/curation/qf-still-hopper2.json", collection: "hopper", rights: "personal" },
+  { file: "data/curation/qf-still-hopper3.json", collection: "hopper", rights: "personal" },
   { file: "data/curation/qf-still-turner.json", collection: "abstract", rights: "pd" },
   { file: "data/curation/qf-abs-kandinsky.json", collection: "abstract", rights: "pd" },
   { file: "data/curation/qf-abs-kandinsky2.json", collection: "abstract", rights: "pd" },
@@ -110,7 +111,7 @@ async function pool(items, n, worker) {
 }
 
 // Per-artist cap — keeps the collections varied without bloating the bundle.
-const CAP = { hopper: 30, abstract: 16 };
+const CAP = { hopper: 55, abstract: 16 };
 // QF_CACHE_ONLY=1 rebuilds the catalog from already-downloaded images without
 // hitting the network (used while Wikimedia is throttling our IP).
 const CACHE_ONLY = process.env.QF_CACHE_ONLY === "1";
