@@ -109,6 +109,96 @@ describe("selectField", () => {
   });
 });
 
+describe("selectField — new color-field archetypes", () => {
+  // A wide seed sweep so every archetype (the rarest, "cleave", is ~7%) is hit.
+  const sample = Array.from({ length: 600 }, (_, i) => selectField(base, i));
+  const first = (c: string) => sample.find((p) => p.composition === c);
+
+  it("Newman 'zips': vertical bands that stay on the canvas", () => {
+    const piece = first("zips")!;
+    expect(piece).toBeDefined();
+    expect(piece.zips.length).toBeGreaterThanOrEqual(1);
+    expect(piece.zips.length).toBeLessThanOrEqual(3);
+    for (const z of piece.zips) {
+      expect(z.width).toBeGreaterThan(0);
+      expect(z.left - z.width / 2).toBeGreaterThanOrEqual(-1e-9);
+      expect(z.left + z.width / 2).toBeLessThanOrEqual(1 + 1e-9);
+    }
+  });
+
+  it("Frankenthaler 'veils': on-canvas blooms with real radii", () => {
+    const piece = first("veils")!;
+    expect(piece).toBeDefined();
+    expect(piece.veils.length).toBeGreaterThanOrEqual(2);
+    for (const v of piece.veils) {
+      expect(v.rx).toBeGreaterThan(0);
+      expect(v.ry).toBeGreaterThan(0);
+      expect(v.cx).toBeGreaterThanOrEqual(0);
+      expect(v.cx).toBeLessThanOrEqual(1);
+      expect(v.cy).toBeGreaterThanOrEqual(0);
+      expect(v.cy).toBeLessThanOrEqual(1);
+      expect(v.lift).toBeGreaterThan(0);
+      expect(v.lift).toBeLessThanOrEqual(1);
+    }
+  });
+
+  it("Agnes Martin 'grid': thin, ordered, on-canvas ruled lines", () => {
+    const piece = first("grid")!;
+    expect(piece).toBeDefined();
+    expect(piece.grid.length).toBeGreaterThanOrEqual(6);
+    let prev = -1;
+    for (const g of piece.grid) {
+      expect(g.thickness).toBeGreaterThan(0);
+      expect(g.thickness).toBeLessThan(0.06); // a line, not a band
+      expect(g.pos).toBeGreaterThanOrEqual(0);
+      expect(g.pos).toBeLessThanOrEqual(1);
+      expect(g.pos).toBeGreaterThan(prev); // sorted top→bottom, no overlap
+      prev = g.pos;
+    }
+  });
+
+  it("Clyfford Still 'cleave': closed polygons, all coords on-canvas", () => {
+    const piece = first("cleave")!;
+    expect(piece).toBeDefined();
+    expect(piece.shards.length).toBeGreaterThanOrEqual(2);
+    for (const sh of piece.shards) {
+      expect(sh.points.length).toBeGreaterThanOrEqual(3); // a real polygon
+      for (const [x, y] of sh.points) {
+        expect(x).toBeGreaterThanOrEqual(-1e-9);
+        expect(x).toBeLessThanOrEqual(1 + 1e-9);
+        expect(y).toBeGreaterThanOrEqual(-1e-9);
+        expect(y).toBeLessThanOrEqual(1 + 1e-9);
+      }
+    }
+  });
+
+  it("only ever populates the active composition's array", () => {
+    const arr: Record<string, (p: (typeof sample)[number]) => number> = {
+      bands: (p) => p.bands.length,
+      squares: (p) => p.squares.length,
+      zips: (p) => p.zips.length,
+      veils: (p) => p.veils.length,
+      grid: (p) => p.grid.length,
+      cleave: (p) => p.shards.length,
+    };
+    for (const p of sample) {
+      for (const [comp, count] of Object.entries(arr)) {
+        if (comp !== p.composition) expect(count(p)).toBe(0);
+      }
+    }
+  });
+
+  it("keeps 'bands' dominant while every archetype still appears", () => {
+    const tally = new Map<string, number>();
+    for (const p of sample) tally.set(p.composition, (tally.get(p.composition) ?? 0) + 1);
+    for (const c of ["bands", "squares", "zips", "veils", "grid", "cleave"]) {
+      expect(tally.get(c) ?? 0).toBeGreaterThan(0); // all six occur
+    }
+    const top = [...tally.entries()].sort((a, b) => b[1] - a[1])[0]![0];
+    expect(top).toBe("bands"); // Rothko stays the signature look
+  });
+});
+
 describe("paintings collections", () => {
   const times = ["dawn", "morning", "noon", "afternoon", "dusk", "night"] as const;
   const ctx = (edition: Context["edition"], t: Context["timeOfDay"]): Context => ({
