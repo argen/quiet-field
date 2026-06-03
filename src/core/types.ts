@@ -167,6 +167,8 @@ export interface StillPiece {
   title: string;
   year: number | null;
   artist: string;
+  /** "pd" = public domain; "personal" = in-copyright, personal use only. */
+  rights: "pd" | "personal";
   /** Width / height of the source image. */
   aspect: number;
 }

@@ -112,6 +112,7 @@ export function selectStill(ctx: Context, seed: number): StillPiece {
     title: still.title,
     year: still.year,
     artist: still.artist,
+    rights: still.rights,
     aspect: still.aspect,
   };
 }

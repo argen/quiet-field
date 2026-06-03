@@ -87,6 +87,7 @@
       .qf-stage--full .qf-corner__time { color: #fff; }
       .qf-stage--full .qf-cap-artist,
       .qf-stage--full .qf-cap-context,
+      .qf-stage--full .qf-cap-attr,
       .qf-stage--full .qf-corner { color: rgba(255,255,255,0.88); }
       .qf-stage--full .qf-ambient { z-index: 3; }
 
@@ -100,6 +101,11 @@
       .qf-cap-title em { font-style: italic; }
       .qf-cap-artist, .qf-cap-context {
         font-size: 0.82em; color: var(--qf-ink-dim); letter-spacing: 0.05em;
+      }
+      /* Provenance line — "generated, in the spirit of…" or "public domain". */
+      .qf-cap-attr {
+        font-size: 0.72em; color: var(--qf-ink-dim); letter-spacing: 0.06em;
+        opacity: 0.85;
       }
 
       /* Ambient corner — time / place. Fades after a beat; returns on hover. */
