@@ -92,6 +92,9 @@ mountChrome(chromeRoot, {
   settings,
   onChange: (next) => {
     settings = next;
+    // The panel refreshes the weather cache when the toggle turns on; pick it
+    // up here so this tab re-paints with it (don't wait for the next tab).
+    weather = settings.weather ? cachedWeatherSync() : null;
     paint();
     void saveSettings(next);
   },
