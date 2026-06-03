@@ -33,8 +33,16 @@ export function renderFieldInto(card: HTMLElement, piece: FieldPiece): void {
     case "cleave":
       renderCleave(card, piece, edgeId);
       break;
-    default:
+    case "bands":
       renderBands(card, piece, edgeId);
+      break;
+    default: {
+      // Exhaustiveness guard: a new composition must be handled above, or this
+      // fails to compile. Still degrades to bands at runtime for safety.
+      const _exhaustive: never = piece.composition;
+      void _exhaustive;
+      renderBands(card, piece, edgeId);
+    }
   }
 
   // Canvas tooth — fine grain that unifies the surface and kills banding.

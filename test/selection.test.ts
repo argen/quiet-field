@@ -130,6 +130,7 @@ describe("selectField — new color-field archetypes", () => {
     const piece = first("veils")!;
     expect(piece).toBeDefined();
     expect(piece.veils.length).toBeGreaterThanOrEqual(2);
+    expect(piece.veils.length).toBeLessThanOrEqual(4);
     for (const v of piece.veils) {
       expect(v.rx).toBeGreaterThan(0);
       expect(v.ry).toBeGreaterThan(0);

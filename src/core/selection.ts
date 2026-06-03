@@ -74,8 +74,13 @@ function aspectFor(comp: Composition, rng: Rng): number {
       return rng.range(0.9, 1.15); // Newman canvases run wide
     case "cleave":
       return rng.range(0.78, 0.9);
-    default: // bands
+    case "bands":
       return rng.range(0.72, 0.86); // portrait
+    default: {
+      const _exhaustive: never = comp;
+      void _exhaustive;
+      return rng.range(0.72, 0.86);
+    }
   }
 }
 
