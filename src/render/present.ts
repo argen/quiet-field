@@ -1,4 +1,5 @@
 import type { Piece } from "../core/types";
+import { fieldAttribution, stillProvenance } from "../core/attribution";
 import { renderFieldInto } from "./fields";
 import { renderImageInto } from "./image";
 
@@ -66,6 +67,13 @@ export function present(
       artist.textContent = piece.artist;
       cap.appendChild(artist);
     }
+    // Provenance — honest about generated-vs-actual and who it's attributed to.
+    const attr = el("span", "qf-cap-attr");
+    attr.textContent =
+      piece.kind === "field"
+        ? fieldAttribution(piece.composition)
+        : stillProvenance(piece.rights);
+    cap.appendChild(attr);
     if (opts.ambient.contextLine) {
       const ctx = el("span", "qf-cap-context");
       ctx.textContent = opts.ambient.contextLine;

@@ -100,6 +100,19 @@ Mark Rothko stays as generated **Fields** (his work is in copyright). The catalo
 metadata from the National Gallery of Art's CC0 Rothko gift is kept in
 `src/data/nga-rothko.json` for future enrichment.
 
+## Attribution
+
+Every piece names its provenance in the caption, so a *generated* work is never
+mistaken for a real one (`src/core/attribution.ts`):
+
+- **Generated Fields** carry `Generated · in the spirit of <painter>` — each composition
+  archetype openly credits the painter whose sensibility it channels (bands → Rothko,
+  squares → Albers, zips → Newman, veils → Frankenthaler, grid → Agnes Martin, cleave →
+  Clyfford Still). These are original works, *not* reproductions — most of those painters
+  are still in copyright, which is exactly why we emulate rather than copy.
+- **Real paintings** (Abstract / Hopper) show their actual artist, title, and year, plus a
+  `Public domain` or `In copyright · personal use` provenance line.
+
 ## Weather (opt-in)
 
 Toggle "Match the weather" in settings: it asks for your location (a one-time permission),

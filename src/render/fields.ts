@@ -1,4 +1,4 @@
-import type { FieldPiece } from "../core/types";
+import type { FieldPiece, Shard } from "../core/types";
 
 // Renders a generated color field into a painting card. The fields are PRESENT
 // — solid, luminous bodies — with softness only at the *edges*, the way a real
@@ -17,10 +17,32 @@ export function renderFieldInto(card: HTMLElement, piece: FieldPiece): void {
   const grainId = `qf-grain-${piece.seed.toString(36)}`;
   card.appendChild(buildFilters(piece, edgeId, grainId));
 
-  if (piece.composition === "squares") {
-    renderSquares(card, piece);
-  } else {
-    renderBands(card, piece, edgeId);
+  switch (piece.composition) {
+    case "squares":
+      renderSquares(card, piece);
+      break;
+    case "zips":
+      renderZips(card, piece, edgeId);
+      break;
+    case "veils":
+      renderVeils(card, piece);
+      break;
+    case "grid":
+      renderGrid(card, piece);
+      break;
+    case "cleave":
+      renderCleave(card, piece, edgeId);
+      break;
+    case "bands":
+      renderBands(card, piece, edgeId);
+      break;
+    default: {
+      // Exhaustiveness guard: a new composition must be handled above, or this
+      // fails to compile. Still degrades to bands at runtime for safety.
+      const _exhaustive: never = piece.composition;
+      void _exhaustive;
+      renderBands(card, piece, edgeId);
+    }
   }
 
   // Canvas tooth — fine grain that unifies the surface and kills banding.
@@ -83,6 +105,83 @@ function renderSquares(card: HTMLElement, piece: FieldPiece): void {
     wrap.appendChild(el);
   }
   card.appendChild(wrap);
+}
+
+// Newman "zips": full-height vertical bands over the solid ground, with a soft
+// vertical feather at the rim so they don't read as ruler-drawn.
+function renderZips(card: HTMLElement, piece: FieldPiece, edgeId: string): void {
+  const wrap = document.createElement("div");
+  wrap.className = "qf-fieldwrap";
+  wrap.style.filter = `url(#${edgeId})`;
+  for (const zip of piece.zips) {
+    const el = document.createElement("div");
+    el.className = "qf-zip";
+    el.style.left = `${(zip.left - zip.width / 2) * 100}%`;
+    el.style.width = `${zip.width * 100}%`;
+    const glow = (zip.lift * 0.16).toFixed(3);
+    el.style.background = `radial-gradient(60% 70% at 50% 45%, rgba(255,255,255,${glow}) 0%, rgba(255,255,255,0) 70%), ${zip.color}`;
+    // Mild horizontal feather softens the vertical edge; tiny vertical feather.
+    featherMask(el, 0.6, +(6 + zip.feather * 16).toFixed(1));
+    wrap.appendChild(el);
+  }
+  card.appendChild(wrap);
+}
+
+// Frankenthaler / Louis "veils": large radial blooms that self-feather into
+// the ground. Soak-stain overlap via a soft-light blend, no global blur.
+function renderVeils(card: HTMLElement, piece: FieldPiece): void {
+  const wrap = document.createElement("div");
+  wrap.className = "qf-fieldwrap";
+  for (const v of piece.veils) {
+    const el = document.createElement("div");
+    el.className = "qf-veil";
+    el.style.left = `${(v.cx - v.rx) * 100}%`;
+    el.style.top = `${(v.cy - v.ry) * 100}%`;
+    el.style.width = `${v.rx * 2 * 100}%`;
+    el.style.height = `${v.ry * 2 * 100}%`;
+    el.style.background = `radial-gradient(closest-side, ${v.color} 0%, ${v.color} 18%, transparent 78%)`;
+    el.style.opacity = v.lift.toFixed(3);
+    el.style.mixBlendMode = "soft-light";
+    wrap.appendChild(el);
+  }
+  card.appendChild(wrap);
+}
+
+// Agnes Martin "grid": thin, low-contrast horizontal lines, crisp (no
+// displacement) — the quietest surface.
+function renderGrid(card: HTMLElement, piece: FieldPiece): void {
+  const wrap = document.createElement("div");
+  wrap.className = "qf-fieldwrap";
+  for (const line of piece.grid) {
+    const el = document.createElement("div");
+    el.className = "qf-grid-line";
+    el.style.top = `${(line.pos - line.thickness / 2) * 100}%`;
+    el.style.height = `${Math.max(line.thickness * 100, 0.4)}%`;
+    el.style.background = line.color;
+    el.style.opacity = "0.55";
+    wrap.appendChild(el);
+  }
+  card.appendChild(wrap);
+}
+
+// Clyfford Still "cleave": ragged vertical slabs carved by clip-path polygons,
+// with displacement wobble so the torn seams look hand-made.
+function renderCleave(card: HTMLElement, piece: FieldPiece, edgeId: string): void {
+  const wrap = document.createElement("div");
+  wrap.className = "qf-fieldwrap";
+  wrap.style.filter = `url(#${edgeId})`;
+  for (const shard of piece.shards) {
+    const el = document.createElement("div");
+    el.className = "qf-shard";
+    el.style.background = shard.color;
+    el.style.clipPath = `polygon(${polygon(shard)})`;
+    wrap.appendChild(el);
+  }
+  card.appendChild(wrap);
+}
+
+function polygon(shard: Shard): string {
+  return shard.points.map(([x, y]) => `${(x * 100).toFixed(2)}% ${(y * 100).toFixed(2)}%`).join(", ");
 }
 
 function buildFilters(
