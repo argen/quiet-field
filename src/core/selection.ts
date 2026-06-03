@@ -74,14 +74,23 @@ interface Taggable {
   weather?: NonNullable<Context["weather"]>[];
 }
 
+// Smallest pool we'll narrow down to. Below this, contextual matching is
+// dropped in favour of variety — otherwise a thinly-tagged moment (e.g. a
+// collection with only one "dawn" painting) repeats the same work on every
+// refresh.
+const MIN_POOL = 5;
+
 // Narrow a tagged collection to the moment: by time of day, then by weather
-// when the user has opted in and a match exists. Never collapses to empty.
+// when the user has opted in — but only commit to a narrower pool while it
+// still offers real variety. Never collapses to empty.
 function narrow<T extends Taggable>(items: readonly T[], ctx: Context): T[] {
-  const byTime = items.filter((it) => it.timeOfDay.includes(ctx.timeOfDay));
-  const pool = byTime.length > 0 ? byTime : [...items];
+  const all = [...items];
+  const byTime = all.filter((it) => it.timeOfDay.includes(ctx.timeOfDay));
+  // Keep the time-matched pool only if it's varied enough; else use everything.
+  let pool = byTime.length >= Math.min(MIN_POOL, all.length) ? byTime : all;
   if (ctx.weather) {
     const byWeather = pool.filter((it) => it.weather?.includes(ctx.weather!));
-    if (byWeather.length > 0) return byWeather;
+    if (byWeather.length >= Math.min(MIN_POOL, pool.length)) pool = byWeather;
   }
   return pool;
 }

@@ -7,6 +7,7 @@ import {
   selectStill,
 } from "../src/core/selection";
 import { PALETTES } from "../src/core/palettes";
+import { STILLS } from "../src/core/stills";
 import type { Context } from "../src/core/types";
 
 const base: Context = {
@@ -22,10 +23,17 @@ describe("candidatePalettes", () => {
     expect(got.every((p) => p.timeOfDay.includes("night"))).toBe(true);
   });
 
-  it("narrows further by weather when a match exists", () => {
+  it("narrows by weather only while the pool stays varied", () => {
+    const night = PALETTES.filter((p) => p.timeOfDay.includes("night"));
+    const snowNight = night.filter((p) => p.weather?.includes("snow"));
     const got = candidatePalettes({ ...base, weather: "snow" });
-    expect(got.length).toBeGreaterThan(0);
-    expect(got.every((p) => p.weather?.includes("snow"))).toBe(true);
+    if (snowNight.length >= 5) {
+      // Enough snow-night registers → contextual match holds.
+      expect(got.every((p) => p.weather?.includes("snow"))).toBe(true);
+    } else {
+      // Too few → variety is preserved rather than collapsing to one mood.
+      expect(got.length).toBeGreaterThan(snowNight.length);
+    }
   });
 
   it("falls back to the time pool when no palette matches the weather", () => {
@@ -116,6 +124,19 @@ describe("paintings collections", () => {
       for (const t of times) {
         const want = ed === "hopper" ? "hopper" : "abstract";
         for (const s of candidateStills(ctx(ed, t))) expect(s.collection).toBe(want);
+      }
+    }
+  });
+
+  it("never collapses to one work — variety on refresh at every time of day", () => {
+    for (const ed of ["abstract", "hopper"] as const) {
+      const collection = ed === "hopper" ? "hopper" : "abstract";
+      const size = STILLS.filter((s) => s.collection === collection).length;
+      for (const t of times) {
+        // Even a thinly-tagged moment must offer real choice to rotate through.
+        expect(candidateStills(ctx(ed, t)).length).toBeGreaterThanOrEqual(
+          Math.min(5, size),
+        );
       }
     }
   });
