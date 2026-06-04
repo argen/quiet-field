@@ -1,129 +1,162 @@
 # Quiet Field
 
-Every new tab becomes a calm color field **in the spirit of Rothko** — original,
-generated artwork keyed to the time of day. A Manifest V3 Chrome extension that
-overrides the new-tab page.
+> Every new tab becomes a calm color field **in the spirit of Rothko** — original,
+> procedurally generated artwork keyed to the time of day (and, optionally, your local weather).
 
-Inspired by [Current Rothko](https://rothko.joonas.wtf/), reworked for the new-tab
-context: it must paint **instantly, offline, with no flash**, leave focus in the
-address bar, and never trigger a permission prompt.
+[![License: MIT](https://img.shields.io/badge/License-MIT-informational.svg)](./LICENSE)
+&nbsp;Manifest V3 · TypeScript · Vite · zero-warning install
 
-## What it is (and isn't)
+A Chrome/Brave/Edge extension that overrides the new-tab page. Inspired by
+[Current Rothko](https://rothko.joonas.wtf/), reworked for the new-tab context: it must
+paint **instantly, offline, with no flash**, leave focus in the address bar, and never
+trigger an unrequested permission prompt.
 
-- **Color Fields** are *generated*, not reproductions — no painting is copied, so the
-  extension is publishable with a zero-warning install (only `storage`).
-- The art reflects the moment: a curated palette register is chosen for the current
-  time of day, then a soft-edged, feathered, grained composition is generated from a
-  seed (deterministic — the same moment yields the same field).
+---
+
+## Highlights
+
+- **Original generative art, not reproductions.** The default **Fields** collection is
+  *generated* — six color-field composition archetypes, each in the spirit of a painter
+  (Rothko, Albers, Newman, Frankenthaler, Agnes Martin, Clyfford Still) — so it's
+  copyright-free and publishable with a zero-warning install.
+- **Contextual.** A curated palette/register is chosen for the current time of day; opt-in
+  weather refines it further. The same moment + seed always yields the same piece.
+- **Instant & offline.** Paints synchronously on first frame from a `localStorage` mirror —
+  no flash, no network, no async storage read on the paint path. Focus stays in the omnibox.
+- **Honest attribution.** Every piece names its provenance in the caption (generated vs. a
+  real painting, and who it's attributed to). See [Attribution](#attribution).
+- **Accessible.** WCAG-AA contrast for captions over any artwork, `prefers-reduced-motion`
+  and `prefers-color-scheme` respected.
+
+## Collections
+
+Three selectable collections (cog → Collection):
+
+- **Fields** — generated color-field art. Original, copyright-free, **publishable**.
+- **Abstract** — real **public-domain** abstraction, contextually matched (Kandinsky, Klee,
+  Mondrian, Malevich, Hilma af Klint, late near-abstract Turner, and atmospheric PD painters).
+  Sourced from Wikimedia Commons; safe to publish.
+- **Hopper** — Edward Hopper, framed. **Personal/unpacked build only** — Hopper is under US
+  copyright (`rights: "personal"`). See [Artwork & rights](#artwork--rights).
+
+## Install (load unpacked)
+
+```bash
+pnpm install
+pnpm build
+# Chrome → chrome://extensions · Brave → brave://extensions · Edge → edge://extensions
+# Enable "Developer mode" → "Load unpacked" → select ./dist
+```
+
+Open a new tab. The **Fields** collection works immediately on a fresh clone (it needs no
+images). **Abstract** and **Hopper** require downloading their images first — see below.
+
+> A plain Chromium browser (Chrome/Edge) gives the cleanest full-bleed result. Brave injects
+> its own new-tab footer bar over extension new-tab pages, which the extension cannot remove.
 
 ## Develop
 
 ```bash
-pnpm install
-pnpm dev        # http://localhost:5173/newtab.html  (full HMR; chrome.* is stubbed)
-pnpm test       # vitest — the pure core: selection, palettes, clock, rng
+pnpm dev        # http://localhost:5173/newtab.html — full HMR; chrome.* is stubbed
+pnpm test       # vitest — the pure core: selection, palettes, attribution, clock, rng
 pnpm build      # tsc --noEmit && vite build  ->  dist/
 ```
 
-### Painting images (Abstract + Hopper collections)
+### Painting images (Abstract + Hopper)
 
-The downloaded painting images live in `public/art/stillness/` and are **not
-committed** (they're reproducible artifacts; Hopper is also in copyright). The
-catalog metadata and the curation sources are committed, so regenerate the
-images with:
+Downloaded images live in `public/art/stillness/` and are **not committed** (they're
+reproducible artifacts; Hopper is also in copyright). The catalog metadata and curation
+sources *are* committed, so regenerate the images with:
 
 ```bash
 node scripts/generate-catalog.mjs   # sources in data/curation/, writes src/core/stills.ts + images
 ```
 
-The **Fields** collection is fully generated and needs no images, so a fresh
-clone works immediately in Fields; Abstract/Hopper need the step above.
-
-### Load the extension
-
-```bash
-pnpm build
-# chrome://extensions → enable Developer mode → "Load unpacked" → select ./dist
-```
-
-### Preview the art (headless)
-
-```bash
-pnpm build && pnpm preview --port 4173 &
-node scripts/shoot.mjs     # writes /tmp/qf-<time>.png for dawn/noon/dusk/night
-```
+This downloads from Wikimedia Commons (politely, with rate-limit backoff) and downscales
+locally with `sips`. The **Fields** collection is fully generated and needs no images.
 
 ## Architecture
 
-Pure core, impure shell. `core/selection.ts` and `render/fields.ts` are pure and do
-no I/O; `newtab.ts` gathers the moment and calls them, painting synchronously before
-any `await`.
+**Pure core, impure shell.** `core/selection.ts`, `core/attribution.ts` and `render/fields.ts`
+are pure and do no I/O; `newtab.ts` gathers the moment and calls them, painting synchronously
+before any `await`.
 
 ```
 src/
-  newtab.html     critical CSS inlined; base tone from prefers-color-scheme pre-JS
-  newtab.ts       impure shell: synchronous paint, then async reconcile
+  newtab.html       critical CSS inlined; base tone from prefers-color-scheme pre-JS
+  newtab.ts         impure shell: synchronous paint, then async reconcile
   core/
-    rng.ts        seeded PRNG (mulberry32) — determinism
-    palettes.ts   hand-curated color registers (the product)
-    selection.ts  selectPiece(context, seed) — pure, testable heart
+    rng.ts          seeded PRNG (mulberry32) — determinism
+    palettes.ts     hand-curated color registers (the product)
+    selection.ts    selectPiece(context, seed) — pure, testable heart
+    attribution.ts  honest provenance lines (generated vs. real)
+    stills.ts       generated paintings catalog (metadata only)
     types.ts
-  render/fields.ts  soft-edged field renderer (SVG turbulence + blur + grain)
-  context/clock.ts  time-of-day / season / seed — no permission, no network
-  ui/overlay.ts     ambient wall label, fades after a beat
-  settings.ts/.html plain options page with a live preview
+  render/
+    fields.ts       soft-edged field renderer (6 archetypes; SVG turbulence + grain)
+    present.ts      gallery wall, framing, caption, ambient line
+    image.ts        representational renderer (focal crop)
+  context/
+    clock.ts        time-of-day / season / seed — no permission, no network
+    weather.ts      opt-in geolocation + Open-Meteo; off the paint path
+  ui/panel.ts       inline settings panel
   storage.ts        chrome.storage + synchronous localStorage mirror
 ```
 
-## Presentation
-
-Both editions are presented like a painting **hung and framed on a gallery wall** (the
-default), or **full-bleed**. The color fields are rendered with *present, luminous bodies
-and feathered edges* — softness at the rim, not a blur over the whole image — plus a light
-hand-painted irregularity and canvas grain.
-
-## Collections
-
-Three selectable collections (settings → Collection):
-
-- **Fields** — generated color-field art, a curated palette per time of day (and weather,
-  if enabled). Original, copyright-free, publishable.
-- **Abstract** — real **public-domain** abstraction, contextually matched: Kandinsky, Klee,
-  Mondrian, Malevich, Hilma af Klint, Sophie Taeuber-Arp, van Doesburg, El Lissitzky,
-  Moholy-Nagy, Robert Delaunay, Popova, Čiurlionis, and late (near-abstract) Turner. All
-  sourced from Wikimedia Commons; safe to publish.
-- **Hopper** — Edward Hopper, shown whole and framed. **Personal/unpacked build only** —
-  Hopper is under US copyright (`rights: "personal"`); a publishable build must filter to
-  `rights === "pd"`.
-
-Mark Rothko stays as generated **Fields** (his work is in copyright). The catalogue
-metadata from the National Gallery of Art's CC0 Rothko gift is kept in
-`src/data/nga-rothko.json` for future enrichment.
-
-## Attribution
-
-Every piece names its provenance in the caption, so a *generated* work is never
-mistaken for a real one (`src/core/attribution.ts`):
-
-- **Generated Fields** carry `Generated · in the spirit of <painter>` — each composition
-  archetype openly credits the painter whose sensibility it channels (bands → Rothko,
-  squares → Albers, zips → Newman, veils → Frankenthaler, grid → Agnes Martin, cleave →
-  Clyfford Still). These are original works, *not* reproductions — most of those painters
-  are still in copyright, which is exactly why we emulate rather than copy.
-- **Real paintings** (Abstract / Hopper) show their actual artist, title, and year, plus a
-  `Public domain` or `In copyright · personal use` provenance line.
+The generative engine has **six composition archetypes**, weighted so Rothko-style `bands`
+stays dominant: `bands` (Rothko), `squares` (Albers), `zips` (Newman), `veils` (Frankenthaler),
+`grid` (Agnes Martin), `cleave` (Clyfford Still). Adding a seventh is a compile error until it's
+handled everywhere (exhaustiveness-checked).
 
 ## Weather (opt-in)
 
-Toggle "Match the weather" in settings: it asks for your location (a one-time permission),
-then uses [Open-Meteo](https://open-meteo.com/) (no API key) to pick art that fits the sky
-right now, with a `rain · 18°` line and your city in the caption. It runs entirely off the
-paint path — the tab paints instantly from a cached reading, then refreshes in the
-background and re-paints only if conditions changed.
+Toggle **Match the weather** in settings: it asks for your location once, then uses
+[Open-Meteo](https://open-meteo.com/) (no API key) to pick art that fits the sky, with a
+`rain · 18°` line and your city in the caption. It runs entirely off the paint path — the tab
+paints instantly from a cached reading, then refreshes in the background. Geolocation is a
+manifest permission (the reliable way to use `navigator.geolocation` from an MV3 page); the
+browser prompts on first use, and a denial falls back cleanly to time-of-day.
 
-## Roadmap
+## Attribution
 
-- **Done:** Color Fields + Stillness editions, time-of-day + weather matching, framed/full
-  presentation, settings, offline, instant paint.
-- **Next:** more palette registers and public-domain stills (Hammershøi, Turner) for a
-  publishable Stillness edition; matte/border refinements; a "shuffle" / pin control.
+Every caption states what a piece is, so a *generated* work is never mistaken for a real one
+(`src/core/attribution.ts`):
+
+- **Generated Fields** → `Generated · in the spirit of <painter>`. These are original works,
+  *not* reproductions — most of those painters are still in copyright, which is exactly why we
+  emulate rather than copy. (Style is not copyrightable; nothing is reproduced.)
+- **Real paintings** → their actual artist, title, and year, plus a `Public domain` or
+  `In copyright · personal use` provenance line.
+
+## Artwork & rights
+
+**The MIT [LICENSE](./LICENSE) covers the source code and the generated Fields art only — not
+any third-party painting reproductions.** The separation is clean by construction:
+
+- **No painting images are committed to this repository.** They are downloaded locally at build
+  time (`scripts/generate-catalog.mjs`) onto each user's own machine. What *is* committed is
+  metadata only — titles, Wikimedia filenames, years, tags — which are facts, not copyrightable.
+- **Abstract** images are **public domain** (artists died 70+ years ago). Free to use and publish.
+- **Hopper** images are **still under US copyright** (`rights: "personal"`). They are for the
+  personal/unpacked build only and **must not be redistributed**. Do **not** publish a build that
+  bundles Hopper to the Chrome Web Store or elsewhere; a publishable build must filter to
+  `rights === "pd"`.
+- Downloads come from **Wikimedia Commons**; complying with the source's terms is the user's
+  responsibility.
+
+In short: the repository itself contains no copyrighted artwork, and the per-collection rights
+above govern what you may do with images you download.
+
+## Contributing
+
+Issues and PRs welcome. Please:
+
+1. Keep the **pure core** pure (no DOM/I/O in `core/`); the renderer stays a pure function of a piece.
+2. Add tests for core logic (`pnpm test`) and keep `pnpm build` (tsc + vite) clean.
+3. Don't commit downloaded images, and don't add in-copyright artwork as anything other than
+   `rights: "personal"`.
+
+## License
+
+[MIT](./LICENSE) © 2026 Bruno Belcastro. Generated artwork is part of the licensed work;
+third-party painting reproductions are not — see [Artwork & rights](#artwork--rights).
