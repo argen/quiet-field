@@ -4,6 +4,24 @@
   "description": "A meditative new-tab gallery — procedural color fields in the spirit of Rothko.",
   "type": "module",
   "private": true,
+  "license": "MIT",
+  "author": "Bruno Belcastro",
+  "homepage": "https://github.com/argen/quiet-field#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/argen/quiet-field.git"
+  },
+  "bugs": {
+    "url": "https://github.com/argen/quiet-field/issues"
+  },
+  "keywords": [
+    "chrome-extension",
+    "new-tab",
+    "generative-art",
+    "color-field",
+    "rothko",
+    "manifest-v3"
+  ],
   "scripts": {
     "dev": "vite",
     "build": "tsc --noEmit && vite build",
