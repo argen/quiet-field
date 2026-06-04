@@ -60,6 +60,11 @@ export function mountChrome(root: HTMLElement, opts: ChromeOptions): void {
   panel.innerHTML = PANEL_HTML;
 
   root.append(gear, panel);
+  const noteEl = panel.querySelector<HTMLElement>(".qf-panel__note")!;
+  const DEFAULT_NOTE = noteEl.textContent ?? "";
+  const setNote = (t: string): void => {
+    noteEl.textContent = t;
+  };
   reflect();
 
   let open = false;
@@ -110,14 +115,20 @@ export function mountChrome(root: HTMLElement, opts: ChromeOptions): void {
   }
 
   async function toggleWeather(on: boolean): Promise<void> {
-    if (!on) return commit({ weather: false });
-    const granted = await requestWeatherAccess();
-    if (!granted) {
-      reflect(); // bounce the checkbox back off
+    if (!on) {
+      commit({ weather: false });
+      setNote(DEFAULT_NOTE);
       return;
     }
-    commit({ weather: true });
-    await refreshWeather();
+    setNote("Requesting your location…");
+    await requestWeatherAccess(); // grant API hosts; location prompts on read
+    commit({ weather: true }); // keep the box ticked regardless
+    const reading = await refreshWeather(); // triggers the geolocation prompt
+    setNote(
+      reading
+        ? `Matching the weather${reading.place ? ` in ${reading.place}` : ""}.`
+        : "Location unavailable — matching the time of day.",
+    );
     void opts.onChange(current); // re-pick with the fresh reading
   }
 

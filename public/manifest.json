@@ -10,8 +10,7 @@
     "page": "settings.html",
     "open_in_tab": true
   },
-  "permissions": ["storage"],
-  "optional_permissions": ["geolocation"],
+  "permissions": ["storage", "geolocation"],
   "optional_host_permissions": [
     "https://api.open-meteo.com/*",
     "https://api.bigdatacloud.net/*"
