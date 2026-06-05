@@ -11,6 +11,8 @@ A Chrome/Brave/Edge extension that overrides the new-tab page. Inspired by
 paint **instantly, offline, with no flash**, leave focus in the address bar, and never
 trigger an unrequested permission prompt.
 
+![A new tab showing a generated color field — oxblood over indigo, in the spirit of Mark Rothko, hung on a dark gallery wall with a quiet wall label](./docs/screenshot-newtab.png)
+
 ---
 
 ## Highlights
