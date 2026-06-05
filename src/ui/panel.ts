@@ -1,3 +1,5 @@
+import { EDITIONS } from "../core/catalog";
+import type { Edition } from "../core/types";
 import { refreshWeather, requestWeatherAccess } from "../context/weather";
 import type { Settings } from "../storage";
 
@@ -58,6 +60,14 @@ export function mountChrome(root: HTMLElement, opts: ChromeOptions): void {
   panel.setAttribute("role", "dialog");
   panel.setAttribute("aria-label", "Settings");
   panel.innerHTML = PANEL_HTML;
+
+  // A publishable build only ships public-domain editions; drop the rest.
+  const available = new Set<Edition>(EDITIONS);
+  for (const btn of panel.querySelectorAll<HTMLButtonElement>(
+    '.qf-seg[data-key="edition"] button',
+  )) {
+    if (!available.has(btn.dataset.value as Edition)) btn.remove();
+  }
 
   root.append(gear, panel);
   const noteEl = panel.querySelector<HTMLElement>(".qf-panel__note")!;
@@ -121,9 +131,14 @@ export function mountChrome(root: HTMLElement, opts: ChromeOptions): void {
       return;
     }
     setNote("Requesting your location…");
-    await requestWeatherAccess(); // grant API hosts; location prompts on read
-    commit({ weather: true }); // keep the box ticked regardless
-    const reading = await refreshWeather(); // triggers the geolocation prompt
+    const granted = await requestWeatherAccess(); // location + API hosts
+    if (!granted) {
+      commit({ weather: false }); // reverts the box via reflect()
+      setNote("Location access declined — matching the time of day.");
+      return;
+    }
+    commit({ weather: true });
+    const reading = await refreshWeather();
     setNote(
       reading
         ? `Matching the weather${reading.place ? ` in ${reading.place}` : ""}.`

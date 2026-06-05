@@ -11,6 +11,12 @@ export default defineConfig({
   // root regardless of the generated extension id.
   base: "./",
   publicDir: resolve(__dirname, "public"),
+  // QF_PUBLISH=1 marks a Web Store build: the runtime catalog and edition picker
+  // narrow to public-domain art only (src/core/catalog.ts). Pair with
+  // scripts/prune-personal.mjs to strip the in-copyright image files from dist.
+  define: {
+    __QF_PUBLISH__: JSON.stringify(process.env.QF_PUBLISH === "1"),
+  },
   build: {
     outDir: resolve(__dirname, "dist"),
     emptyOutDir: true,
