@@ -1,6 +1,6 @@
+import { CATALOG } from "./catalog";
 import { PALETTES } from "./palettes";
 import { Rng } from "./rng";
-import { STILLS } from "./stills";
 import type {
   Band,
   Context,
@@ -30,7 +30,12 @@ export function candidatePalettes(ctx: Context): Palette[] {
 /** Stills in the chosen collection that belong to this moment. */
 export function candidateStills(ctx: Context): Still[] {
   const collection = ctx.edition === "hopper" ? "hopper" : "abstract";
-  const inCollection = STILLS.filter((s) => s.collection === collection);
+  let inCollection = CATALOG.filter((s) => s.collection === collection);
+  // A publishable build carries no personal collections (e.g. Hopper); fall back
+  // to abstract so a stale "hopper" setting can never resolve to an empty pool.
+  if (inCollection.length === 0) {
+    inCollection = CATALOG.filter((s) => s.collection === "abstract");
+  }
   return narrow(inCollection, ctx);
 }
 

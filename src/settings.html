@@ -42,12 +42,12 @@
         <legend>Edition</legend>
         <div class="row">
           <label>Collection
-            <span class="hint">Fields are generated; Abstract is public-domain abstraction; Hopper is personal</span>
+            <span class="hint">Fields are generated; Abstract is public-domain abstraction<span data-personal>; Hopper is personal</span></span>
           </label>
           <div class="seg" data-key="edition">
             <button type="button" data-value="fields">Fields</button>
             <button type="button" data-value="abstract">Abstract</button>
-            <button type="button" data-value="hopper">Hopper</button>
+            <button type="button" data-value="hopper" data-personal>Hopper</button>
           </div>
         </div>
       </fieldset>
@@ -83,8 +83,9 @@
 
       <footer>
         Fields are original generated artworks. Abstract shows public-domain
-        paintings (Kandinsky, Klee, Mondrian, Malevich, Turner and more). Hopper
-        is shown for personal use only. Changes apply to your next new tab.
+        paintings (Kandinsky, Klee, Mondrian, Malevich, Turner and more).<span data-personal>
+        Hopper is shown for personal use only.</span> Changes apply to your next
+        new tab.
       </footer>
     </section>
     <div class="preview" id="preview"></div>

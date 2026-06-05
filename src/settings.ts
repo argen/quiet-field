@@ -1,4 +1,6 @@
+import { EDITIONS } from "./core/catalog";
 import { selectPiece } from "./core/selection";
+import type { Edition } from "./core/types";
 import { clockLabel, seasonFor, seedFor, timeOfDayFor } from "./context/clock";
 import { cachedWeatherSync, requestWeatherAccess, refreshWeather } from "./context/weather";
 import { present } from "./render/present";
@@ -90,6 +92,20 @@ async function toggleWeather(on: boolean): Promise<void> {
   renderPreview();
 }
 
+// A publishable build bundles only public-domain editions; drop any picker
+// option (and its explanatory copy) for an edition that isn't available.
+function pruneEditions(): void {
+  const available = new Set<Edition>(EDITIONS);
+  for (const btn of document.querySelectorAll<HTMLButtonElement>(
+    '.seg[data-key="edition"] button',
+  )) {
+    if (!available.has(btn.dataset.value as Edition)) btn.remove();
+  }
+  if (!available.has("hopper")) {
+    for (const node of document.querySelectorAll("[data-personal]")) node.remove();
+  }
+}
+
 function wire(): void {
   for (const seg of document.querySelectorAll<HTMLElement>(".seg")) {
     const key = seg.dataset.key as keyof Settings;
@@ -112,6 +128,7 @@ function wire(): void {
 
 async function init(): Promise<void> {
   settings = await loadSettings();
+  pruneEditions();
   reflect();
   renderPreview();
   wire();

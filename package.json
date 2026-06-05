@@ -25,6 +25,9 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc --noEmit && vite build",
+    "build:publish": "tsc --noEmit && QF_PUBLISH=1 vite build && node scripts/prune-personal.mjs dist",
+    "package:publish": "pnpm build:publish && rm -f quiet-field.zip && cd dist && zip -rq ../quiet-field.zip . && cd ..",
+    "icons": "node scripts/make-icons.mjs",
     "preview": "vite preview",
     "test": "vitest run",
     "test:watch": "vitest"
