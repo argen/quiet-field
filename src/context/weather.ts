@@ -63,24 +63,24 @@ export async function refreshWeather(): Promise<Weather | null> {
 }
 
 /**
- * Grant the weather API hosts. Called from a user gesture.
+ * Request location + the weather API hosts. Called from a user gesture.
  *
- * Geolocation is a manifest `permissions` entry (the only reliable way to use
- * `navigator.geolocation` from an MV3 extension page), so the browser itself
- * prompts for location on first read — we don't gate the toggle on it. The API
- * hosts are CORS-enabled, so this host grant is best-effort: if it's
- * unavailable or declined, the fetch still works. Always resolves true so the
- * toggle never bounces; location availability is surfaced separately.
+ * Geolocation is an OPTIONAL permission (so install never warns about location),
+ * requested at runtime only when the user opts into weather. We request it
+ * together with the CORS-enabled API hosts in a single prompt and return whether
+ * the user granted it — the caller reverts the toggle if not. In dev/preview
+ * (no extension APIs) the page uses `navigator.geolocation` directly.
  */
 export async function requestWeatherAccess(): Promise<boolean> {
-  if (typeof chrome !== "undefined" && chrome.permissions?.request) {
-    try {
-      await chrome.permissions.request({ origins: WEATHER_ORIGINS });
-    } catch {
-      /* ignore — hosts are CORS-enabled, fetch still works */
-    }
+  if (typeof chrome === "undefined" || !chrome.permissions?.request) return true;
+  try {
+    return await chrome.permissions.request({
+      permissions: ["geolocation"],
+      origins: WEATHER_ORIGINS,
+    });
+  } catch {
+    return false;
   }
-  return true;
 }
 
 function getCoords(): Promise<{ lat: number; lon: number } | null> {
