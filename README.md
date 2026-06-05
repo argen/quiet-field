@@ -57,9 +57,12 @@ images). **Abstract** and **Hopper** require downloading their images first — 
 ## Develop
 
 ```bash
-pnpm dev        # http://localhost:5173/newtab.html — full HMR; chrome.* is stubbed
-pnpm test       # vitest — the pure core: selection, palettes, attribution, clock, rng
-pnpm build      # tsc --noEmit && vite build  ->  dist/
+pnpm dev            # http://localhost:5173/newtab.html — full HMR; chrome.* is stubbed
+pnpm test           # vitest — the pure core: selection, palettes, attribution, clock, rng
+pnpm build          # tsc --noEmit && vite build  ->  dist/  (personal: all collections)
+pnpm build:publish  # public-domain-only build (no Hopper) for the Web Store
+pnpm package:publish # build:publish + zip dist/ -> quiet-field.zip
+pnpm icons          # regenerate the icon set into public/icons/
 ```
 
 ### Painting images (Abstract + Hopper)
@@ -113,9 +116,10 @@ handled everywhere (exhaustiveness-checked).
 Toggle **Match the weather** in settings: it asks for your location once, then uses
 [Open-Meteo](https://open-meteo.com/) (no API key) to pick art that fits the sky, with a
 `rain · 18°` line and your city in the caption. It runs entirely off the paint path — the tab
-paints instantly from a cached reading, then refreshes in the background. Geolocation is a
-manifest permission (the reliable way to use `navigator.geolocation` from an MV3 page); the
-browser prompts on first use, and a denial falls back cleanly to time-of-day.
+paints instantly from a cached reading, then refreshes in the background. Geolocation is an
+**optional** permission — install never asks for location; the extension requests it (together
+with the two weather-API hosts) only when you flip the toggle, and a denial reverts the toggle
+and falls back cleanly to time-of-day.
 
 ## Attribution
 
@@ -138,14 +142,30 @@ any third-party painting reproductions.** The separation is clean by constructio
   metadata only — titles, Wikimedia filenames, years, tags — which are facts, not copyrightable.
 - **Abstract** images are **public domain** (artists died 70+ years ago). Free to use and publish.
 - **Hopper** images are **still under US copyright** (`rights: "personal"`). They are for the
-  personal/unpacked build only and **must not be redistributed**. Do **not** publish a build that
-  bundles Hopper to the Chrome Web Store or elsewhere; a publishable build must filter to
-  `rights === "pd"`.
+  personal/unpacked build only and **must not be redistributed**. This is enforced, not just
+  documented: **`pnpm build:publish`** narrows the selection pool to `rights === "pd"`, hides
+  the Hopper edition in both settings UIs, and `scripts/prune-personal.mjs` physically deletes
+  every in-copyright image from `dist/` and fails the build if any remain. (Inert catalog
+  *metadata* — titles, filenames, years, i.e. facts — may remain in the JS bundle, the same way
+  `stills.ts` is committed; no in-copyright **image** is ever selected, rendered, or shipped.)
 - Downloads come from **Wikimedia Commons**; complying with the source's terms is the user's
   responsibility.
 
 In short: the repository itself contains no copyrighted artwork, and the per-collection rights
 above govern what you may do with images you download.
+
+## Publishing to the Chrome Web Store
+
+`rights: "pd"` is the single source of truth for what may be published. To prepare a store build:
+
+```bash
+pnpm package:publish   # public-domain-only build + zip -> quiet-field.zip
+```
+
+Upload `quiet-field.zip` in the [developer dashboard](https://chrome.google.com/webstore/devconsole/).
+See **[STORE_LISTING.md](./STORE_LISTING.md)** for the listing copy, permission justifications,
+data-use disclosures, and the asset/pre-submit checklist, and **[PRIVACY.md](./PRIVACY.md)** for
+the privacy policy (host it and link its URL in the dashboard).
 
 ## Contributing
 
