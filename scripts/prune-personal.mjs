@@ -1,7 +1,7 @@
-import { existsSync, rmSync } from "node:fs";
+import { existsSync, readFileSync, rmSync } from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
-import { personalFiles } from "./catalog-rights.mjs";
+import { personalFiles, readCatalogRights } from "./catalog-rights.mjs";
 
 // Post-build guard for publishable packages: physically removes every
 // in-copyright image (rights !== "pd") from the build output, then verifies
@@ -11,6 +11,21 @@ import { personalFiles } from "./catalog-rights.mjs";
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const dist = path.resolve(process.argv[2] ?? path.join(ROOT, "dist"));
 const stillsTs = path.join(ROOT, "src/core/stills.ts");
+
+// Integrity guard: the file→rights parser assumes the generator emits `file`
+// before `rights` in every entry. If that ever drifts, the regex would silently
+// pair the wrong rights and could under-count what to prune. Cross-check the
+// number of parsed pairs against the raw `rights:` count and refuse to proceed
+// if they disagree — a missed pair must never let in-copyright art slip through.
+const parsed = readCatalogRights(stillsTs, { fromFile: true });
+const declared = (readFileSync(stillsTs, "utf8").match(/\brights:\s*"/g) ?? []).length;
+if (parsed.length !== declared) {
+  console.error(
+    `prune-personal: FAILED — catalog parse mismatch (${parsed.length} pairs vs ` +
+      `${declared} rights entries in ${stillsTs}). Refusing to publish.`,
+  );
+  process.exit(1);
+}
 
 const files = personalFiles(stillsTs, { fromFile: true });
 
