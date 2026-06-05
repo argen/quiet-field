@@ -3,6 +3,12 @@
   "name": "Quiet Field",
   "version": "0.1.0",
   "description": "Every new tab becomes a calm color field in the spirit of Rothko.",
+  "icons": {
+    "16": "icons/icon-16.png",
+    "32": "icons/icon-32.png",
+    "48": "icons/icon-48.png",
+    "128": "icons/icon-128.png"
+  },
   "chrome_url_overrides": {
     "newtab": "newtab.html"
   },
@@ -10,7 +16,8 @@
     "page": "settings.html",
     "open_in_tab": true
   },
-  "permissions": ["storage", "geolocation"],
+  "permissions": ["storage"],
+  "optional_permissions": ["geolocation"],
   "optional_host_permissions": [
     "https://api.open-meteo.com/*",
     "https://api.bigdatacloud.net/*"
