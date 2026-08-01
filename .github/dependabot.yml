@@ -1,0 +1,14 @@
+version: 2
+# Security updates only. Version updates are disabled via
+# open-pull-requests-limit: 0; security PRs are exempt from that limit
+# and are batched into one PR by the group below.
+updates:
+  - package-ecosystem: npm
+    directory: "/"
+    schedule:
+      interval: weekly
+    open-pull-requests-limit: 0
+    groups:
+      security:
+        applies-to: security-updates
+        patterns: ["*"]
